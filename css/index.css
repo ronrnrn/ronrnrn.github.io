@@ -725,7 +725,6 @@ kbd {
   width: 100%;
   font-size: 18px;
   background-color: #2d2e30;
-  height: 80vh;
 }
 .header-inner--bgcolor {
   background-color: #333;
@@ -892,7 +891,6 @@ kbd {
   z-index: 0;
   width: 100%;
   height: 100%;
-  background: url("https://webgradients.com/public/webgradients_png/010%20Winter%20Neva.png") no-repeat center/cover;
 }
 .header-banner-info {
   position: absolute;
