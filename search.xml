@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>概率论笔记</title>
-    <url>/2022/06/09/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[
-        <h2 id="概率论笔记"   >
-          <a href="#概率论笔记" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率论笔记" class="headerlink" title="概率论笔记"></a>概率论笔记</h2>
-      <p>还没学完</p>
-<p>没学完</p>
-<p>没学</p>
-<p>都在玩</p>
-]]></content>
-      <tags>
-        <tag>概率论</tag>
-        <tag>高等数学</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Prologue</title>
     <url>/2022/06/09/Prologue/</url>
     <content><![CDATA[
@@ -43,6 +27,22 @@
 ]]></content>
       <tags>
         <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论笔记</title>
+    <url>/2022/06/09/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[
+        <h2 id="概率论笔记"   >
+          <a href="#概率论笔记" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率论笔记" class="headerlink" title="概率论笔记"></a>概率论笔记</h2>
+      <p>还没学完</p>
+<p>没学完</p>
+<p>没学</p>
+<p>都在玩</p>
+]]></content>
+      <tags>
+        <tag>概率论</tag>
+        <tag>高等数学</tag>
       </tags>
   </entry>
   <entry>
