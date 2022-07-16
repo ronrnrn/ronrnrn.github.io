@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
+    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[
+        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
+          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
+      
+        <h2 id="介绍"   >
+          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
+      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="示例"   >
+          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
+      <p>我是示例：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>
+<p>$f(x) = ax^2 + bx + c$</p>
+]]></content>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>Formula</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Prologue</title>
     <url>/2022/06/09/Prologue/</url>
     <content><![CDATA[
@@ -284,11 +306,11 @@
       </tags>
   </entry>
   <entry>
-    <title>离散数学/Discrete Mathematics</title>
+    <title>离散数学笔记</title>
     <url>/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
     <content><![CDATA[
-        <h2 id="离散数学-Discrete-Mathematics"   >
-          <a href="#离散数学-Discrete-Mathematics" class="heading-link"><i class="fas fa-link"></i></a><a href="#离散数学-Discrete-Mathematics" class="headerlink" title="离散数学/Discrete Mathematics"></a>离散数学/Discrete Mathematics</h2>
+        <h2 id="离散数学笔记"   >
+          <a href="#离散数学笔记" class="heading-link"><i class="fas fa-link"></i></a><a href="#离散数学笔记" class="headerlink" title="离散数学笔记"></a>离散数学笔记</h2>
       
         <h2 id="集合"   >
           <a href="#集合" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合" class="headerlink" title="集合"></a>集合</h2>
@@ -347,17 +369,19 @@
 </ul>
 </li>
 </ol>
-<p>6.可数集合与不可数集合<br>(1) 自然数集的定义</p>
+<p>6.可数集合与不可数集合</p>
+<p>(1) 自然数集的定义</p>
 <ul>
 <li>皮亚诺公理</li>
 <li>冯诺依曼自然数定义</li>
 </ul>
-<p>(2) 等势Equipotential，记作：<br>    * A~B</p>
+<p>(2) 等势Equipotential，记作：<br>      * A~B</p>
 <p>(3) 可数集合</p>
 <p>(4) 有理数集合</p>
 <p>(5) 不可数集合</p>
-<ol start="7">
-<li>数理逻辑<br>(1) 命题Proposition<ul>
+<p>7.数理逻辑</p>
+<p>(1) 命题Proposition</p>
+<ul>
 <li>定义：具有确切真值的陈述句</li>
 <li>原子命题（简单命题）</li>
 <li>复合命题</li>
@@ -366,10 +390,9 @@
 <li>析取联结词</li>
 <li>蕴涵联结词：<br>  -善意推定</li>
 </ul>
-</li>
-</ol>
 ]]></content>
       <tags>
+        <tag>笔记</tag>
         <tag>离散数学</tag>
         <tag>Discrete Mathematics</tag>
       </tags>
@@ -418,28 +441,6 @@
       <tags>
         <tag>日记</tag>
         <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
-    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[
-        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
-          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
-      
-        <h2 id="介绍"   >
-          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
-      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="示例"   >
-          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
-      <p>我是示例：</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>
-<p>$f(x) = ax^2 + bx + c$</p>
-]]></content>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>Formula</tag>
       </tags>
   </entry>
 </search>
