@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
+    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[
+        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
+          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
+      
+        <h2 id="介绍"   >
+          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
+      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="示例"   >
+          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
+      <p>我是示例：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>Formula</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Prologue</title>
+    <url>/2022/06/09/Prologue/</url>
+    <content><![CDATA[
+        <h2 id="Prologue"   >
+          <a href="#Prologue" class="heading-link"><i class="fas fa-link"></i></a><a href="#Prologue" class="headerlink" title="Prologue"></a>Prologue</h2>
+      <p>那天吃过午饭，回图书馆收拾书包，走过林荫道，看到楼梯前老师的背影。他站在原地看手机，左手好像拿着一个小橘子。当时似乎有了一种坚定的感觉，就算不能真正刻苦，不能够到与其相近的高度，心里也总是会有一种定式与实际，因而相信付出即是有收获的。</p>
+<p>至今也还记得，高考英语考场上，右前方有个男生被蜜蜂蛰了一下，中途离开教室，直到考试结束后，才回来收拾桌面上的文具。当时很庆幸蜜蜂没有飞到我的身边，因为在那个年纪，没有按时考试、不能如期毕业抑或考试成绩并非所预想的，都会看作是挫折与坎坷。</p>
+<p>后来渐渐发觉，认真去做的每件事到最后总会有意料之外但又有迹可循的结果。不管好的、不好的，都不可避免地构成了自己的生活。那些如实逝去的经历与时分，都变成心底红色的、松软的土层。因而对升学的执念也变轻了许多许多，只希望自己能再克制和勤奋一些。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>概率论笔记</title>
     <url>/2022/06/09/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[
@@ -273,45 +304,80 @@
       </tags>
   </entry>
   <entry>
-    <title>Prologue</title>
-    <url>/2022/06/09/Prologue/</url>
-    <content><![CDATA[
-        <h2 id="Prologue"   >
-          <a href="#Prologue" class="heading-link"><i class="fas fa-link"></i></a><a href="#Prologue" class="headerlink" title="Prologue"></a>Prologue</h2>
-      <p>那天吃过午饭，回图书馆收拾书包，走过林荫道，看到楼梯前老师的背影。他站在原地看手机，左手好像拿着一个小橘子。当时似乎有了一种坚定的感觉，就算不能真正刻苦，不能够到与其相近的高度，心里也总是会有一种定式与实际，因而相信付出即是有收获的。</p>
-<p>至今也还记得，高考英语考场上，右前方有个男生被蜜蜂蛰了一下，中途离开教室，直到考试结束后，才回来收拾桌面上的文具。当时很庆幸蜜蜂没有飞到我的身边，因为在那个年纪，没有按时考试、不能如期毕业抑或考试成绩并非所预想的，都会看作是挫折与坎坷。</p>
-<p>后来渐渐发觉，认真去做的每件事到最后总会有意料之外但又有迹可循的结果。不管好的、不好的，都不可避免地构成了自己的生活。那些如实逝去的经历与时分，都变成心底红色的、松软的土层。因而对升学的执念也变轻了许多许多，只希望自己能再克制和勤奋一些。</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
-    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[
-        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
-          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
-      
-        <h2 id="介绍"   >
-          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
-      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="示例"   >
-          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
-      <p>我是示例：</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>Formula</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>离散数学笔记</title>
-    <url>/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/</url>
+    <url>/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[
-        <h2 id="离散数学笔记"   >
-          <a href="#离散数学笔记" class="heading-link"><i class="fas fa-link"></i></a><a href="#离散数学笔记" class="headerlink" title="离散数学笔记"></a>离散数学笔记</h2>
+        <h2 id="命题逻辑"   >
+          <a href="#命题逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题逻辑" class="headerlink" title="命题逻辑"></a>命题逻辑</h2>
+      <ul>
+<li>命题 Proposition</li>
+<li>逻辑推论 Logical Deduction</li>
+<li>公理 Axiom</li>
+</ul>
+
+        <h3 id="命题与联结词"   >
+          <a href="#命题与联结词" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题与联结词" class="headerlink" title="命题与联结词"></a>命题与联结词</h3>
+      <ol>
+<li>命题是对或错的陈述</li>
+</ol>
+<p>  Ex(True): 2 + 3 = 5;</p>
+
+        <h3 id="命题公式及其赋值"   >
+          <a href="#命题公式及其赋值" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题公式及其赋值" class="headerlink" title="命题公式及其赋值"></a>命题公式及其赋值</h3>
       
-        <h2 id="集合"   >
-          <a href="#集合" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合" class="headerlink" title="集合"></a>集合</h2>
+        <h3 id="等值演算"   >
+          <a href="#等值演算" class="heading-link"><i class="fas fa-link"></i></a><a href="#等值演算" class="headerlink" title="等值演算"></a>等值演算</h3>
+      
+        <h3 id="范式"   >
+          <a href="#范式" class="heading-link"><i class="fas fa-link"></i></a><a href="#范式" class="headerlink" title="范式"></a>范式</h3>
+      
+        <h3 id="命题逻辑推理"   >
+          <a href="#命题逻辑推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题逻辑推理" class="headerlink" title="命题逻辑推理"></a>命题逻辑推理</h3>
+      
+        <h2 id="谓词逻辑"   >
+          <a href="#谓词逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词逻辑" class="headerlink" title="谓词逻辑"></a>谓词逻辑</h2>
+      <ul>
+<li>谓词 Predicate</li>
+<li>蕴涵 Implication</li>
+</ul>
+
+        <h3 id="谓词逻辑概述"   >
+          <a href="#谓词逻辑概述" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词逻辑概述" class="headerlink" title="谓词逻辑概述"></a>谓词逻辑概述</h3>
+      <ol>
+<li>谓词是其真理的命题</li>
+</ol>
+<p>Ex:</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">n | n^2+n+41 | 质数(素数)prime</span><br><span class="line">0 | 0        | True</span><br><span class="line">1 | 43       | True</span><br><span class="line">2 | 47       | True</span><br><span class="line">————————————————————————</span><br><span class="line">又，原式=n(n+1)+41</span><br><span class="line">40| 1681     | False</span><br><span class="line">41| 1763     | False</span><br></pre></td></tr></table></div></figure>
+
+<ol start="2">
+<li>蕴涵</li>
+</ol>
+<p>Ex:</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">p | q        | p➡q</span><br><span class="line">———————————————————</span><br><span class="line">T | T        | T</span><br><span class="line">T | F        | F</span><br><span class="line">F | T        | T</span><br><span class="line">F | F        | T (*)</span><br><span class="line"></span><br><span class="line">(*) If pigs could fly, I would be king.</span><br></pre></td></tr></table></div></figure>
+
+
+
+
+        <h3 id="谓词公式与解释"   >
+          <a href="#谓词公式与解释" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词公式与解释" class="headerlink" title="谓词公式与解释"></a>谓词公式与解释</h3>
+      
+        <h3 id="谓词公式的等值演算"   >
+          <a href="#谓词公式的等值演算" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词公式的等值演算" class="headerlink" title="谓词公式的等值演算"></a>谓词公式的等值演算</h3>
+      
+        <h3 id="谓词推理"   >
+          <a href="#谓词推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词推理" class="headerlink" title="谓词推理"></a>谓词推理</h3>
+      
+        <h2 id="集合论"   >
+          <a href="#集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合论" class="headerlink" title="集合论"></a>集合论</h2>
+      
+        <h3 id="集合的表示和基本概念"   >
+          <a href="#集合的表示和基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合的表示和基本概念" class="headerlink" title="集合的表示和基本概念"></a>集合的表示和基本概念</h3>
+      
+        <h3 id="集合的运算"   >
+          <a href="#集合的运算" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合的运算" class="headerlink" title="集合的运算"></a>集合的运算</h3>
+      
+        <h3 id="集合的计数"   >
+          <a href="#集合的计数" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合的计数" class="headerlink" title="集合的计数"></a>集合的计数</h3>
       <ul>
 <li>朴素集合论</li>
 <li>公理化集合论<ul>
@@ -367,28 +433,78 @@
 </ul>
 </li>
 </ol>
-<p>6.可数集合与不可数集合</p>
-<p>(1) 自然数集的定义</p>
+<p>6.可数集合与不可数集合<br>(1) 自然数集的定义</p>
 <ul>
 <li>皮亚诺公理</li>
 <li>冯诺依曼自然数定义</li>
 </ul>
-<p>(2) 等势Equipotential，记作：<br>      * A~B</p>
+<p>(2) 等势Equipotential，记作：<br>    * A~B</p>
 <p>(3) 可数集合</p>
 <p>(4) 有理数集合</p>
 <p>(5) 不可数集合</p>
-<p>7.数理逻辑</p>
-<p>(1) 命题Proposition</p>
-<ul>
+<ol start="7">
+<li>数理逻辑<br>(1) 命题Proposition<ul>
 <li>定义：具有确切真值的陈述句</li>
 <li>原子命题（简单命题）</li>
 <li>复合命题</li>
 <li>否定联结词</li>
 <li>合取联结词</li>
 <li>析取联结词</li>
-<li>蕴涵联结词：<br>  -善意推定</li>
+<li>蕴涵联结词：<br> -善意推定</li>
 </ul>
-]]></content>
+</li>
+</ol>
+
+        <h2 id="二元关系"   >
+          <a href="#二元关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#二元关系" class="headerlink" title="二元关系"></a>二元关系</h2>
+      
+        <h3 id="二元关系的基本概念"   >
+          <a href="#二元关系的基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#二元关系的基本概念" class="headerlink" title="二元关系的基本概念"></a>二元关系的基本概念</h3>
+      
+        <h3 id="关系运算"   >
+          <a href="#关系运算" class="heading-link"><i class="fas fa-link"></i></a><a href="#关系运算" class="headerlink" title="关系运算"></a>关系运算</h3>
+      
+        <h3 id="关系的性质"   >
+          <a href="#关系的性质" class="heading-link"><i class="fas fa-link"></i></a><a href="#关系的性质" class="headerlink" title="关系的性质"></a>关系的性质</h3>
+      
+        <h3 id="关系的闭包"   >
+          <a href="#关系的闭包" class="heading-link"><i class="fas fa-link"></i></a><a href="#关系的闭包" class="headerlink" title="关系的闭包"></a>关系的闭包</h3>
+      
+        <h3 id="等价关系"   >
+          <a href="#等价关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#等价关系" class="headerlink" title="等价关系"></a>等价关系</h3>
+      
+        <h3 id="偏序关系"   >
+          <a href="#偏序关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#偏序关系" class="headerlink" title="偏序关系"></a>偏序关系</h3>
+      
+        <h2 id="图论"   >
+          <a href="#图论" class="heading-link"><i class="fas fa-link"></i></a><a href="#图论" class="headerlink" title="图论"></a>图论</h2>
+      
+        <h3 id="图的基本概念"   >
+          <a href="#图的基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#图的基本概念" class="headerlink" title="图的基本概念"></a>图的基本概念</h3>
+      <ul>
+<li><p>图：由<strong>顶点</strong>和<strong>边</strong>组成</p>
+</li>
+<li><p>多重集合：元素可以重复出现的集合</p>
+</li>
+<li><p>无序积：{a,b}=(a,b)</p>
+</li>
+</ul>
+<ol>
+<li>无向图：<br>G=&lt;V,E&gt;<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">V,顶点集</span><br><span class="line">E，边集</span><br></pre></td></tr></table></div></figure></li>
+</ol>
+<ol start="2">
+<li><p>有向图</p>
+</li>
+<li><p>图的矩阵表示</p>
+</li>
+</ol>
+
+        <h3 id="图的连通性"   >
+          <a href="#图的连通性" class="heading-link"><i class="fas fa-link"></i></a><a href="#图的连通性" class="headerlink" title="图的连通性"></a>图的连通性</h3>
+      
+        <h3 id="特殊图"   >
+          <a href="#特殊图" class="heading-link"><i class="fas fa-link"></i></a><a href="#特殊图" class="headerlink" title="特殊图"></a>特殊图</h3>
+      ]]></content>
       <tags>
         <tag>笔记</tag>
         <tag>离散数学</tag>
@@ -396,21 +512,16 @@
       </tags>
   </entry>
   <entry>
-    <title>读过的书（文史类）</title>
-    <url>/2022/06/09/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6%EF%BC%88%E6%96%87%E5%8F%B2%E7%B1%BB%EF%BC%89/</url>
+    <title>重温《千与千寻》</title>
+    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
     <content><![CDATA[
-        <h2 id="读过的书（文史类）"   >
-          <a href="#读过的书（文史类）" class="heading-link"><i class="fas fa-link"></i></a><a href="#读过的书（文史类）" class="headerlink" title="读过的书（文史类）"></a>读过的书（文史类）</h2>
-      <p>之所以会有汇总以前读过的书的念头，是之前登录图书管理系统查看超期图书时，在分类栏中头一次看到自己全部的借阅记录。</p>
-<p>高中在<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/web/bookDetail/7e632350811e60c82g015228" >《语文基础知识手册》</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>上背过很多的诗词，到现在基本都忘了，大一时背的《唐诗三百首》也是。</p>
-<p>唯一印象深刻，且时时勉励自己的，是那句「行百里者，半九十」。</p>
-<p>很多事，往往到最后关头最容易放弃，然而其实只要再坚持一下，总是会有不同的、豁然开朗的风景。</p>
-<p>因而希望自己，在面对不同程度的困境时，都能理性地、客观地反求诸己，意识到自己认知上的局限性，秉持着皓首穷经的目标，一直坚持。</p>
-<p>于是从图书馆系统中，将书目借阅历史导出为excel表格，并删除重复借阅的记录和其它类型的书籍。</p>
-<p>此外再补充一些<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/" >微信读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、<span class="exturl"><a class="exturl__link"   href="https://du.163.com/" >网易蜗牛读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>和能记起来的部分中小学的阅读记录，然后通过<span class="exturl"><a class="exturl__link"   href="https://m.douban.com/subject_collection/book_top250" >豆瓣读书Top250</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>进行查漏补缺，最后汇总成以下<span class="exturl"><a class="exturl__link"   href="https://share.weiyun.com/Om2GCzKB" >Excel表格</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>。</p>
+        <h2 id="重温《千与千寻》"   >
+          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
+      <p>天赋、坚韧和赶上好时候</p>
 ]]></content>
       <tags>
-        <tag>书籍</tag>
+        <tag>日记</tag>
+        <tag>电影</tag>
       </tags>
   </entry>
   <entry>
@@ -429,16 +540,21 @@
       </tags>
   </entry>
   <entry>
-    <title>重温《千与千寻》</title>
-    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
+    <title>读过的书（文史类）</title>
+    <url>/2022/06/09/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6%EF%BC%88%E6%96%87%E5%8F%B2%E7%B1%BB%EF%BC%89/</url>
     <content><![CDATA[
-        <h2 id="重温《千与千寻》"   >
-          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
-      <p>天赋、坚韧和赶上好时候</p>
+        <h2 id="读过的书（文史类）"   >
+          <a href="#读过的书（文史类）" class="heading-link"><i class="fas fa-link"></i></a><a href="#读过的书（文史类）" class="headerlink" title="读过的书（文史类）"></a>读过的书（文史类）</h2>
+      <p>之所以会有汇总以前读过的书的念头，是之前登录图书管理系统查看超期图书时，在分类栏中头一次看到自己全部的借阅记录。</p>
+<p>高中在<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/web/bookDetail/7e632350811e60c82g015228" >《语文基础知识手册》</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>上背过很多的诗词，到现在基本都忘了，大一时背的《唐诗三百首》也是。</p>
+<p>唯一印象深刻，且时时勉励自己的，是那句「行百里者，半九十」。</p>
+<p>很多事，往往到最后关头最容易放弃，然而其实只要再坚持一下，总是会有不同的、豁然开朗的风景。</p>
+<p>因而希望自己，在面对不同程度的困境时，都能理性地、客观地反求诸己，意识到自己认知上的局限性，秉持着皓首穷经的目标，一直坚持。</p>
+<p>于是从图书馆系统中，将书目借阅历史导出为excel表格，并删除重复借阅的记录和其它类型的书籍。</p>
+<p>此外再补充一些<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/" >微信读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、<span class="exturl"><a class="exturl__link"   href="https://du.163.com/" >网易蜗牛读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>和能记起来的部分中小学的阅读记录，然后通过<span class="exturl"><a class="exturl__link"   href="https://m.douban.com/subject_collection/book_top250" >豆瓣读书Top250</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>进行查漏补缺，最后汇总成以下<span class="exturl"><a class="exturl__link"   href="https://share.weiyun.com/Om2GCzKB" >Excel表格</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>。</p>
 ]]></content>
       <tags>
-        <tag>日记</tag>
-        <tag>电影</tag>
+        <tag>书籍</tag>
       </tags>
   </entry>
 </search>
