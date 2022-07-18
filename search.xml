@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
+    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[
+        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
+          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
+      
+        <h2 id="介绍"   >
+          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
+      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="示例"   >
+          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
+      <p>我是示例：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>Formula</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Prologue</title>
     <url>/2022/06/09/Prologue/</url>
     <content><![CDATA[
@@ -287,8 +307,8 @@
     <title>离散数学笔记</title>
     <url>/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[
-        <h2 id="第一章命题逻辑"   >
-          <a href="#第一章命题逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第一章命题逻辑" class="headerlink" title="第一章命题逻辑"></a>第一章命题逻辑</h2>
+        <h2 id="第1章-命题逻辑"   >
+          <a href="#第1章-命题逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第1章-命题逻辑" class="headerlink" title="第1章 命题逻辑"></a>第1章 命题逻辑</h2>
       <ul>
 <li>命题 Proposition</li>
 <li>逻辑推论 Logical Deduction</li>
@@ -454,8 +474,8 @@
         <h3 id="命题逻辑推理"   >
           <a href="#命题逻辑推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题逻辑推理" class="headerlink" title="命题逻辑推理"></a>命题逻辑推理</h3>
       
-        <h2 id="第3章-谓词逻辑"   >
-          <a href="#第3章-谓词逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第3章-谓词逻辑" class="headerlink" title="第3章 谓词逻辑"></a>第3章 谓词逻辑</h2>
+        <h2 id="第2章-谓词逻辑"   >
+          <a href="#第2章-谓词逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第2章-谓词逻辑" class="headerlink" title="第2章 谓词逻辑"></a>第2章 谓词逻辑</h2>
       <ul>
 <li>谓词 Predicate</li>
 <li>蕴涵 Implication</li>
@@ -488,8 +508,8 @@
         <h3 id="谓词推理"   >
           <a href="#谓词推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词推理" class="headerlink" title="谓词推理"></a>谓词推理</h3>
       
-        <h2 id="第4章-集合论"   >
-          <a href="#第4章-集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第4章-集合论" class="headerlink" title="第4章 集合论"></a>第4章 集合论</h2>
+        <h2 id="第3章-集合论"   >
+          <a href="#第3章-集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第3章-集合论" class="headerlink" title="第3章 集合论"></a>第3章 集合论</h2>
       
         <h3 id="集合的表示和基本概念"   >
           <a href="#集合的表示和基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合的表示和基本概念" class="headerlink" title="集合的表示和基本概念"></a>集合的表示和基本概念</h3>
@@ -576,8 +596,8 @@
 </li>
 </ol>
 
-        <h2 id="第5章-二元关系"   >
-          <a href="#第5章-二元关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#第5章-二元关系" class="headerlink" title="第5章 二元关系"></a>第5章 二元关系</h2>
+        <h2 id="第4章-二元关系"   >
+          <a href="#第4章-二元关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#第4章-二元关系" class="headerlink" title="第4章 二元关系"></a>第4章 二元关系</h2>
       
         <h3 id="二元关系的基本概念"   >
           <a href="#二元关系的基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#二元关系的基本概念" class="headerlink" title="二元关系的基本概念"></a>二元关系的基本概念</h3>
@@ -597,8 +617,8 @@
         <h3 id="偏序关系"   >
           <a href="#偏序关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#偏序关系" class="headerlink" title="偏序关系"></a>偏序关系</h3>
       
-        <h2 id="第6章-图论"   >
-          <a href="#第6章-图论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第6章-图论" class="headerlink" title="第6章 图论"></a>第6章 图论</h2>
+        <h2 id="第5章-图论"   >
+          <a href="#第5章-图论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第5章-图论" class="headerlink" title="第5章 图论"></a>第5章 图论</h2>
       
         <h3 id="图的基本概念"   >
           <a href="#图的基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#图的基本概念" class="headerlink" title="图的基本概念"></a>图的基本概念</h3>
@@ -630,26 +650,6 @@
         <tag>笔记</tag>
         <tag>离散数学</tag>
         <tag>Discrete Mathematics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
-    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[
-        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
-          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
-      
-        <h2 id="介绍"   >
-          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
-      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="示例"   >
-          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
-      <p>我是示例：</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>Formula</tag>
       </tags>
   </entry>
   <entry>
