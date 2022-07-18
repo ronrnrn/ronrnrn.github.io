@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
-    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[
-        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
-          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
-      
-        <h2 id="介绍"   >
-          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
-      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="示例"   >
-          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
-      <p>我是示例：</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>Formula</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Prologue</title>
     <url>/2022/06/09/Prologue/</url>
     <content><![CDATA[
@@ -307,8 +287,8 @@
     <title>离散数学笔记</title>
     <url>/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[
-        <h2 id="命题逻辑"   >
-          <a href="#命题逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题逻辑" class="headerlink" title="命题逻辑"></a>命题逻辑</h2>
+        <h2 id="第一章命题逻辑"   >
+          <a href="#第一章命题逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第一章命题逻辑" class="headerlink" title="第一章命题逻辑"></a>第一章命题逻辑</h2>
       <ul>
 <li>命题 Proposition</li>
 <li>逻辑推论 Logical Deduction</li>
@@ -317,25 +297,165 @@
 
         <h3 id="命题与联结词"   >
           <a href="#命题与联结词" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题与联结词" class="headerlink" title="命题与联结词"></a>命题与联结词</h3>
-      <ol>
-<li>命题是对或错的陈述</li>
+      <p>1.命题的概念</p>
+<p><strong>命题</strong>是判断真假的<strong>陈述句</strong></p>
+<p>Ex:</p>
+<ul>
+<li>True: 2 + 3 = 5;</li>
+<li>False: 2 -3 = 5;</li>
+</ul>
+<p>2.命题分类</p>
+<p>(1) 原子命题</p>
+<ul>
+<li><p>命题标识符：表示原子命题的符号</p>
+<ul>
+<li>命题常元</li>
+<li>命题变元</li>
+</ul>
+</li>
+</ul>
+<p>(2) 复合命题</p>
+<ul>
+<li>由两个或两个以上原子命题组成的命题</li>
+</ul>
+<p>Ex：如果温度在0℃以下，则水会结冰</p>
+<ol start="3">
+<li>命题联结词</li>
 </ol>
-<p>  Ex(True): 2 + 3 = 5;</p>
+<p>(1)否定联结词</p>
+<ul>
+<li>逻辑非</li>
+</ul>
+<p>(2)合取联结词</p>
+<ul>
+<li>逻辑与</li>
+<li>“同时取真”关系</li>
+</ul>
+<p>(3)析取联结词</p>
+<ul>
+<li>逻辑或</li>
+<li>“选择取真”关系</li>
+</ul>
+<p>(4)蕴涵联结词</p>
+<ul>
+<li><p><strong>“除非前真后假”关系：</strong></p>
+<ul>
+<li>只有p为1，且q为0时，p➡q的真值才为0</li>
+</ul>
+</li>
+</ul>
+<p>Ex: </p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">p➡q; </span><br><span class="line">读作：如果p，则q</span><br><span class="line">其中，p为p➡q的前件，q为p➡q的后件</span><br><span class="line"></span><br><span class="line">&lt;真值表&gt;:</span><br><span class="line">p | q | p➡q</span><br><span class="line">——————————————</span><br><span class="line">0 | 0 | 1</span><br><span class="line">0 | 1 | 1</span><br><span class="line">1 | 0 | 0 (*)</span><br><span class="line">1 | 1 | 1</span><br><span class="line"></span><br><span class="line">(*)特例：p为1，q为0，p➡q的真值为0</span><br></pre></td></tr></table></div></figure>
+
+
+<p>(5)同真假联结词</p>
+<ul>
+<li>“同真同假”关系<br>Ex:<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">p&lt;-&gt;q;</span><br><span class="line">读作：p与q同真假</span><br><span class="line"></span><br><span class="line">&lt;真值表&gt;:</span><br><span class="line">p | q | p&lt;-&gt;q</span><br><span class="line">——————————————</span><br><span class="line">0 | 0 | 1</span><br><span class="line">0 | 1 | 0</span><br><span class="line">1 | 0 | 0</span><br><span class="line">1 | 1 | 1</span><br><span class="line"></span><br><span class="line">(记作：相同为1，不同为0)</span><br></pre></td></tr></table></div></figure></li>
+</ul>
+<ol start="4">
+<li>描述实际问题</li>
+</ol>
+<ul>
+<li>命题符号化：将<strong>自然语言</strong>转化为<strong>命题公式</strong></li>
+</ul>
+<p>(1)析取联结词</p>
+<ul>
+<li>相容选择</li>
+<li>不相容选择</li>
+</ul>
+<p>(2)蕴涵联结词</p>
+<ul>
+<li>充分条件型蕴涵:<ul>
+<li>如果……则；</li>
+<li>只要……就；</li>
+<li>一旦……就；</li>
+<li>有……就；</li>
+</ul>
+</li>
+<li>必要条件型蕴涵：<ul>
+<li>只有……才；</li>
+<li>除非……才;</li>
+</ul>
+</li>
+</ul>
+<p>(3)同真假联结词</p>
+<ul>
+<li>当且仅当</li>
+<li>充分必要条件</li>
+</ul>
 
         <h3 id="命题公式及其赋值"   >
           <a href="#命题公式及其赋值" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题公式及其赋值" class="headerlink" title="命题公式及其赋值"></a>命题公式及其赋值</h3>
-      
+      <ol>
+<li>命题公式</li>
+</ol>
+<ul>
+<li>命题公式</li>
+<li>合式公式</li>
+</ul>
+<p>(1) 优先级：</p>
+<p>否定&gt;合取=析取&gt;蕴涵=同真假</p>
+<p>(2) 子公式</p>
+<p>(3) 层数</p>
+<ul>
+<li><strong>0层公式</strong>：<ul>
+<li>不带联结词的命题公式</li>
+</ul>
+</li>
+</ul>
+<p>(4) 公式的赋值</p>
+<ol start="2">
+<li><p>公式的解释与真值表</p>
+</li>
+<li><p>命题公式的分类</p>
+</li>
+</ol>
+<p>(1)重言式(永真式)</p>
+<ul>
+<li>A的每一组赋值都使A的真值为1</li>
+</ul>
+<p>(2)矛盾式(永假式)</p>
+<ul>
+<li>A的每一组赋值都使A的真值为0</li>
+</ul>
+<p>(3)可满足式</p>
+<ul>
+<li>至少存在一组赋值使A的真值为1</li>
+</ul>
+<p>(4) 命题公式的类型判断</p>
+<ul>
+<li>真值表最后1列全为1，则对应的命题公式为重言式</li>
+<li>真值表最后1列全为0，则对应的命题公式为矛盾式</li>
+<li>真值表最后1列有1有0，则对应的命题公式为可满足式</li>
+</ul>
+
         <h3 id="等值演算"   >
           <a href="#等值演算" class="heading-link"><i class="fas fa-link"></i></a><a href="#等值演算" class="headerlink" title="等值演算"></a>等值演算</h3>
-      
+      <ol>
+<li><p>常用等值式</p>
+</li>
+<li><p>等值演算的应用</p>
+</li>
+</ol>
+
         <h3 id="范式"   >
           <a href="#范式" class="heading-link"><i class="fas fa-link"></i></a><a href="#范式" class="headerlink" title="范式"></a>范式</h3>
-      
+      <ol>
+<li><p>范式的基本概念</p>
+</li>
+<li><p>主析取范式</p>
+</li>
+<li><p>主合取范式</p>
+</li>
+<li><p>主析取范式与主合取范式的意义</p>
+</li>
+</ol>
+
         <h3 id="命题逻辑推理"   >
           <a href="#命题逻辑推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题逻辑推理" class="headerlink" title="命题逻辑推理"></a>命题逻辑推理</h3>
       
-        <h2 id="谓词逻辑"   >
-          <a href="#谓词逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词逻辑" class="headerlink" title="谓词逻辑"></a>谓词逻辑</h2>
+        <h2 id="第3章-谓词逻辑"   >
+          <a href="#第3章-谓词逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第3章-谓词逻辑" class="headerlink" title="第3章 谓词逻辑"></a>第3章 谓词逻辑</h2>
       <ul>
 <li>谓词 Predicate</li>
 <li>蕴涵 Implication</li>
@@ -347,16 +467,17 @@
 <li>谓词是其真理的命题</li>
 </ol>
 <p>Ex:</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">n | n^2+n+41 | 质数(素数)prime</span><br><span class="line">0 | 0        | True</span><br><span class="line">1 | 43       | True</span><br><span class="line">2 | 47       | True</span><br><span class="line">————————————————————————</span><br><span class="line">又，原式=n(n+1)+41</span><br><span class="line">40| 1681     | False</span><br><span class="line">41| 1763     | False</span><br></pre></td></tr></table></div></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">n | n^2+n+41 | prime</span><br><span class="line">0 | 0        | True</span><br><span class="line">1 | 43       | True</span><br><span class="line">2 | 47       | True</span><br><span class="line">————————————————————————</span><br><span class="line">又，原式=n(n+1)+41</span><br><span class="line">40| 1681     | False</span><br><span class="line">41| 1763     | False</span><br><span class="line"></span><br><span class="line">-Prime: 质数(素数)</span><br></pre></td></tr></table></div></figure>
 
 <ol start="2">
 <li>蕴涵</li>
 </ol>
 <p>Ex:</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">p | q        | p➡q</span><br><span class="line">———————————————————</span><br><span class="line">T | T        | T</span><br><span class="line">T | F        | F</span><br><span class="line">F | T        | T</span><br><span class="line">F | F        | T (*)</span><br><span class="line"></span><br><span class="line">(*) If pigs could fly, I would be king.</span><br></pre></td></tr></table></div></figure>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">p | q        | p➡q  | q➡p  | q&lt;=&gt;p</span><br><span class="line">————————————————————————————————————</span><br><span class="line">T | T        | T     | T     | T</span><br><span class="line">T | F        | F     | T     | F</span><br><span class="line">F | T        | T     | F     | F</span><br><span class="line">F | F        | T     | T     | T   (*)</span><br><span class="line"></span><br><span class="line">(*) If pigs could fly, I would be king.</span><br></pre></td></tr></table></div></figure>
 
-
-
+<ol start="3">
+<li>公理是被<strong>假定为真</strong>的<em>命题</em><br>An axiom is a proposition that is assumed to be true.</li>
+</ol>
 
         <h3 id="谓词公式与解释"   >
           <a href="#谓词公式与解释" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词公式与解释" class="headerlink" title="谓词公式与解释"></a>谓词公式与解释</h3>
@@ -367,8 +488,8 @@
         <h3 id="谓词推理"   >
           <a href="#谓词推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词推理" class="headerlink" title="谓词推理"></a>谓词推理</h3>
       
-        <h2 id="集合论"   >
-          <a href="#集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合论" class="headerlink" title="集合论"></a>集合论</h2>
+        <h2 id="第4章-集合论"   >
+          <a href="#第4章-集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第4章-集合论" class="headerlink" title="第4章 集合论"></a>第4章 集合论</h2>
       
         <h3 id="集合的表示和基本概念"   >
           <a href="#集合的表示和基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#集合的表示和基本概念" class="headerlink" title="集合的表示和基本概念"></a>集合的表示和基本概念</h3>
@@ -455,8 +576,8 @@
 </li>
 </ol>
 
-        <h2 id="二元关系"   >
-          <a href="#二元关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#二元关系" class="headerlink" title="二元关系"></a>二元关系</h2>
+        <h2 id="第5章-二元关系"   >
+          <a href="#第5章-二元关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#第5章-二元关系" class="headerlink" title="第5章 二元关系"></a>第5章 二元关系</h2>
       
         <h3 id="二元关系的基本概念"   >
           <a href="#二元关系的基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#二元关系的基本概念" class="headerlink" title="二元关系的基本概念"></a>二元关系的基本概念</h3>
@@ -476,8 +597,8 @@
         <h3 id="偏序关系"   >
           <a href="#偏序关系" class="heading-link"><i class="fas fa-link"></i></a><a href="#偏序关系" class="headerlink" title="偏序关系"></a>偏序关系</h3>
       
-        <h2 id="图论"   >
-          <a href="#图论" class="heading-link"><i class="fas fa-link"></i></a><a href="#图论" class="headerlink" title="图论"></a>图论</h2>
+        <h2 id="第6章-图论"   >
+          <a href="#第6章-图论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第6章-图论" class="headerlink" title="第6章 图论"></a>第6章 图论</h2>
       
         <h3 id="图的基本概念"   >
           <a href="#图的基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#图的基本概念" class="headerlink" title="图的基本概念"></a>图的基本概念</h3>
@@ -512,31 +633,23 @@
       </tags>
   </entry>
   <entry>
-    <title>重温《千与千寻》</title>
-    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
+    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
+    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
     <content><![CDATA[
-        <h2 id="重温《千与千寻》"   >
-          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
-      <p>天赋、坚韧和赶上好时候</p>
-]]></content>
+        <h2 id="Markdown笔记中的数学公式实现-Formulas-in-Markdown"   >
+          <a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="heading-link"><i class="fas fa-link"></i></a><a href="#Markdown笔记中的数学公式实现-Formulas-in-Markdown" class="headerlink" title="Markdown笔记中的数学公式实现/Formulas in Markdown"></a>Markdown笔记中的数学公式实现/Formulas in Markdown</h2>
+      
+        <h2 id="介绍"   >
+          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
+      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="示例"   >
+          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
+      <p>我是示例：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
       <tags>
-        <tag>日记</tag>
-        <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>采用Lucidchart进行UML绘制</title>
-    <url>/2022/06/10/%E9%87%87%E7%94%A8Lucidchart%E8%BF%9B%E8%A1%8CUML%E7%BB%98%E5%88%B6/</url>
-    <content><![CDATA[
-        <h2 id="采用Lucidchart进行UML绘制"   >
-          <a href="#采用Lucidchart进行UML绘制" class="heading-link"><i class="fas fa-link"></i></a><a href="#采用Lucidchart进行UML绘制" class="headerlink" title="采用Lucidchart进行UML绘制"></a>采用Lucidchart进行UML绘制</h2>
-      <p>UML（Unified Modeling Language），即统一建模语言，是一种面向对象的可视化模型语言。</p>
-<p>Lucidchart是一款很好用的绘制UML的工具，可以通过<span class="exturl"><a class="exturl__link"   href="https://www.lucidchart.com/pages/" >Lucidchart官网</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>下载。</p>
-]]></content>
-      <tags>
-        <tag>UML</tag>
-        <tag>软件工程</tag>
-        <tag>建模工具</tag>
+        <tag>Markdown</tag>
+        <tag>Formula</tag>
       </tags>
   </entry>
   <entry>
@@ -555,6 +668,34 @@
 ]]></content>
       <tags>
         <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>采用Lucidchart进行UML绘制</title>
+    <url>/2022/06/10/%E9%87%87%E7%94%A8Lucidchart%E8%BF%9B%E8%A1%8CUML%E7%BB%98%E5%88%B6/</url>
+    <content><![CDATA[
+        <h2 id="采用Lucidchart进行UML绘制"   >
+          <a href="#采用Lucidchart进行UML绘制" class="heading-link"><i class="fas fa-link"></i></a><a href="#采用Lucidchart进行UML绘制" class="headerlink" title="采用Lucidchart进行UML绘制"></a>采用Lucidchart进行UML绘制</h2>
+      <p>UML（Unified Modeling Language），即统一建模语言，是一种面向对象的可视化模型语言。</p>
+<p>Lucidchart是一款很好用的绘制UML的工具，可以通过<span class="exturl"><a class="exturl__link"   href="https://www.lucidchart.com/pages/" >Lucidchart官网</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>下载。</p>
+]]></content>
+      <tags>
+        <tag>UML</tag>
+        <tag>软件工程</tag>
+        <tag>建模工具</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重温《千与千寻》</title>
+    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
+    <content><![CDATA[
+        <h2 id="重温《千与千寻》"   >
+          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
+      <p>天赋、坚韧和赶上好时候</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>电影</tag>
       </tags>
   </entry>
 </search>
