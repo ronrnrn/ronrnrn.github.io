@@ -1,16 +1,16 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="第1章 命题逻辑        命题 Proposition 逻辑推论 Logical Deduction 公理 Axiom                      命题与联结词       1.命题的概念 命题是判断真假的陈述句 Ex:  True: 2 + 3 &#x3D; 5; False: 2 -3 &#x3D; 5;  2.命题分类 (1) 原子命题  命题标识符：">
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="第1章 命题逻辑        命题 Proposition 逻辑推论 Logical Deduction 公理 Axiom 证明 Proof                      命题与联结词       1、命题的概念  命题是判断真假的陈述句  命题符号化：  将自然语言转化为命题公式    Ex:  True: 2 + 3 &#x3D; 5; False:">
 <meta property="og:type" content="article">
 <meta property="og:title" content="离散数学笔记">
 <meta property="og:url" content="https://ronrnrn.github.io/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/index.html">
 <meta property="og:site_name" content="Ron Rao&#39;s Blog">
-<meta property="og:description" content="第1章 命题逻辑        命题 Proposition 逻辑推论 Logical Deduction 公理 Axiom                      命题与联结词       1.命题的概念 命题是判断真假的陈述句 Ex:  True: 2 + 3 &#x3D; 5; False: 2 -3 &#x3D; 5;  2.命题分类 (1) 原子命题  命题标识符：">
+<meta property="og:description" content="第1章 命题逻辑        命题 Proposition 逻辑推论 Logical Deduction 公理 Axiom 证明 Proof                      命题与联结词       1、命题的概念  命题是判断真假的陈述句  命题符号化：  将自然语言转化为命题公式    Ex:  True: 2 + 3 &#x3D; 5; False:">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-07-16T13:57:37.441Z">
-<meta property="article:modified_time" content="2022-07-18T13:23:52.864Z">
+<meta property="article:modified_time" content="2022-07-21T14:39:58.031Z">
 <meta property="article:author" content="Ron Rao">
+<meta property="article:tag" content="笔记">
 <meta property="article:tag" content="离散数学">
 <meta property="article:tag" content="Discrete Mathematics">
-<meta property="article:tag" content="笔记">
 <meta name="twitter:card" content="summary"><title>离散数学笔记 | Ron Rao's Blog</title><link ref="canonical" href="https://ronrnrn.github.io/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
 var CONFIG = {
   root: '/',
@@ -35,25 +35,34 @@ var CONFIG = {
   sourcePath: {"js":"js","css":"css","images":"images"},
 };
 
-window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">分类</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">标签</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">离散数学笔记</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2022-07-16</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2022-07-18</span></span><span class="post-meta-item post-meta-item--wordcount"><span class="post-meta-item__icon"><i class="far fa-file-word"></i></span><span class="post-meta-item__info">字数统计</span><span class="post-meta-item__value">1.2k</span></span><span class="post-meta-item post-meta-item--readtime"><span class="post-meta-item__icon"><i class="far fa-clock"></i></span><span class="post-meta-item__info">阅读时长</span><span class="post-meta-item__value">7分</span></span></div></header><div class="post-body">
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">分类</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">标签</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">离散数学笔记</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2022-07-16</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2022-07-21</span></span><span class="post-meta-item post-meta-item--wordcount"><span class="post-meta-item__icon"><i class="far fa-file-word"></i></span><span class="post-meta-item__info">字数统计</span><span class="post-meta-item__value">1.7k</span></span><span class="post-meta-item post-meta-item--readtime"><span class="post-meta-item__icon"><i class="far fa-clock"></i></span><span class="post-meta-item__info">阅读时长</span><span class="post-meta-item__value">11分</span></span></div></header><div class="post-body">
         <h2 id="第1章-命题逻辑"   >
           <a href="#第1章-命题逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第1章-命题逻辑" class="headerlink" title="第1章 命题逻辑"></a>第1章 命题逻辑</h2>
       <ul>
 <li>命题 Proposition</li>
 <li>逻辑推论 Logical Deduction</li>
 <li>公理 Axiom</li>
+<li>证明 Proof</li>
 </ul>
 
         <h3 id="命题与联结词"   >
           <a href="#命题与联结词" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题与联结词" class="headerlink" title="命题与联结词"></a>命题与联结词</h3>
-      <p>1.命题的概念</p>
-<p><strong>命题</strong>是判断真假的<strong>陈述句</strong></p>
+      <p>1、命题的概念</p>
+<ul>
+<li><p><strong>命题</strong>是判断真假的<strong>陈述句</strong></p>
+</li>
+<li><p>命题符号化：</p>
+<ul>
+<li>将<strong>自然语言</strong>转化为<strong>命题公式</strong></li>
+</ul>
+</li>
+</ul>
 <p>Ex:</p>
 <ul>
 <li>True: 2 + 3 = 5;</li>
-<li>False: 2 -3 = 5;</li>
+<li>False: 2 - 3 = 5;</li>
 </ul>
-<p>2.命题分类</p>
+<p>2、命题分类</p>
 <p>(1) 原子命题</p>
 <ul>
 <li><p>命题标识符：表示原子命题的符号</p>
@@ -65,82 +74,75 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></he
 </ul>
 <p>(2) 复合命题</p>
 <ul>
-<li>由两个或两个以上原子命题组成的命题</li>
+<li><p>经<strong>联结词</strong>联结而成</p>
+</li>
+<li><p>由两个或两个以上原子命题组成的命题</p>
+</li>
+<li><p>Ex：如果温度在0℃以下，则水会结冰</p>
+</li>
 </ul>
-<p>Ex：如果温度在0℃以下，则水会结冰</p>
-<ol start="3">
-<li>命题联结词</li>
-</ol>
-<p>(1)否定联结词</p>
+<p>3、命题联结词</p>
+<p>(1) 否定联结词</p>
 <ul>
 <li>逻辑非</li>
 </ul>
-<p>(2)合取联结词</p>
+<p>(2) 合取联结词</p>
 <ul>
 <li>逻辑与</li>
 <li>“同时取真”关系</li>
 </ul>
-<p>(3)析取联结词</p>
+<p>(3) 析取联结词</p>
 <ul>
 <li>逻辑或</li>
-<li>“选择取真”关系</li>
+<li>“选择取真”关系<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">* 相容选择：可兼或(同或)</span><br><span class="line">* 不相容选择: 不可兼或(异或)</span><br></pre></td></tr></table></div></figure></li>
+<li><strong>析取词用于“可兼或”</strong></li>
 </ul>
-<p>(4)蕴涵联结词</p>
+<p>(4) 蕴涵联结词</p>
 <ul>
 <li><p><strong>“除非前真后假”关系：</strong></p>
 <ul>
-<li>只有p为1，且q为0时，p➡q的真值才为0</li>
+<li>善意推定：只有p为1，且q为0时，p➡q的真值才为0</li>
+</ul>
+</li>
+<li><p>充分条件型蕴涵:</p>
+<ul>
+<li>如果……则；</li>
+<li>只要……就；</li>
+<li>一旦……就；</li>
+<li>有  ……就；</li>
+</ul>
+</li>
+<li><p>必要条件型蕴涵：**(前件在后，后件在前)**</p>
+<ul>
+<li>只有……才；</li>
+<li>除非……才;</li>
+<li>除非……否则;</li>
 </ul>
 </li>
 </ul>
+<p>“除非否则”型Ex：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">(1) 除非q，否则非p;</span><br><span class="line">(2) 除非q，否则p;</span><br></pre></td></tr></table></div></figure>
+
 <p>Ex: </p>
 <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">p➡q; </span><br><span class="line">读作：如果p，则q</span><br><span class="line">其中，p为p➡q的前件，q为p➡q的后件</span><br><span class="line"></span><br><span class="line">&lt;真值表&gt;:</span><br><span class="line">p | q | p➡q</span><br><span class="line">——————————————</span><br><span class="line">0 | 0 | 1</span><br><span class="line">0 | 1 | 1</span><br><span class="line">1 | 0 | 0 (*)</span><br><span class="line">1 | 1 | 1</span><br><span class="line"></span><br><span class="line">(*)特例：p为1，q为0，p➡q的真值为0</span><br></pre></td></tr></table></div></figure>
 
 
-<p>(5)同真假联结词</p>
-<ul>
-<li>“同真同假”关系<br>Ex:<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">p&lt;-&gt;q;</span><br><span class="line">读作：p与q同真假</span><br><span class="line"></span><br><span class="line">&lt;真值表&gt;:</span><br><span class="line">p | q | p&lt;-&gt;q</span><br><span class="line">——————————————</span><br><span class="line">0 | 0 | 1</span><br><span class="line">0 | 1 | 0</span><br><span class="line">1 | 0 | 0</span><br><span class="line">1 | 1 | 1</span><br><span class="line"></span><br><span class="line">(记作：相同为1，不同为0)</span><br></pre></td></tr></table></div></figure></li>
-</ul>
-<ol start="4">
-<li>描述实际问题</li>
-</ol>
-<ul>
-<li>命题符号化：将<strong>自然语言</strong>转化为<strong>命题公式</strong></li>
-</ul>
-<p>(1)析取联结词</p>
-<ul>
-<li>相容选择</li>
-<li>不相容选择</li>
-</ul>
-<p>(2)蕴涵联结词</p>
-<ul>
-<li>充分条件型蕴涵:<ul>
-<li>如果……则；</li>
-<li>只要……就；</li>
-<li>一旦……就；</li>
-<li>有……就；</li>
-</ul>
-</li>
-<li>必要条件型蕴涵：<ul>
-<li>只有……才；</li>
-<li>除非……才;</li>
-</ul>
-</li>
-</ul>
-<p>(3)同真假联结词</p>
+<p>(5) 同真假联结词(等价联结词)</p>
 <ul>
 <li>当且仅当</li>
 <li>充分必要条件</li>
+<li>“同真同假”关系</li>
 </ul>
+<p>Ex:</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">p&lt;-&gt;q;</span><br><span class="line">读作：p与q同真假</span><br><span class="line"></span><br><span class="line">&lt;真值表&gt;:</span><br><span class="line">p | q | p&lt;-&gt;q</span><br><span class="line">——————————————</span><br><span class="line">0 | 0 | 1</span><br><span class="line">0 | 1 | 0</span><br><span class="line">1 | 0 | 0</span><br><span class="line">1 | 1 | 1</span><br><span class="line"></span><br><span class="line">(记作：相同为1，不同为0)</span><br></pre></td></tr></table></div></figure>
+
 
         <h3 id="命题公式及其赋值"   >
           <a href="#命题公式及其赋值" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题公式及其赋值" class="headerlink" title="命题公式及其赋值"></a>命题公式及其赋值</h3>
-      <ol>
-<li>命题公式</li>
-</ol>
+      <p>1、命题公式</p>
 <ul>
 <li>命题公式</li>
-<li>合式公式</li>
+<li>合式公式 Well Formed Formulas</li>
 </ul>
 <p>(1) 优先级：</p>
 <p>否定&gt;合取=析取&gt;蕴涵=同真假</p>
@@ -159,7 +161,7 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></he
 <li><p>命题公式的分类</p>
 </li>
 </ol>
-<p>(1)重言式(永真式)</p>
+<p>(1)重言式(永真式) Tautology</p>
 <ul>
 <li>A的每一组赋值都使A的真值为1</li>
 </ul>
@@ -189,16 +191,17 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></he
 
         <h3 id="范式"   >
           <a href="#范式" class="heading-link"><i class="fas fa-link"></i></a><a href="#范式" class="headerlink" title="范式"></a>范式</h3>
-      <ol>
-<li><p>范式的基本概念</p>
-</li>
-<li><p>主析取范式</p>
-</li>
-<li><p>主合取范式</p>
-</li>
-<li><p>主析取范式与主合取范式的意义</p>
-</li>
-</ol>
+      <p>1、范式的基本概念</p>
+<p>(1) 文字</p>
+<p>(2) 简单析取式(子句)</p>
+<p>(3) 简单合取式(短语)</p>
+<p>(4) 互补对</p>
+<p>(5) 析取范式 Disjunctive normal form</p>
+<p>(6) 合取范式 Conjunctive normal form</p>
+<p>2、主析取范式</p>
+<p>3、主合取范式</p>
+<p>4、主析取范式与主合取范式的意义</p>
+<p>5、范式存在定理</p>
 
         <h3 id="命题逻辑推理"   >
           <a href="#命题逻辑推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#命题逻辑推理" class="headerlink" title="命题逻辑推理"></a>命题逻辑推理</h3>
@@ -207,36 +210,33 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></he
           <a href="#第2章-谓词逻辑" class="heading-link"><i class="fas fa-link"></i></a><a href="#第2章-谓词逻辑" class="headerlink" title="第2章 谓词逻辑"></a>第2章 谓词逻辑</h2>
       <ul>
 <li>谓词 Predicate</li>
-<li>蕴涵 Implication</li>
 </ul>
 
         <h3 id="谓词逻辑概述"   >
           <a href="#谓词逻辑概述" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词逻辑概述" class="headerlink" title="谓词逻辑概述"></a>谓词逻辑概述</h3>
-      <ol>
-<li>谓词是其真理的命题</li>
-</ol>
-<p>Ex:</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">n | n^2+n+41 | prime</span><br><span class="line">0 | 0        | True</span><br><span class="line">1 | 43       | True</span><br><span class="line">2 | 47       | True</span><br><span class="line">————————————————————————</span><br><span class="line">又，原式=n(n+1)+41</span><br><span class="line">40| 1681     | False</span><br><span class="line">41| 1763     | False</span><br><span class="line"></span><br><span class="line">-Prime: 质数(素数)</span><br></pre></td></tr></table></div></figure>
-
-<ol start="2">
-<li>蕴涵</li>
-</ol>
-<p>Ex:</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">p | q        | p➡q  | q➡p  | q&lt;=&gt;p</span><br><span class="line">————————————————————————————————————</span><br><span class="line">T | T        | T     | T     | T</span><br><span class="line">T | F        | F     | T     | F</span><br><span class="line">F | T        | T     | F     | F</span><br><span class="line">F | F        | T     | T     | T   (*)</span><br><span class="line"></span><br><span class="line">(*) If pigs could fly, I would be king.</span><br></pre></td></tr></table></div></figure>
-
-<ol start="3">
-<li>公理是被<strong>假定为真</strong>的<em>命题</em><br>An axiom is a proposition that is assumed to be true.</li>
-</ol>
+      <p>1、谓词逻辑基本概念</p>
+<p>2、描述实际问题</p>
 
         <h3 id="谓词公式与解释"   >
           <a href="#谓词公式与解释" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词公式与解释" class="headerlink" title="谓词公式与解释"></a>谓词公式与解释</h3>
-      
+      <p>1、谓词的合式公式</p>
+<p>2、自由变元和约束变元</p>
+<p>3、谓词公式的解释</p>
+<p>4、谓词公式的分类</p>
+
         <h3 id="谓词公式的等值演算"   >
           <a href="#谓词公式的等值演算" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词公式的等值演算" class="headerlink" title="谓词公式的等值演算"></a>谓词公式的等值演算</h3>
-      
+      <p>1、谓词公式置换规则</p>
+<p>2、变元换名规则</p>
+<p>3、量词等值式</p>
+<p>4、谓词公式的范式</p>
+
         <h3 id="谓词推理"   >
           <a href="#谓词推理" class="heading-link"><i class="fas fa-link"></i></a><a href="#谓词推理" class="headerlink" title="谓词推理"></a>谓词推理</h3>
-      
+      <p>1、谓词逻辑推理规则</p>
+<p>2、谓词逻辑推理常见问题</p>
+<p>3、谓词逻辑推理的应用</p>
+
         <h2 id="第3章-集合论"   >
           <a href="#第3章-集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第3章-集合论" class="headerlink" title="第3章 集合论"></a>第3章 集合论</h2>
       
@@ -330,7 +330,43 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></he
       
         <h3 id="二元关系的基本概念"   >
           <a href="#二元关系的基本概念" class="heading-link"><i class="fas fa-link"></i></a><a href="#二元关系的基本概念" class="headerlink" title="二元关系的基本概念"></a>二元关系的基本概念</h3>
-      
+      <p>1、二元关系</p>
+<p>(1) 有序对(序偶) Ordered pair，记作：</p>
+<ul>
+<li>&lt;x,y&gt;</li>
+</ul>
+<p>(2) 笛卡尔积</p>
+<ul>
+<li>A x B = {&lt;x,y&gt; | (x∈A)^(y∈B) }</li>
+</ul>
+<p>(3) n重有序组</p>
+<p>(4) 二元关系</p>
+<ul>
+<li>空关系 Empty Relation</li>
+<li>全关系 Total Relation</li>
+<li>恒等关系 Identity Relation</li>
+</ul>
+<p>(5) 定义域和值域</p>
+<ul>
+<li>定义域 Domain<ul>
+<li>C = domR</li>
+</ul>
+</li>
+<li>值域 Range<ul>
+<li>D = ranR</li>
+</ul>
+</li>
+<li>域 Field</li>
+</ul>
+<p>(6) n元关系 n-ary relation</p>
+<p>2、关系的集合表示</p>
+<p>(1) 集合的两种基本表示法</p>
+<ul>
+<li>枚举法</li>
+<li>叙述法</li>
+</ul>
+<p>(2) 关系的图形表示</p>
+
         <h3 id="关系运算"   >
           <a href="#关系运算" class="heading-link"><i class="fas fa-link"></i></a><a href="#关系运算" class="headerlink" title="关系运算"></a>关系运算</h3>
       
@@ -374,7 +410,60 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></he
       
         <h3 id="特殊图"   >
           <a href="#特殊图" class="heading-link"><i class="fas fa-link"></i></a><a href="#特殊图" class="headerlink" title="特殊图"></a>特殊图</h3>
-      </div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://ronrnrn.github.io">Ron Rao</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://ronrnrn.github.io/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/">https://ronrnrn.github.io/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://ronrnrn.github.io/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://ronrnrn.github.io/tags/Discrete-Mathematics/">Discrete Mathematics</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://ronrnrn.github.io/tags/%E7%AC%94%E8%AE%B0/">笔记</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2022/07/20/%E9%87%8D%E7%8E%B0%EF%BC%9A%E5%8E%86%E4%B9%85%E5%BC%A5%E6%96%B0%E7%9A%84%E5%85%89%E5%BD%B1%E4%B8%96%E7%95%8C/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">重现:历久弥新的光影世界</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/"><span class="paginator-prev__text">Markdown笔记中的数学公式实现/Formulas in Markdown</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC1%E7%AB%A0-%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91"><span class="toc-number">1.</span> <span class="toc-text">
+      
+        <h3 id="MIT-Chapter-1"   >
+          <a href="#MIT-Chapter-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#MIT-Chapter-1" class="headerlink" title="MIT Chapter 1"></a>MIT Chapter 1</h3>
+      <ol>
+<li>谓词是其真理的命题</li>
+</ol>
+<p>Ex:</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">n | n^2+n+41 | prime</span><br><span class="line">0 | 0        | True</span><br><span class="line">1 | 43       | True</span><br><span class="line">2 | 47       | True</span><br><span class="line">————————————————————————</span><br><span class="line">又，原式=n(n+1)+41</span><br><span class="line">40| 1681     | False</span><br><span class="line">41| 1763     | False</span><br><span class="line"></span><br><span class="line">-Prime: 质数(素数)</span><br></pre></td></tr></table></div></figure>
+
+<ol start="2">
+<li>蕴涵</li>
+</ol>
+<p>Ex:</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">p | q        | p➡q  | q➡p  | q&lt;=&gt;p</span><br><span class="line">————————————————————————————————————</span><br><span class="line">T | T        | T     | T     | T</span><br><span class="line">T | F        | F     | T     | F</span><br><span class="line">F | T        | T     | F     | F</span><br><span class="line">F | F        | T     | T     | T   (*)</span><br><span class="line"></span><br><span class="line">(*) If pigs could fly, I would be king.</span><br></pre></td></tr></table></div></figure>
+
+<ol start="3">
+<li>公理是被<strong>假定为真</strong>的<em>命题</em></li>
+</ol>
+<ul>
+<li>An axiom is a proposition that is assumed to be true.</li>
+</ul>
+<p>(1) Axioms should be:</p>
+<ul>
+<li>consistent</li>
+<li>complete</li>
+</ul>
+<p>(2) Def:</p>
+<ul>
+<li>A set of axioms is consistent,if no proposition can be proved to be both true and false.</li>
+<li>A set of axioms is said to be complete, if it can be used to prove every proposition is either true or false.</li>
+</ul>
+
+        <h3 id="MIT-Chapter-2"   >
+          <a href="#MIT-Chapter-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#MIT-Chapter-2" class="headerlink" title="MIT Chapter 2"></a>MIT Chapter 2</h3>
+      <ol>
+<li>Proof of Contradiction</li>
+</ol>
+<ul>
+<li>To prove p is true, we assume p is false, then use that hypothesis to derive a falsehood.</li>
+</ul>
+<p>Ex：</p>
+<p>Hypothesis: 90 is bigger than 92</p>
+<p>Proof: by picture</p>
+<ol start="2">
+<li>Induction</li>
+</ol>
+<ul>
+<li>advantage<ul>
+<li>powerful</li>
+<li>commonly used</li>
+</ul>
+</li>
+</ul>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://ronrnrn.github.io">Ron Rao</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://ronrnrn.github.io/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/">https://ronrnrn.github.io/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://ronrnrn.github.io/tags/%E7%AC%94%E8%AE%B0/">笔记</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://ronrnrn.github.io/tags/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6/">离散数学</a></span><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://ronrnrn.github.io/tags/Discrete-Mathematics/">Discrete Mathematics</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2022/07/20/%E9%87%8D%E7%8E%B0%EF%BC%9A%E5%8E%86%E4%B9%85%E5%BC%A5%E6%96%B0%E7%9A%84%E5%85%89%E5%BD%B1%E4%B8%96%E7%95%8C/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">重现:历久弥新的光影世界</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/"><span class="paginator-prev__text">Markdown笔记中的数学公式实现/Formulas in Markdown</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC1%E7%AB%A0-%E5%91%BD%E9%A2%98%E9%80%BB%E8%BE%91"><span class="toc-number">1.</span> <span class="toc-text">
           第1章 命题逻辑</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%BD%E9%A2%98%E4%B8%8E%E8%81%94%E7%BB%93%E8%AF%8D"><span class="toc-number">1.1.</span> <span class="toc-text">
           命题与联结词</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%91%BD%E9%A2%98%E5%85%AC%E5%BC%8F%E5%8F%8A%E5%85%B6%E8%B5%8B%E5%80%BC"><span class="toc-number">1.2.</span> <span class="toc-text">
           命题公式及其赋值</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AD%89%E5%80%BC%E6%BC%94%E7%AE%97"><span class="toc-number">1.3.</span> <span class="toc-text">
@@ -400,4 +489,6 @@ window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></he
           第5章 图论</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%A6%82%E5%BF%B5"><span class="toc-number">5.1.</span> <span class="toc-text">
           图的基本概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E8%BF%9E%E9%80%9A%E6%80%A7"><span class="toc-number">5.2.</span> <span class="toc-text">
           图的连通性</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E5%9B%BE"><span class="toc-number">5.3.</span> <span class="toc-text">
-          特殊图</span></a></li></ol></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/touxiang.jpg" alt="avatar"></div><p class="sidebar-ov-author__text">风吹山角晦还明。</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/ronrnrn" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">9</div><div class="sidebar-ov-state-item__name">归档</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">0</div><div class="sidebar-ov-state-item__name">分类</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">14</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2022</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Ron Rao</span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v5.4.2</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/ribbon.js@latest/dist/ribbon.min.js" size="120" alpha="0.6" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js" color="0,0,150" opacity="1" count="20" zIndex="-1"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
+          特殊图</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MIT-Chapter-1"><span class="toc-number">5.4.</span> <span class="toc-text">
+          MIT Chapter 1</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#MIT-Chapter-2"><span class="toc-number">5.5.</span> <span class="toc-text">
+          MIT Chapter 2</span></a></li></ol></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/touxiang.jpg" alt="avatar"></div><p class="sidebar-ov-author__text">风吹山角晦还明。</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/ronrnrn" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">9</div><div class="sidebar-ov-state-item__name">归档</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">0</div><div class="sidebar-ov-state-item__name">分类</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">14</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2022</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Ron Rao</span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v5.4.2</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/ribbon.js@latest/dist/ribbon.min.js" size="120" alpha="0.6" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js" color="0,0,150" opacity="1" count="20" zIndex="-1"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
