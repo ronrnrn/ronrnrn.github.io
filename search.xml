@@ -12,6 +12,23 @@
 ]]></content>
   </entry>
   <entry>
+    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
+    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[
+        <h2 id="介绍"   >
+          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
+      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="示例"   >
+          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
+      <p>我是示例：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>Formula</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>概率论笔记</title>
     <url>/2022/06/09/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[
@@ -278,334 +295,6 @@
       <tags>
         <tag>概率论</tag>
         <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>软件工程笔记</title>
-    <url>/2022/07/24/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[
-        <h2 id="软件工程概述"   >
-          <a href="#软件工程概述" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件工程概述" class="headerlink" title="软件工程概述"></a>软件工程概述</h2>
-      <ul>
-<li>软件是程序、数据和相关文档的完整集合</li>
-</ul>
-
-        <h3 id="软件危机"   >
-          <a href="#软件危机" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件危机" class="headerlink" title="软件危机"></a>软件危机</h3>
-      <ul>
-<li>在计算机软件的开发和维护过程中所遇到的一系列严重问题</li>
-</ul>
-<p>1、问题</p>
-<ul>
-<li><p>如何开发软件，以满足对软件日益增长的需求</p>
-</li>
-<li><p>如何维护数量不断膨胀的已有软件</p>
-</li>
-</ul>
-
-        <h3 id="软件工程"   >
-          <a href="#软件工程" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件工程" class="headerlink" title="软件工程"></a>软件工程</h3>
-      <ul>
-<li>指导计算机软件开发和维护的工程学科</li>
-</ul>
-<p>1、七条基本准则</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">用分阶段的生命周期计划严格管理；</span><br><span class="line">坚持进行阶段评审；</span><br><span class="line">实行严格的产品控制；</span><br><span class="line">采用现代程序设计技术；</span><br><span class="line">结果应能清楚地审查；</span><br><span class="line">开发小组的人员应该少而精；</span><br><span class="line">承认不断改进软件工程实践的必要性。</span><br></pre></td></tr></table></div></figure>
-
-<p>2、包含的领域</p>
-<p>(1) 软件需求</p>
-<ul>
-<li>软件需求表达了<strong>为解决某些真实世界问题而施加在软件产品上的要求和约束</strong></li>
-</ul>
-<p>(2) 软件设计</p>
-<ul>
-<li><p>软件架构设计</p>
-</li>
-<li><p>软件详细设计</p>
-</li>
-</ul>
-<p>(3) 软件构建</p>
-<ul>
-<li>指的是如何创建产生软件的详细步骤 </li>
-</ul>
-<p>(4) 软件测试</p>
-<ul>
-<li>测试是一个标识产品的缺陷和问题的活动</li>
-</ul>
-<p>(5) 软件维护</p>
-<p>(6) 软件配置管理 SCM(Software Configuration Management)</p>
-<ul>
-<li>跟踪和控制软件变更的活动</li>
-</ul>
-<p>(8) 软件工程管理</p>
-<ul>
-<li>软件开发和维护的管理活动</li>
-</ul>
-<p>(9) 软件工程过程</p>
-<p>(10) 软件工程工具和方法</p>
-<p>(11) 软件质量</p>
-
-        <h2 id="软件过程"   >
-          <a href="#软件过程" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件过程" class="headerlink" title="软件过程"></a>软件过程</h2>
-      <ul>
-<li><p>完成各项任务的工作步骤和框架</p>
-</li>
-<li><p>模型</p>
-<ul>
-<li>为了理解事物而对事物做出的一种抽象</li>
-</ul>
-</li>
-</ul>
-
-        <h3 id="软件生命周期"   >
-          <a href="#软件生命周期" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件生命周期" class="headerlink" title="软件生命周期"></a><strong>软件生命周期</strong></h3>
-      <p>1、软件定义</p>
-<p>(1) 问题定义</p>
-<ul>
-<li><strong>要解决的问题是什么</strong></li>
-</ul>
-<p>(2) 可行性研究</p>
-<ul>
-<li><strong>上一个阶段所确定的问题是否有行得通的解决办法</strong></li>
-</ul>
-<p>(3) 需求分析</p>
-<ul>
-<li><p>目标系统必须做什么</p>
-</li>
-<li><p><strong>用正式文档准确地记录对目标系统的需求，即规格说明(Specification)</strong></p>
-</li>
-</ul>
-<p>2、软件开发</p>
-<p>(1) 概要设计(初步设计/逻辑设计/高层设计/总体设计)</p>
-<ul>
-<li>怎样实现目标系统</li>
-</ul>
-<p>(2) 详细设计</p>
-<ul>
-<li>应该怎样<strong>具体地实现</strong>这个系统</li>
-</ul>
-<p>(3) 编码和单元测试</p>
-<ul>
-<li>写出正确的、易理解、易维护的程序模块</li>
-</ul>
-<p>(4) 综合测试</p>
-<ul>
-<li>通过各种类型的测试(及相应的调试)使软件达到预定的要求</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">前2个阶段也合称系统设计，</span><br><span class="line">后2个阶段也合称系统实现。</span><br></pre></td></tr></table></div></figure>
-
-<p>3、运行维护</p>
-<ul>
-<li>使软件持久地满足用户的需要</li>
-</ul>
-
-        <h3 id="瀑布模型-Waterfall-Model"   >
-          <a href="#瀑布模型-Waterfall-Model" class="heading-link"><i class="fas fa-link"></i></a><a href="#瀑布模型-Waterfall-Model" class="headerlink" title="瀑布模型 Waterfall Model"></a>瀑布模型 Waterfall Model</h3>
-      <p>1、特点：</p>
-<ul>
-<li><p>阶段间具有顺序性和依赖性</p>
-</li>
-<li><p>推迟实现的观点</p>
-</li>
-<li><p>质量保证的观点</p>
-</li>
-</ul>
-
-        <h3 id="快速原型模型-RAD-Rapid-Application-Development"   >
-          <a href="#快速原型模型-RAD-Rapid-Application-Development" class="heading-link"><i class="fas fa-link"></i></a><a href="#快速原型模型-RAD-Rapid-Application-Development" class="headerlink" title="快速原型模型 RAD(Rapid Application Development)"></a>快速原型模型 RAD(Rapid Application Development)</h3>
-      <ul>
-<li>快速原型 Rapid Prototype</li>
-</ul>
-
-        <h3 id="增量模型-渐增模型"   >
-          <a href="#增量模型-渐增模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#增量模型-渐增模型" class="headerlink" title="增量模型(渐增模型)"></a>增量模型(渐增模型)</h3>
-      
-        <h3 id="螺旋模型"   >
-          <a href="#螺旋模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#螺旋模型" class="headerlink" title="螺旋模型"></a>螺旋模型</h3>
-      
-        <h3 id="喷泉模型"   >
-          <a href="#喷泉模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#喷泉模型" class="headerlink" title="喷泉模型"></a>喷泉模型</h3>
-      
-        <h3 id="Rational统一过程"   >
-          <a href="#Rational统一过程" class="heading-link"><i class="fas fa-link"></i></a><a href="#Rational统一过程" class="headerlink" title="Rational统一过程"></a>Rational统一过程</h3>
-      
-        <h3 id="敏捷过程与极限编程"   >
-          <a href="#敏捷过程与极限编程" class="heading-link"><i class="fas fa-link"></i></a><a href="#敏捷过程与极限编程" class="headerlink" title="敏捷过程与极限编程"></a>敏捷过程与极限编程</h3>
-      
-        <h3 id="能力成熟度模型-CMM-Capability-Maturity-Model"   >
-          <a href="#能力成熟度模型-CMM-Capability-Maturity-Model" class="heading-link"><i class="fas fa-link"></i></a><a href="#能力成熟度模型-CMM-Capability-Maturity-Model" class="headerlink" title="能力成熟度模型 CMM(Capability Maturity Model)"></a>能力成熟度模型 CMM(Capability Maturity Model)</h3>
-      
-        <h2 id="结构化分析"   >
-          <a href="#结构化分析" class="heading-link"><i class="fas fa-link"></i></a><a href="#结构化分析" class="headerlink" title="结构化分析"></a>结构化分析</h2>
-      <ul>
-<li><p>传统的软件工程方法学采用结构化分析(SA:Structured Anaysis)技术完成需求分析工作</p>
-</li>
-<li><p>结构化分析是一种建立模型的活动，通常建立3种模型：</p>
-<ul>
-<li><p>数据模型</p>
-</li>
-<li><p>功能模型</p>
-</li>
-<li><p>行为模型</p>
-</li>
-</ul>
-</li>
-</ul>
-
-        <h3 id="需求分析"   >
-          <a href="#需求分析" class="heading-link"><i class="fas fa-link"></i></a><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3>
-      <ul>
-<li>是发现、求精、建模、规格说明和复审的过程</li>
-</ul>
-
-        <h3 id="实体"   >
-          <a href="#实体" class="heading-link"><i class="fas fa-link"></i></a><a href="#实体" class="headerlink" title="实体"></a>实体</h3>
-      <p>1、数据模型</p>
-<p>(1) 数据对象</p>
-<ul>
-<li><p>可以是：</p>
-<ul>
-<li><p>外部实体</p>
-</li>
-<li><p>事物</p>
-</li>
-<li><p>行为</p>
-</li>
-<li><p>角色</p>
-</li>
-<li><p>单位</p>
-</li>
-<li><p>地点</p>
-</li>
-<li><p>结构</p>
-</li>
-</ul>
-</li>
-</ul>
-<p>(2) 属性</p>
-<ul>
-<li><p>定义了数据对象的性质</p>
-</li>
-<li><p>3种特性：</p>
-<ul>
-<li><p>为数据对象的实例命名</p>
-</li>
-<li><p>描述该实例</p>
-</li>
-<li><p>引用另一个数据对象的实例</p>
-</li>
-</ul>
-</li>
-</ul>
-<p>(3) 关系(联系)</p>
-<ul>
-<li><p>数据对象之间相互连接的方式</p>
-</li>
-<li><p>可分3类：</p>
-<ul>
-<li><p>一对一联系(1:1)</p>
-</li>
-<li><p>一对多联系(1:n)</p>
-</li>
-<li><p>多对多联系(m:n)</p>
-</li>
-</ul>
-</li>
-</ul>
-<p>(4) 实体</p>
-<ul>
-<li><p>关系图的符号</p>
-</li>
-<li><p>实体——关系图 E-R图(Entity-Relationship Diagram)</p>
-</li>
-<li><p>E-R图基本成分：</p>
-<ul>
-<li><p>实体——矩形框</p>
-</li>
-<li><p>关系——菱形框</p>
-</li>
-<li><p>属性——椭圆形/圆角矩形</p>
-</li>
-</ul>
-</li>
-</ul>
-
-        <h3 id="数据流图"   >
-          <a href="#数据流图" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据流图" class="headerlink" title="数据流图"></a>数据流图</h3>
-      <ul>
-<li><p>DFD: Data Flow Diagram</p>
-</li>
-<li><p>描绘信息流和数据从输入移动到输出的过程种所经受的变换</p>
-</li>
-</ul>
-<p>1、4种成分</p>
-<p>(1) 源点或终点</p>
-<p>(2) 处理</p>
-<p>(3) 数据存储</p>
-<p>(4) 数据流</p>
-
-        <h3 id="状态转换图"   >
-          <a href="#状态转换图" class="heading-link"><i class="fas fa-link"></i></a><a href="#状态转换图" class="headerlink" title="状态转换图"></a>状态转换图</h3>
-      <ul>
-<li><p>简称，状态图</p>
-</li>
-<li><p>通过描述系统的状态及引起系统状态转换的事件，来表示系统的行为</p>
-</li>
-</ul>
-<p>1、状态</p>
-<ul>
-<li>一个状态代表系统的一种行为模式</li>
-</ul>
-<p>(1) 初态</p>
-<ul>
-<li><p>一张状态图只能有一个初态</p>
-</li>
-<li><p>用<strong>实心圆</strong>表示</p>
-</li>
-</ul>
-<p>(2) 终态</p>
-<ul>
-<li><p>终态可以有0至多个</p>
-</li>
-<li><p>用<strong>一对同心圆</strong>表示(内圆为实心圆)</p>
-</li>
-</ul>
-<p>(3) 中间状态</p>
-<ul>
-<li><p>用<strong>圆角矩形</strong>表示</p>
-</li>
-<li><p>用2条水平横线，分为上、中、下3个部分：</p>
-<ul>
-<li><p>上：状态的名称(必须有)</p>
-</li>
-<li><p>中：状态变量的名字和值(可选的)</p>
-</li>
-<li><p>下：活动表(可选的)</p>
-</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">活动表的语法格式如下：</span><br><span class="line">事件名(参数表) / 动作表达式</span><br><span class="line">其中，</span><br><span class="line">事件名可以是任何事件的名称</span><br><span class="line">————————————————————————</span><br><span class="line">活动表通常使用以下3种标准事件：</span><br><span class="line">Entry: 指定进入该状态的动作</span><br><span class="line">Exit: 指定退出该状态的动作</span><br><span class="line">Do: 指定在该状态下的动作</span><br></pre></td></tr></table></div></figure>
-
-
-<p>2、事件</p>
-<p>3、符号</p>
-
-        <h3 id="数据字典"   >
-          <a href="#数据字典" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据字典" class="headerlink" title="数据字典"></a>数据字典</h3>
-      <ul>
-<li><p>是为了描述在结构化分析过程中定义对象的内容时，使用的一种半形式化的工具</p>
-</li>
-<li><p>是描述数据的信息的集合</p>
-</li>
-<li><p>是对系统中使用的所有数据元素的定义的集合</p>
-</li>
-</ul>
-
-        <h2 id="结构化设计"   >
-          <a href="#结构化设计" class="heading-link"><i class="fas fa-link"></i></a><a href="#结构化设计" class="headerlink" title="结构化设计"></a>结构化设计</h2>
-      ]]></content>
-      <tags>
-        <tag>软件工程</tag>
       </tags>
   </entry>
   <entry>
@@ -1061,48 +750,350 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
-    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
+    <title>读过的书（文史类）</title>
+    <url>/2022/06/09/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6%EF%BC%88%E6%96%87%E5%8F%B2%E7%B1%BB%EF%BC%89/</url>
     <content><![CDATA[
-        <h2 id="介绍"   >
-          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
-      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="示例"   >
-          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
-      <p>我是示例：</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
+        <h2 id="读过的书（文史类）"   >
+          <a href="#读过的书（文史类）" class="heading-link"><i class="fas fa-link"></i></a><a href="#读过的书（文史类）" class="headerlink" title="读过的书（文史类）"></a>读过的书（文史类）</h2>
+      <p>之所以会有汇总以前读过的书的念头，是之前登录图书管理系统查看超期图书时，在分类栏中头一次看到自己全部的借阅记录。</p>
+<p>高中在<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/web/bookDetail/7e632350811e60c82g015228" >《语文基础知识手册》</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>上背过很多的诗词，到现在基本都忘了，大一时背的《唐诗三百首》也是。</p>
+<p>唯一印象深刻，且时时勉励自己的，是那句「行百里者，半九十」。</p>
+<p>很多事，往往到最后关头最容易放弃，然而其实只要再坚持一下，总是会有不同的、豁然开朗的风景。</p>
+<p>因而希望自己，在面对不同程度的困境时，都能理性地、客观地反求诸己，意识到自己认知上的局限性，秉持着皓首穷经的目标，一直坚持。</p>
+<p>于是从图书馆系统中，将书目借阅历史导出为excel表格，并删除重复借阅的记录和其它类型的书籍。</p>
+<p>此外再补充一些<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/" >微信读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、<span class="exturl"><a class="exturl__link"   href="https://du.163.com/" >网易蜗牛读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>和能记起来的部分中小学的阅读记录，然后通过<span class="exturl"><a class="exturl__link"   href="https://m.douban.com/subject_collection/book_top250" >豆瓣读书Top250</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>进行查漏补缺，最后汇总成以下<span class="exturl"><a class="exturl__link"   href="https://share.weiyun.com/Om2GCzKB" >Excel表格</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>。</p>
+]]></content>
       <tags>
-        <tag>Markdown</tag>
-        <tag>Formula</tag>
+        <tag>书籍</tag>
       </tags>
   </entry>
   <entry>
-    <title>采用Lucidchart进行UML绘制</title>
-    <url>/2022/06/10/%E9%87%87%E7%94%A8Lucidchart%E8%BF%9B%E8%A1%8CUML%E7%BB%98%E5%88%B6/</url>
+    <title>软件工程笔记</title>
+    <url>/2022/07/24/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[
-        <h2 id="采用Lucidchart进行UML绘制"   >
-          <a href="#采用Lucidchart进行UML绘制" class="heading-link"><i class="fas fa-link"></i></a><a href="#采用Lucidchart进行UML绘制" class="headerlink" title="采用Lucidchart进行UML绘制"></a>采用Lucidchart进行UML绘制</h2>
-      <p>UML（Unified Modeling Language），即统一建模语言，是一种面向对象的可视化模型语言。</p>
-<p>Lucidchart是一款很好用的绘制UML的工具，可以通过<span class="exturl"><a class="exturl__link"   href="https://www.lucidchart.com/pages/" >Lucidchart官网</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>下载。</p>
+        <h2 id="软件工程概述"   >
+          <a href="#软件工程概述" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件工程概述" class="headerlink" title="软件工程概述"></a>软件工程概述</h2>
+      <ul>
+<li>软件是程序、数据和相关文档的完整集合</li>
+</ul>
+
+        <h3 id="软件危机"   >
+          <a href="#软件危机" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件危机" class="headerlink" title="软件危机"></a>软件危机</h3>
+      <ul>
+<li>在计算机软件的开发和维护过程中所遇到的一系列严重问题</li>
+</ul>
+<p>1、问题</p>
+<ul>
+<li><p>如何开发软件，以满足对软件日益增长的需求</p>
+</li>
+<li><p>如何维护数量不断膨胀的已有软件</p>
+</li>
+</ul>
+
+        <h3 id="软件工程"   >
+          <a href="#软件工程" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件工程" class="headerlink" title="软件工程"></a>软件工程</h3>
+      <ul>
+<li>指导计算机软件开发和维护的工程学科</li>
+</ul>
+<p>1、七条基本准则</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">用分阶段的生命周期计划严格管理；</span><br><span class="line">坚持进行阶段评审；</span><br><span class="line">实行严格的产品控制；</span><br><span class="line">采用现代程序设计技术；</span><br><span class="line">结果应能清楚地审查；</span><br><span class="line">开发小组的人员应该少而精；</span><br><span class="line">承认不断改进软件工程实践的必要性。</span><br></pre></td></tr></table></div></figure>
+
+<p>2、包含的领域</p>
+<p>(1) 软件需求</p>
+<ul>
+<li>软件需求表达了<strong>为解决某些真实世界问题而施加在软件产品上的要求和约束</strong></li>
+</ul>
+<p>(2) 软件设计</p>
+<ul>
+<li><p>软件架构设计</p>
+</li>
+<li><p>软件详细设计</p>
+</li>
+</ul>
+<p>(3) 软件构建</p>
+<ul>
+<li>指的是如何创建产生软件的详细步骤 </li>
+</ul>
+<p>(4) 软件测试</p>
+<ul>
+<li>测试是一个标识产品的缺陷和问题的活动</li>
+</ul>
+<p>(5) 软件维护</p>
+<p>(6) 软件配置管理 SCM(Software Configuration Management)</p>
+<ul>
+<li>跟踪和控制软件变更的活动</li>
+</ul>
+<p>(8) 软件工程管理</p>
+<ul>
+<li>软件开发和维护的管理活动</li>
+</ul>
+<p>(9) 软件工程过程</p>
+<p>(10) 软件工程工具和方法</p>
+<p>(11) 软件质量</p>
+
+        <h2 id="软件过程"   >
+          <a href="#软件过程" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件过程" class="headerlink" title="软件过程"></a>软件过程</h2>
+      <ul>
+<li><p>完成各项任务的工作步骤和框架</p>
+</li>
+<li><p>模型</p>
+<ul>
+<li>为了理解事物而对事物做出的一种抽象</li>
+</ul>
+</li>
+</ul>
+
+        <h3 id="软件生命周期"   >
+          <a href="#软件生命周期" class="heading-link"><i class="fas fa-link"></i></a><a href="#软件生命周期" class="headerlink" title="软件生命周期"></a><strong>软件生命周期</strong></h3>
+      <p>1、软件定义</p>
+<p>(1) 问题定义</p>
+<ul>
+<li><strong>要解决的问题是什么</strong></li>
+</ul>
+<p>(2) 可行性研究</p>
+<ul>
+<li><strong>上一个阶段所确定的问题是否有行得通的解决办法</strong></li>
+</ul>
+<p>(3) 需求分析</p>
+<ul>
+<li><p>目标系统必须做什么</p>
+</li>
+<li><p><strong>用正式文档准确地记录对目标系统的需求，即规格说明(Specification)</strong></p>
+</li>
+</ul>
+<p>2、软件开发</p>
+<p>(1) 概要设计(初步设计/逻辑设计/高层设计/总体设计)</p>
+<ul>
+<li>怎样实现目标系统</li>
+</ul>
+<p>(2) 详细设计</p>
+<ul>
+<li>应该怎样<strong>具体地实现</strong>这个系统</li>
+</ul>
+<p>(3) 编码和单元测试</p>
+<ul>
+<li>写出正确的、易理解、易维护的程序模块</li>
+</ul>
+<p>(4) 综合测试</p>
+<ul>
+<li>通过各种类型的测试(及相应的调试)使软件达到预定的要求</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">前2个阶段也合称系统设计，</span><br><span class="line">后2个阶段也合称系统实现。</span><br></pre></td></tr></table></div></figure>
+
+<p>3、运行维护</p>
+<ul>
+<li>使软件持久地满足用户的需要</li>
+</ul>
+
+        <h3 id="瀑布模型-Waterfall-Model"   >
+          <a href="#瀑布模型-Waterfall-Model" class="heading-link"><i class="fas fa-link"></i></a><a href="#瀑布模型-Waterfall-Model" class="headerlink" title="瀑布模型 Waterfall Model"></a>瀑布模型 Waterfall Model</h3>
+      <p>1、特点：</p>
+<ul>
+<li><p>阶段间具有顺序性和依赖性</p>
+</li>
+<li><p>推迟实现的观点</p>
+</li>
+<li><p>质量保证的观点</p>
+</li>
+</ul>
+
+        <h3 id="快速原型模型-RAD-Rapid-Application-Development"   >
+          <a href="#快速原型模型-RAD-Rapid-Application-Development" class="heading-link"><i class="fas fa-link"></i></a><a href="#快速原型模型-RAD-Rapid-Application-Development" class="headerlink" title="快速原型模型 RAD(Rapid Application Development)"></a>快速原型模型 RAD(Rapid Application Development)</h3>
+      <ul>
+<li>快速原型 Rapid Prototype</li>
+</ul>
+
+        <h3 id="增量模型-渐增模型"   >
+          <a href="#增量模型-渐增模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#增量模型-渐增模型" class="headerlink" title="增量模型(渐增模型)"></a>增量模型(渐增模型)</h3>
+      
+        <h3 id="螺旋模型"   >
+          <a href="#螺旋模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#螺旋模型" class="headerlink" title="螺旋模型"></a>螺旋模型</h3>
+      
+        <h3 id="喷泉模型"   >
+          <a href="#喷泉模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#喷泉模型" class="headerlink" title="喷泉模型"></a>喷泉模型</h3>
+      
+        <h3 id="Rational统一过程"   >
+          <a href="#Rational统一过程" class="heading-link"><i class="fas fa-link"></i></a><a href="#Rational统一过程" class="headerlink" title="Rational统一过程"></a>Rational统一过程</h3>
+      
+        <h3 id="敏捷过程与极限编程"   >
+          <a href="#敏捷过程与极限编程" class="heading-link"><i class="fas fa-link"></i></a><a href="#敏捷过程与极限编程" class="headerlink" title="敏捷过程与极限编程"></a>敏捷过程与极限编程</h3>
+      
+        <h3 id="能力成熟度模型-CMM-Capability-Maturity-Model"   >
+          <a href="#能力成熟度模型-CMM-Capability-Maturity-Model" class="heading-link"><i class="fas fa-link"></i></a><a href="#能力成熟度模型-CMM-Capability-Maturity-Model" class="headerlink" title="能力成熟度模型 CMM(Capability Maturity Model)"></a>能力成熟度模型 CMM(Capability Maturity Model)</h3>
+      
+        <h2 id="结构化分析"   >
+          <a href="#结构化分析" class="heading-link"><i class="fas fa-link"></i></a><a href="#结构化分析" class="headerlink" title="结构化分析"></a>结构化分析</h2>
+      <ul>
+<li><p>传统的软件工程方法学采用结构化分析(SA:Structured Anaysis)技术完成需求分析工作</p>
+</li>
+<li><p>结构化分析是一种建立模型的活动，通常建立3种模型：</p>
+<ul>
+<li><p>数据模型</p>
+</li>
+<li><p>功能模型</p>
+</li>
+<li><p>行为模型</p>
+</li>
+</ul>
+</li>
+</ul>
+
+        <h3 id="需求分析"   >
+          <a href="#需求分析" class="heading-link"><i class="fas fa-link"></i></a><a href="#需求分析" class="headerlink" title="需求分析"></a>需求分析</h3>
+      <ul>
+<li>是发现、求精、建模、规格说明和复审的过程</li>
+</ul>
+
+        <h3 id="实体"   >
+          <a href="#实体" class="heading-link"><i class="fas fa-link"></i></a><a href="#实体" class="headerlink" title="实体"></a>实体</h3>
+      <p>1、数据模型</p>
+<p>(1) 数据对象</p>
+<ul>
+<li><p>可以是：</p>
+<ul>
+<li><p>外部实体</p>
+</li>
+<li><p>事物</p>
+</li>
+<li><p>行为</p>
+</li>
+<li><p>角色</p>
+</li>
+<li><p>单位</p>
+</li>
+<li><p>地点</p>
+</li>
+<li><p>结构</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>(2) 属性</p>
+<ul>
+<li><p>定义了数据对象的性质</p>
+</li>
+<li><p>3种特性：</p>
+<ul>
+<li><p>为数据对象的实例命名</p>
+</li>
+<li><p>描述该实例</p>
+</li>
+<li><p>引用另一个数据对象的实例</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>(3) 关系(联系)</p>
+<ul>
+<li><p>数据对象之间相互连接的方式</p>
+</li>
+<li><p>可分3类：</p>
+<ul>
+<li><p>一对一联系(1:1)</p>
+</li>
+<li><p>一对多联系(1:n)</p>
+</li>
+<li><p>多对多联系(m:n)</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>(4) 实体</p>
+<ul>
+<li><p>关系图的符号</p>
+</li>
+<li><p>实体——关系图 E-R图(Entity-Relationship Diagram)</p>
+</li>
+<li><p>E-R图基本成分：</p>
+<ul>
+<li><p>实体——矩形框</p>
+</li>
+<li><p>关系——菱形框</p>
+</li>
+<li><p>属性——椭圆形/圆角矩形</p>
+</li>
+</ul>
+</li>
+</ul>
+
+        <h3 id="数据流图"   >
+          <a href="#数据流图" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据流图" class="headerlink" title="数据流图"></a>数据流图</h3>
+      <ul>
+<li><p>DFD: Data Flow Diagram</p>
+</li>
+<li><p>描绘信息流和数据从输入移动到输出的过程种所经受的变换</p>
+</li>
+</ul>
+<p>1、4种成分</p>
+<p>(1) 源点或终点</p>
+<p>(2) 处理</p>
+<p>(3) 数据存储</p>
+<p>(4) 数据流</p>
+
+        <h3 id="状态转换图"   >
+          <a href="#状态转换图" class="heading-link"><i class="fas fa-link"></i></a><a href="#状态转换图" class="headerlink" title="状态转换图"></a>状态转换图</h3>
+      <ul>
+<li><p>简称，状态图</p>
+</li>
+<li><p>通过描述系统的状态及引起系统状态转换的事件，来表示系统的行为</p>
+</li>
+</ul>
+<p>1、状态</p>
+<ul>
+<li>一个状态代表系统的一种行为模式</li>
+</ul>
+<p>(1) 初态</p>
+<ul>
+<li><p>一张状态图只能有一个初态</p>
+</li>
+<li><p>用<strong>实心圆</strong>表示</p>
+</li>
+</ul>
+<p>(2) 终态</p>
+<ul>
+<li><p>终态可以有0至多个</p>
+</li>
+<li><p>用<strong>一对同心圆</strong>表示(内圆为实心圆)</p>
+</li>
+</ul>
+<p>(3) 中间状态</p>
+<ul>
+<li><p>用<strong>圆角矩形</strong>表示</p>
+</li>
+<li><p>用2条水平横线，分为上、中、下3个部分：</p>
+<ul>
+<li><p>上：状态的名称(必须有)</p>
+</li>
+<li><p>中：状态变量的名字和值(可选的)</p>
+</li>
+<li><p>下：活动表(可选的)</p>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">活动表的语法格式如下：</span><br><span class="line">事件名(参数表) / 动作表达式</span><br><span class="line">其中，</span><br><span class="line">事件名可以是任何事件的名称</span><br><span class="line">————————————————————————</span><br><span class="line">活动表通常使用以下3种标准事件：</span><br><span class="line">Entry: 指定进入该状态的动作</span><br><span class="line">Exit: 指定退出该状态的动作</span><br><span class="line">Do: 指定在该状态下的动作</span><br></pre></td></tr></table></div></figure>
+
+
+<p>2、事件</p>
+<p>3、符号</p>
+
+        <h3 id="数据字典"   >
+          <a href="#数据字典" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据字典" class="headerlink" title="数据字典"></a>数据字典</h3>
+      <ul>
+<li><p>是为了描述在结构化分析过程中定义对象的内容时，使用的一种半形式化的工具</p>
+</li>
+<li><p>是描述数据的信息的集合</p>
+</li>
+<li><p>是对系统中使用的所有数据元素的定义的集合</p>
+</li>
+</ul>
+
+        <h2 id="结构化设计"   >
+          <a href="#结构化设计" class="heading-link"><i class="fas fa-link"></i></a><a href="#结构化设计" class="headerlink" title="结构化设计"></a>结构化设计</h2>
+      <p>参考资料：<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/web/bookDetail/fcc32e50717d2d04fcc822a" >软件工程(第4版) 作者：张海藩 吕云翔</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 ]]></content>
       <tags>
         <tag>软件工程</tag>
-        <tag>UML</tag>
-        <tag>建模工具</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重温《千与千寻》</title>
-    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
-    <content><![CDATA[
-        <h2 id="重温《千与千寻》"   >
-          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
-      <p>天赋、坚韧和赶上好时候</p>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-        <tag>电影</tag>
       </tags>
   </entry>
   <entry>
@@ -1129,26 +1120,36 @@
 <p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/review2014/?bid=gVzx19kzY50&amp;channel=0&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2014年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 ]]></content>
       <tags>
-        <tag>电影</tag>
         <tag>Film</tag>
+        <tag>电影</tag>
       </tags>
   </entry>
   <entry>
-    <title>读过的书（文史类）</title>
-    <url>/2022/06/09/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6%EF%BC%88%E6%96%87%E5%8F%B2%E7%B1%BB%EF%BC%89/</url>
+    <title>重温《千与千寻》</title>
+    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
     <content><![CDATA[
-        <h2 id="读过的书（文史类）"   >
-          <a href="#读过的书（文史类）" class="heading-link"><i class="fas fa-link"></i></a><a href="#读过的书（文史类）" class="headerlink" title="读过的书（文史类）"></a>读过的书（文史类）</h2>
-      <p>之所以会有汇总以前读过的书的念头，是之前登录图书管理系统查看超期图书时，在分类栏中头一次看到自己全部的借阅记录。</p>
-<p>高中在<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/web/bookDetail/7e632350811e60c82g015228" >《语文基础知识手册》</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>上背过很多的诗词，到现在基本都忘了，大一时背的《唐诗三百首》也是。</p>
-<p>唯一印象深刻，且时时勉励自己的，是那句「行百里者，半九十」。</p>
-<p>很多事，往往到最后关头最容易放弃，然而其实只要再坚持一下，总是会有不同的、豁然开朗的风景。</p>
-<p>因而希望自己，在面对不同程度的困境时，都能理性地、客观地反求诸己，意识到自己认知上的局限性，秉持着皓首穷经的目标，一直坚持。</p>
-<p>于是从图书馆系统中，将书目借阅历史导出为excel表格，并删除重复借阅的记录和其它类型的书籍。</p>
-<p>此外再补充一些<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/" >微信读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、<span class="exturl"><a class="exturl__link"   href="https://du.163.com/" >网易蜗牛读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>和能记起来的部分中小学的阅读记录，然后通过<span class="exturl"><a class="exturl__link"   href="https://m.douban.com/subject_collection/book_top250" >豆瓣读书Top250</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>进行查漏补缺，最后汇总成以下<span class="exturl"><a class="exturl__link"   href="https://share.weiyun.com/Om2GCzKB" >Excel表格</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>。</p>
+        <h2 id="重温《千与千寻》"   >
+          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
+      <p>天赋、坚韧和赶上好时候</p>
 ]]></content>
       <tags>
-        <tag>书籍</tag>
+        <tag>电影</tag>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>采用Lucidchart进行UML绘制</title>
+    <url>/2022/06/10/%E9%87%87%E7%94%A8Lucidchart%E8%BF%9B%E8%A1%8CUML%E7%BB%98%E5%88%B6/</url>
+    <content><![CDATA[
+        <h2 id="采用Lucidchart进行UML绘制"   >
+          <a href="#采用Lucidchart进行UML绘制" class="heading-link"><i class="fas fa-link"></i></a><a href="#采用Lucidchart进行UML绘制" class="headerlink" title="采用Lucidchart进行UML绘制"></a>采用Lucidchart进行UML绘制</h2>
+      <p>UML（Unified Modeling Language），即统一建模语言，是一种面向对象的可视化模型语言。</p>
+<p>Lucidchart是一款很好用的绘制UML的工具，可以通过<span class="exturl"><a class="exturl__link"   href="https://www.lucidchart.com/pages/" >Lucidchart官网</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>下载。</p>
+]]></content>
+      <tags>
+        <tag>软件工程</tag>
+        <tag>UML</tag>
+        <tag>建模工具</tag>
       </tags>
   </entry>
 </search>
