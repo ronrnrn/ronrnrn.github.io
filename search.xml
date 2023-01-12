@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
+    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
+    <content><![CDATA[
+        <h2 id="介绍"   >
+          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
+      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="示例"   >
+          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
+      <p>我是示例：</p>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
+      <tags>
+        <tag>Markdown</tag>
+        <tag>Formula</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>C语言笔记(上)</title>
     <url>/2022/08/06/C%E8%AF%AD%E8%A8%80%E7%AC%94%E8%AE%B0(%E4%B8%8A)/</url>
     <content><![CDATA[
@@ -1475,23 +1492,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown笔记中的数学公式实现/Formulas in Markdown</title>
-    <url>/2022/07/16/Markdown%E4%B8%AD%E7%9A%84%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F%E5%AE%9E%E7%8E%B0/</url>
-    <content><![CDATA[
-        <h2 id="介绍"   >
-          <a href="#介绍" class="heading-link"><i class="fas fa-link"></i></a><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h2>
-      <p>公式插件的安装及使用教程在此：<span class="exturl"><a class="exturl__link"   href="https://shd101wyy.github.io/markdown-preview-enhanced/#/" >Markdown Preview Enhanced</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="示例"   >
-          <a href="#示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#示例" class="headerlink" title="示例"></a>示例</h2>
-      <p>我是示例：</p>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">$f(x) = ax^2 + bx + c$</span><br></pre></td></tr></table></div></figure>]]></content>
-      <tags>
-        <tag>Markdown</tag>
-        <tag>Formula</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Prologue</title>
     <url>/2022/06/09/Prologue/</url>
     <content><![CDATA[
@@ -1583,6 +1583,48 @@
         <h2 id="第四章-串"   >
           <a href="#第四章-串" class="heading-link"><i class="fas fa-link"></i></a><a href="#第四章-串" class="headerlink" title="第四章 串"></a>第四章 串</h2>
       
+        <h3 id="串的顺序存储结构——顺序串"   >
+          <a href="#串的顺序存储结构——顺序串" class="heading-link"><i class="fas fa-link"></i></a><a href="#串的顺序存储结构——顺序串" class="headerlink" title="串的顺序存储结构——顺序串"></a>串的顺序存储结构——顺序串</h3>
+      <ul>
+<li>顺序串类与串的基本运算算法</li>
+</ul>
+<figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">SqStringClass</span> &lt;E&gt;&#123; <span class="comment">// 顺序串类</span></span><br><span class="line">    <span class="keyword">final</span> <span class="type">int</span> <span class="variable">MaxSize</span> <span class="operator">=</span> <span class="number">100</span>;</span><br><span class="line">    <span class="type">char</span>[] data;</span><br><span class="line">    <span class="type">int</span> size;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">SqStringClass</span><span class="params">()</span>&#123;</span><br><span class="line">        data = <span class="keyword">new</span> <span class="title class_">char</span>[MaxSize];</span><br><span class="line">        size = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 串的基本运算算法</span></span><br><span class="line">    <span class="keyword">public</span> SqStringClass <span class="title function_">subStr</span><span class="params">(<span class="type">int</span> i, <span class="type">int</span> j)</span>&#123;  <span class="comment">// 求子串</span></span><br><span class="line">        <span class="type">SqStringClass</span> <span class="variable">s</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">SqStringClass</span>();</span><br><span class="line">        <span class="keyword">if</span>(i &lt; <span class="number">0</span> || i &gt;= size || j &lt; <span class="number">0</span> || i + j &gt; size)</span><br><span class="line">            <span class="keyword">return</span> s;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> i; k &lt; i + j; k++)</span><br><span class="line">            s.data[k - i] = data[k];</span><br><span class="line">        s.size = j;</span><br><span class="line">        <span class="keyword">return</span> s;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="顺序串的应用算法设计示例"   >
+          <a href="#顺序串的应用算法设计示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#顺序串的应用算法设计示例" class="headerlink" title="顺序串的应用算法设计示例"></a>顺序串的应用算法设计示例</h3>
+      <ul>
+<li>设计一个算法Strcmp(s,t),以字典顺序比较两个英文字母串s和t的大小，假设两个串均以顺序串存储</li>
+</ul>
+<figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">int</span> <span class="title function_">Strcmp</span><span class="params">(SqStringClass s,SqStringClass t)</span>&#123;</span><br><span class="line">        <span class="type">int</span> comlen;</span><br><span class="line">        <span class="keyword">if</span>(s.size() &lt; t.size())</span><br><span class="line">            comlen = s.size();</span><br><span class="line">        <span class="keyword">else</span></span><br><span class="line">            comlen = t.size();</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">i</span> <span class="operator">=</span> <span class="number">0</span>; i &lt; comlen; i++)</span><br><span class="line">            <span class="keyword">if</span>(s.data[i] &gt; t.data[i])</span><br><span class="line">                <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(s.data[i] &lt; t.data[i])</span><br><span class="line">                <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">            <span class="keyword">if</span>(s.size() == t.size())</span><br><span class="line">                <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">if</span>(s.size() &gt; t.size())</span><br><span class="line">                <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">else</span> <span class="keyword">return</span> -<span class="number">1</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="串的链式存储结构——链串"   >
+          <a href="#串的链式存储结构——链串" class="heading-link"><i class="fas fa-link"></i></a><a href="#串的链式存储结构——链串" class="headerlink" title="串的链式存储结构——链串"></a>串的链式存储结构——链串</h3>
+      <ul>
+<li>链串结点类</li>
+</ul>
+<figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">LinkNode</span> &#123; <span class="comment">// 链串结点类型</span></span><br><span class="line">    <span class="type">char</span> data;</span><br><span class="line">    LinkNode next;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">LinkNode</span><span class="params">()</span>&#123;</span><br><span class="line">        next = <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">LinkNode</span><span class="params">(<span class="type">char</span> ch)</span>&#123;</span><br><span class="line">        data = ch;</span><br><span class="line">        next = <span class="literal">null</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></div></figure>
+
+<ul>
+<li>链串类与串的基本运算算法</li>
+</ul>
+<figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">LinkStringClass</span> &#123;  <span class="comment">// 链串类</span></span><br><span class="line">    LinkNode head;</span><br><span class="line">    <span class="type">int</span> size;</span><br><span class="line">    <span class="keyword">public</span> <span class="title function_">LinkStringClass</span><span class="params">()</span>&#123;</span><br><span class="line">        head = <span class="keyword">new</span> <span class="title class_">LinkNode</span>();</span><br><span class="line">        size = <span class="number">0</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="comment">// 串的基本运算算法</span></span><br><span class="line">    <span class="keyword">public</span> LinkStringClass <span class="title function_">insStr</span><span class="params">(<span class="type">int</span> i,LinkStringClass t)</span>&#123;    <span class="comment">// 串插入</span></span><br><span class="line">        <span class="type">LinkStringClass</span> <span class="variable">s</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">LinkStringClass</span>();</span><br><span class="line">        <span class="keyword">if</span>(i &lt; <span class="number">0</span> || i &gt; size)</span><br><span class="line">            <span class="keyword">return</span> s;</span><br><span class="line">        <span class="type">LinkNode</span> <span class="variable">p</span> <span class="operator">=</span> head.next,p1 = t.head.next,q,r;</span><br><span class="line">        r = s.head;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> <span class="variable">k</span> <span class="operator">=</span> <span class="number">0</span>; k &lt; i; k++)&#123;</span><br><span class="line">            q = <span class="keyword">new</span> <span class="title class_">LinkNode</span>(p.data);</span><br><span class="line">            r.next = q;</span><br><span class="line">            r = q;</span><br><span class="line">            p = p.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(p1 != <span class="literal">null</span>)&#123;</span><br><span class="line">            q = <span class="keyword">new</span> <span class="title class_">LinkNode</span>(p1.data);</span><br><span class="line">            r.next = q;</span><br><span class="line">            r = q;</span><br><span class="line">            p1 = p1.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">while</span>(p != <span class="literal">null</span>)&#123;</span><br><span class="line">            q = <span class="keyword">new</span> <span class="title class_">LinkNode</span>(p.data);</span><br><span class="line">            r.next = q;</span><br><span class="line">            r = q;</span><br><span class="line">            p = p.next;</span><br><span class="line">        &#125;</span><br><span class="line">        s.size = size + t.size;</span><br><span class="line">        r.next = <span class="literal">null</span>;</span><br><span class="line">        <span class="keyword">return</span> s;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h3 id="链串的应用算法设计示例"   >
+          <a href="#链串的应用算法设计示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#链串的应用算法设计示例" class="headerlink" title="链串的应用算法设计示例"></a>链串的应用算法设计示例</h3>
+      <ul>
+<li>(例题)设计一个算法StrEqual(s,t)比较两个链串s、t是否相等</li>
+</ul>
+<figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">StrEqual</span><span class="params">(LinkStringClass s, LinkStringClass t)</span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(s.size != t.size)</span><br><span class="line">            <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="type">LinkNode</span> <span class="variable">p</span> <span class="operator">=</span> s.head.next;</span><br><span class="line">        <span class="type">LinkNode</span> <span class="variable">q</span> <span class="operator">=</span> t.head.next;</span><br><span class="line">        <span class="keyword">while</span>(p != <span class="literal">null</span> &amp;&amp; q != <span class="literal">null</span>)&#123;</span><br><span class="line">            <span class="keyword">if</span>(p.data != q.data)</span><br><span class="line">                <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">            p = p.next;</span><br><span class="line">            q = q.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></div></figure>
+
+<ul>
+<li>(例题)以链串为串的存储结构，设计一个算法把一个链串s中最先出现的子串”ab”改为”xyz”，找到并成功替换返回true，否则返回false</li>
+</ul>
+<figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="type">boolean</span> <span class="title function_">replace</span><span class="params">(LinkStringClass s)</span>&#123;</span><br><span class="line">        <span class="type">LinkNode</span> <span class="variable">p</span> <span class="operator">=</span> s.head.next,q;</span><br><span class="line">        <span class="type">boolean</span> <span class="variable">find</span> <span class="operator">=</span> <span class="literal">false</span>;</span><br><span class="line">        <span class="keyword">while</span>(p.next != <span class="literal">null</span> &amp;&amp; !find)&#123;</span><br><span class="line">            <span class="keyword">if</span>(p.data == <span class="string">&#x27;a&#x27;</span> &amp;&amp; p.next.data == <span class="string">&#x27;b&#x27;</span>)&#123;</span><br><span class="line">                p.data = <span class="string">&#x27;x&#x27;</span>;</span><br><span class="line">                p.next.data = <span class="string">&#x27;z&#x27;</span>;</span><br><span class="line">                q = <span class="keyword">new</span> <span class="title class_">LinkNode</span>(<span class="string">&#x27;y&#x27;</span>);</span><br><span class="line">                q.next = p.next;</span><br><span class="line">                p.next = q;</span><br><span class="line">                find = <span class="literal">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span> p = p.next;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> find;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></div></figure>
+
+
         <h2 id="第五章-递归"   >
           <a href="#第五章-递归" class="heading-link"><i class="fas fa-link"></i></a><a href="#第五章-递归" class="headerlink" title="第五章 递归"></a>第五章 递归</h2>
       ]]></content>
@@ -1858,6 +1900,80 @@
       <tags>
         <tag>概率论</tag>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>精灵少女和怪兽男孩</title>
+    <url>/2022/07/20/%E7%B2%BE%E7%81%B5%E5%B0%91%E5%A5%B3%E5%92%8C%E6%80%AA%E5%85%BD%E7%94%B7%E5%AD%A9/</url>
+    <content><![CDATA[
+        <h2 id="Kpop中最特别的两个存在："   >
+          <a href="#Kpop中最特别的两个存在：" class="heading-link"><i class="fas fa-link"></i></a><a href="#Kpop中最特别的两个存在：" class="headerlink" title="Kpop中最特别的两个存在："></a>Kpop中最特别的两个存在：</h2>
+      <p>精灵少女函数f(x)和怪兽男孩文本txt。</p>
+<p>函数f(x) | <span class="exturl"><a class="exturl__link"   href="https://open.spotify.com/track/1xbJNPLSTtIWgGTt3Uu4gl?si=b03d31cd063c4285" >미행 (그림자: Shadow)</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>文本txt | <span class="exturl"><a class="exturl__link"   href="https://open.spotify.com/track/0EmYZZ8OqeALedVhijSjsg?si=e636bbc1dc6048c6" >어느날 머리에서 뿔이 자랐다 (CROWN)</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+]]></content>
+      <tags>
+        <tag>Music</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重温《千与千寻》</title>
+    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
+    <content><![CDATA[
+        <h2 id="重温《千与千寻》"   >
+          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
+      <p>天赋、坚韧和赶上好时候</p>
+]]></content>
+      <tags>
+        <tag>日记</tag>
+        <tag>电影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>读过的书（文史类）</title>
+    <url>/2022/06/09/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6%EF%BC%88%E6%96%87%E5%8F%B2%E7%B1%BB%EF%BC%89/</url>
+    <content><![CDATA[
+        <h2 id="读过的书（文史类）"   >
+          <a href="#读过的书（文史类）" class="heading-link"><i class="fas fa-link"></i></a><a href="#读过的书（文史类）" class="headerlink" title="读过的书（文史类）"></a>读过的书（文史类）</h2>
+      <p>之所以会有汇总以前读过的书的念头，是之前登录图书管理系统查看超期图书时，在分类栏中头一次看到自己全部的借阅记录。</p>
+<p>高中在<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/web/bookDetail/7e632350811e60c82g015228" >《语文基础知识手册》</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>上背过很多的诗词，到现在基本都忘了，大一时背的《唐诗三百首》也是。</p>
+<p>唯一印象深刻，且时时勉励自己的，是那句「行百里者，半九十」。</p>
+<p>很多事，往往到最后关头最容易放弃，然而其实只要再坚持一下，总是会有不同的、豁然开朗的风景。</p>
+<p>因而希望自己，在面对不同程度的困境时，都能理性地、客观地反求诸己，意识到自己认知上的局限性，秉持着皓首穷经的目标，一直坚持。</p>
+<p>于是从图书馆系统中，将书目借阅历史导出为excel表格，并删除重复借阅的记录和其它类型的书籍。</p>
+<p>此外再补充一些<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/" >微信读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、<span class="exturl"><a class="exturl__link"   href="https://du.163.com/" >网易蜗牛读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>和能记起来的部分中小学的阅读记录，然后通过<span class="exturl"><a class="exturl__link"   href="https://m.douban.com/subject_collection/book_top250" >豆瓣读书Top250</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>进行查漏补缺，最后汇总成以下<span class="exturl"><a class="exturl__link"   href="https://share.weiyun.com/Om2GCzKB" >Excel表格</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>。</p>
+]]></content>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>重现:历久弥新的光影世界</title>
+    <url>/2022/07/20/%E9%87%8D%E7%8E%B0%EF%BC%9A%E5%8E%86%E4%B9%85%E5%BC%A5%E6%96%B0%E7%9A%84%E5%85%89%E5%BD%B1%E4%B8%96%E7%95%8C/</url>
+    <content><![CDATA[
+        <h2 id="记录-豆瓣年度电影榜单"   >
+          <a href="#记录-豆瓣年度电影榜单" class="heading-link"><i class="fas fa-link"></i></a><a href="#记录-豆瓣年度电影榜单" class="headerlink" title="记录:豆瓣年度电影榜单"></a>记录:豆瓣年度电影榜单</h2>
+      <p>豆瓣2022年度电影榜单:</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2022?amp;fullscreen=1" >豆瓣2022年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2021年度电影榜单:</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2021?source=movie_navigation" >豆瓣2021年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2020年度电影榜单:</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2020?source=navigation" >豆瓣2020年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2019年度电影榜单:</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2019?source=navigation" >豆瓣2019年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2018年度电影榜单:</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2018?source=movie_navigation#33" >豆瓣2018年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2017年度电影榜单:</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2017?source=broadcast&amp;dt_platform=douban_broadcast&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2017年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2016年度电影榜单：</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual2016/?source=movie_annual&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2016年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2015年度电影榜单:</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual2015/?source=movie_annual&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2015年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>豆瓣2014年度电影榜单：</p>
+<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/review2014/?bid=gVzx19kzY50&amp;channel=0&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2014年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+]]></content>
+      <tags>
+        <tag>Film</tag>
       </tags>
   </entry>
   <entry>
@@ -2296,80 +2412,6 @@
         <tag>笔记</tag>
         <tag>离散数学</tag>
         <tag>Discrete Mathematics</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>精灵少女和怪兽男孩</title>
-    <url>/2022/07/20/%E7%B2%BE%E7%81%B5%E5%B0%91%E5%A5%B3%E5%92%8C%E6%80%AA%E5%85%BD%E7%94%B7%E5%AD%A9/</url>
-    <content><![CDATA[
-        <h2 id="Kpop中最特别的两个存在："   >
-          <a href="#Kpop中最特别的两个存在：" class="heading-link"><i class="fas fa-link"></i></a><a href="#Kpop中最特别的两个存在：" class="headerlink" title="Kpop中最特别的两个存在："></a>Kpop中最特别的两个存在：</h2>
-      <p>精灵少女函数f(x)和怪兽男孩文本txt。</p>
-<p>函数f(x) | <span class="exturl"><a class="exturl__link"   href="https://open.spotify.com/track/1xbJNPLSTtIWgGTt3Uu4gl?si=b03d31cd063c4285" >미행 (그림자: Shadow)</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>文本txt | <span class="exturl"><a class="exturl__link"   href="https://open.spotify.com/track/0EmYZZ8OqeALedVhijSjsg?si=e636bbc1dc6048c6" >어느날 머리에서 뿔이 자랐다 (CROWN)</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-]]></content>
-      <tags>
-        <tag>Music</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重温《千与千寻》</title>
-    <url>/2022/06/10/%E9%87%8D%E6%B8%A9%E3%80%8A%E5%8D%83%E4%B8%8E%E5%8D%83%E5%AF%BB%E3%80%8B/</url>
-    <content><![CDATA[
-        <h2 id="重温《千与千寻》"   >
-          <a href="#重温《千与千寻》" class="heading-link"><i class="fas fa-link"></i></a><a href="#重温《千与千寻》" class="headerlink" title="重温《千与千寻》"></a>重温《千与千寻》</h2>
-      <p>天赋、坚韧和赶上好时候</p>
-]]></content>
-      <tags>
-        <tag>日记</tag>
-        <tag>电影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>重现:历久弥新的光影世界</title>
-    <url>/2022/07/20/%E9%87%8D%E7%8E%B0%EF%BC%9A%E5%8E%86%E4%B9%85%E5%BC%A5%E6%96%B0%E7%9A%84%E5%85%89%E5%BD%B1%E4%B8%96%E7%95%8C/</url>
-    <content><![CDATA[
-        <h2 id="记录-豆瓣年度电影榜单"   >
-          <a href="#记录-豆瓣年度电影榜单" class="heading-link"><i class="fas fa-link"></i></a><a href="#记录-豆瓣年度电影榜单" class="headerlink" title="记录:豆瓣年度电影榜单"></a>记录:豆瓣年度电影榜单</h2>
-      <p>豆瓣2022年度电影榜单:</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2022?amp;fullscreen=1" >豆瓣2022年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2021年度电影榜单:</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2021?source=movie_navigation" >豆瓣2021年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2020年度电影榜单:</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2020?source=navigation" >豆瓣2020年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2019年度电影榜单:</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2019?source=navigation" >豆瓣2019年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2018年度电影榜单:</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2018?source=movie_navigation#33" >豆瓣2018年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2017年度电影榜单:</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual/2017?source=broadcast&amp;dt_platform=douban_broadcast&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2017年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2016年度电影榜单：</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual2016/?source=movie_annual&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2016年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2015年度电影榜单:</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/annual2015/?source=movie_annual&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2015年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>豆瓣2014年度电影榜单：</p>
-<p><span class="exturl"><a class="exturl__link"   href="https://movie.douban.com/review2014/?bid=gVzx19kzY50&amp;channel=0&amp;dt_dapp=1&amp;dt_dapp=1" >豆瓣2014年度电影榜单</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-]]></content>
-      <tags>
-        <tag>Film</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>读过的书（文史类）</title>
-    <url>/2022/06/09/%E8%AF%BB%E8%BF%87%E7%9A%84%E4%B9%A6%EF%BC%88%E6%96%87%E5%8F%B2%E7%B1%BB%EF%BC%89/</url>
-    <content><![CDATA[
-        <h2 id="读过的书（文史类）"   >
-          <a href="#读过的书（文史类）" class="heading-link"><i class="fas fa-link"></i></a><a href="#读过的书（文史类）" class="headerlink" title="读过的书（文史类）"></a>读过的书（文史类）</h2>
-      <p>之所以会有汇总以前读过的书的念头，是之前登录图书管理系统查看超期图书时，在分类栏中头一次看到自己全部的借阅记录。</p>
-<p>高中在<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/web/bookDetail/7e632350811e60c82g015228" >《语文基础知识手册》</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>上背过很多的诗词，到现在基本都忘了，大一时背的《唐诗三百首》也是。</p>
-<p>唯一印象深刻，且时时勉励自己的，是那句「行百里者，半九十」。</p>
-<p>很多事，往往到最后关头最容易放弃，然而其实只要再坚持一下，总是会有不同的、豁然开朗的风景。</p>
-<p>因而希望自己，在面对不同程度的困境时，都能理性地、客观地反求诸己，意识到自己认知上的局限性，秉持着皓首穷经的目标，一直坚持。</p>
-<p>于是从图书馆系统中，将书目借阅历史导出为excel表格，并删除重复借阅的记录和其它类型的书籍。</p>
-<p>此外再补充一些<span class="exturl"><a class="exturl__link"   href="https://weread.qq.com/" >微信读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>、<span class="exturl"><a class="exturl__link"   href="https://du.163.com/" >网易蜗牛读书</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>和能记起来的部分中小学的阅读记录，然后通过<span class="exturl"><a class="exturl__link"   href="https://m.douban.com/subject_collection/book_top250" >豆瓣读书Top250</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>进行查漏补缺，最后汇总成以下<span class="exturl"><a class="exturl__link"   href="https://share.weiyun.com/Om2GCzKB" >Excel表格</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span>。</p>
-]]></content>
-      <tags>
-        <tag>书籍</tag>
       </tags>
   </entry>
 </search>
