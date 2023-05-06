@@ -1,0 +1,716 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><link rel="icon" href="/images/icons/favicon01-16x16.png?v=2.6.2" type="image/png" sizes="16x16"><link rel="icon" href="/images/icons/favicon01-32x32.png?v=2.6.2" type="image/png" sizes="32x32"><meta name="description" content="C 语言模拟考试 6                          1.单选题（2 分）          定义如下变量和数组： int i;int x[3][3]&#x3D;{1,2,3,4,5,6,7,8,9}; 则下面语句的输出结果是( )。 for(i&#x3D;0;i&lt;3;i++) printf(“%d”,x[i][2-i]);A、159B、147C、357">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C语言模拟考试6">
+<meta property="og:url" content="https://ronrnrn.github.io/2023/05/06/C%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%956/index.html">
+<meta property="og:site_name" content="Ron Rao&#39;s Blog">
+<meta property="og:description" content="C 语言模拟考试 6                          1.单选题（2 分）          定义如下变量和数组： int i;int x[3][3]&#x3D;{1,2,3,4,5,6,7,8,9}; 则下面语句的输出结果是( )。 for(i&#x3D;0;i&lt;3;i++) printf(“%d”,x[i][2-i]);A、159B、147C、357">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-05-06T12:31:25.062Z">
+<meta property="article:modified_time" content="2023-05-06T14:17:19.232Z">
+<meta property="article:author" content="Ron Rao">
+<meta property="article:tag" content="c语言模拟考试">
+<meta name="twitter:card" content="summary"><title>C语言模拟考试6 | Ron Rao's Blog</title><link ref="canonical" href="https://ronrnrn.github.io/2023/05/06/C%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%956/"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.12.1/css/all.min.css" type="text/css"><link rel="stylesheet" href="/css/index.css?v=2.6.2"><script>var Stun = window.Stun || {};
+var CONFIG = {
+  root: '/',
+  algolia: undefined,
+  assistSearch: undefined,
+  fontIcon: {"prompt":{"success":"fas fa-check-circle","info":"fas fa-arrow-circle-right","warning":"fas fa-exclamation-circle","error":"fas fa-times-circle"},"copyBtn":"fas fa-copy"},
+  sidebar: {"offsetTop":"20px","tocMaxDepth":6},
+  header: {"enable":true,"showOnPost":false,"scrollDownIcon":true},
+  postWidget: {"endText":true},
+  nightMode: {"enable":true},
+  back2top: {"enable":true},
+  codeblock: {"style":"default","highlight":"light","wordWrap":false},
+  reward: false,
+  fancybox: false,
+  zoomImage: {"gapAside":"20px"},
+  galleryWaterfall: undefined,
+  lazyload: false,
+  pjax: undefined,
+  externalLink: {"icon":{"enable":true,"name":"fas fa-external-link-alt"}},
+  shortcuts: undefined,
+  prompt: {"copyButton":"复制","copySuccess":"复制成功","copyError":"复制失败"},
+  sourcePath: {"js":"js","css":"css","images":"images"},
+};
+
+window.CONFIG = CONFIG;</script><meta name="generator" content="Hexo 5.4.2"></head><body><div class="container" id="container"><header class="header" id="header"><div class="header-inner header-inner--height header-inner--bgcolor"><nav class="header-nav header-nav--sticky"><div class="header-nav-inner"><div class="header-nav-menubtn"><i class="fas fa-bars"></i></div><div class="header-nav-menu"><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/"><span class="header-nav-menu-item__icon"><i class="fas fa-home"></i></span><span class="header-nav-menu-item__text">首页</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/archives/"><span class="header-nav-menu-item__icon"><i class="fas fa-folder-open"></i></span><span class="header-nav-menu-item__text">归档</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/categories/"><span class="header-nav-menu-item__icon"><i class="fas fa-layer-group"></i></span><span class="header-nav-menu-item__text">分类</span></a></div><div class="header-nav-menu-item"><a class="header-nav-menu-item__link" href="/tags/"><span class="header-nav-menu-item__icon"><i class="fas fa-tags"></i></span><span class="header-nav-menu-item__text">标签</span></a></div></div><div class="header-nav-mode"><div class="mode"><div class="mode-track"><span class="mode-track-moon"></span><span class="mode-track-sun"></span></div><div class="mode-thumb"></div></div></div></div></nav></div></header><main class="main" id="main"><div class="main-inner"><div class="content-wrap" id="content-wrap"><div class="content" id="content"><!-- Just used to judge whether it is an article page--><div id="is-post"></div><div class="post"><header class="post-header"><h1 class="post-title">C语言模拟考试6</h1><div class="post-meta"><span class="post-meta-item post-meta-item--createtime"><span class="post-meta-item__icon"><i class="far fa-calendar-plus"></i></span><span class="post-meta-item__info">发表于</span><span class="post-meta-item__value">2023-05-06</span></span><span class="post-meta-item post-meta-item--updatetime"><span class="post-meta-item__icon"><i class="far fa-calendar-check"></i></span><span class="post-meta-item__info">更新于</span><span class="post-meta-item__value">2023-05-06</span></span><span class="post-meta-item post-meta-item--wordcount"><span class="post-meta-item__icon"><i class="far fa-file-word"></i></span><span class="post-meta-item__info">字数统计</span><span class="post-meta-item__value">3k</span></span><span class="post-meta-item post-meta-item--readtime"><span class="post-meta-item__icon"><i class="far fa-clock"></i></span><span class="post-meta-item__info">阅读时长</span><span class="post-meta-item__value">23分</span></span></div></header><div class="post-body">
+        <h1 id="C-语言模拟考试-6"   >
+          <a href="#C-语言模拟考试-6" class="heading-link"><i class="fas fa-link"></i></a><a href="#C-语言模拟考试-6" class="headerlink" title="C 语言模拟考试 6"></a>C 语言模拟考试 6</h1>
+      
+    <div class="note-plugin info no-icon">
+      
+      <p>1.单选题（2 分）</p>
+    </div>
+  
+
+<p>定义如下变量和数组： int i;int x[3][3]={1,2,3,4,5,6,7,8,9}; 则下面语句的输出结果是( )。</p>
+<p>for(i=0;i&lt;3;i++)</p>
+<p>printf(“%d”,x[i][2-i]);<br>A、159<br>B、147<br>C、357<br>D、369</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>2.单选题（2 分）</p>
+    </div>
+  
+
+<p>下列叙述错误的是( )。<br>A、break 语句可以使程序流程从 switch 语句中跳出来<br>B、break 语句可以使程序流程从 while、dowhile、for 语句中跳出来<br>C、continue 语句可以使程序流程从 switch 语句中跳出来<br>D、continue 语句可以提前结束当前循环</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>3.单选题（2 分）</p>
+    </div>
+  
+
+<p>设有程序段 int k=0;while(k=0)k=k-1;则下面描述中正确的是( )。<br>A、while 循环条件错误<br>B、循环是无限循环即死循环<br>C、循环体语句一次也不执行<br>D、循环体语句执行一次</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>4.单选题（2 分）</p>
+    </div>
+  
+
+<p>执行下列程序段后，i、s 的值分别是( )。 Int i=1,s=0; while(i&lt;=3) {s+=i;i++;}<br>A、36<br>B、46<br>C、310<br>D、410</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>5.单选题（2 分）</p>
+    </div>
+  
+
+<p>若 int x，*pb；，则正确的赋值表达式是( )。<br>A、pb=&amp;x ;<br>B、pb=x;<br>C、<em>pb=&amp;x ;<br>D、</em>pb=*x;</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>6.单选题（2 分）</p>
+    </div>
+  
+
+<p>用数组名作为函数调用的实参，传递给形参的是( )。<br>A、数组的首地址<br>B、数组第一个元素的值<br>C、数组中全部元素的值<br>D、数组元素的个数</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>7.单选题（2 分）</p>
+    </div>
+  
+
+<p>字符串复制函数是( )。<br>A、strcpy()<br>B、strcat()<br>C、strlen()<br>D、struct()</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>8.单选题（2 分）</p>
+    </div>
+  
+
+<p>C 语言是一种( )。<br>A、机器语言<br>B、符号语言<br>C、高级语言<br>D、面向对象的语言</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>9.单选题（2 分）</p>
+    </div>
+  
+
+<p>下列式子中，是字符型常量的是( )。<br>A、’a’<br>B、”a”<br>C、’ab’<br>D、”ab”</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>10.单选题（2 分）</p>
+    </div>
+  
+
+<p>若有以下定义和语句： char c1=’b’,c2=’e’; printf(“%d\n”,c2-c1); 则输出结果是( )。<br>A、1<br>B、3<br>C、2<br>D、输出结果不确定</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>11.单选题（2 分）</p>
+    </div>
+  
+
+<p>在 C 语言中,下面对文件的叙述正确的是（ ）。<br>A、用“r”方式打开的文件只能向文件写数据<br>B、用“r”方式打开文件也可以修改<br>C、用“w”方式打开的文件只能用于向文件写数据,且该文件可以不存在<br>D、用“a”方式可以打开不存在的文件</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>12.单选题（2 分）</p>
+    </div>
+  
+
+<p>在 C 语言中,当文件指针变量 fp 未指向“文件末尾”,则函数 feof(fp)的值是（）。<br>A、.T.<br>B、.F.<br>C、0<br>D、非 0</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>13.单选题（2 分）</p>
+    </div>
+  
+
+<p>C 语言中，下面的变量表示文件指针变量的是（ ）。<br>A、FILE*fp<br>B、FILE fp;<br>C、FILER *fp<br>D、file *fp</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>14.单选题（2 分）</p>
+    </div>
+  
+
+<p>当顺利执行了文件关闭操作时，fclose 函数的返回值是（）。<br>A、-1<br>B、true<br>C、1<br>D、0</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：D</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>15.单选题（2 分）</p>
+    </div>
+  
+
+<p>下列程序的输出结果是（ ）。</p>
+<p>#include”stdio.h”</p>
+<p>main()</p>
+<p>{ struct abc{int a;int b;};</p>
+<p>struct abc s[2]={ {1,2},{4,5} };</p>
+<p>int i; i=s[1].a+s[0].b;</p>
+<p>printf(“%d\n”,i);}<br>A、5<br>B、6<br>C、7<br>D、8</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>16.单选题（2 分）</p>
+    </div>
+  
+
+<p>C 语言中，下面结构体的定义语句，错误的是（ ）。<br>A、struct ord {int x;int y;int z;}; struct ord a;<br>B、struct ord {int x;int y;int z;}struct ord a;<br>C、struct ord {int x;int y;int z;}a;<br>D、struct {int x;int y;int z;} a;</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>17.单选题（2 分）</p>
+    </div>
+  
+
+<p>在 VC++6.0 中已知： struct { int i； char c； float a； }test； 则 sizeof(test)的值是（ ）。<br>A、4<br>B、5<br>C、6<br>D、12</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：D</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>18.单选题（2 分）</p>
+    </div>
+  
+
+<p>以下对结构变量 stu1 中成员 age 的非法引用是（ ）。</p>
+<p>struct student { int age； int num； }stu1,*p；</p>
+<p>p=&amp;stu1；<br>A、stu1.age<br>B、student.age<br>C、p-&gt;age<br>D、(*p).age</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>19.单选题（2 分）</p>
+    </div>
+  
+
+<p>下面程序运行后的输出结果是（ ）。</p>
+<figure class="highlight c"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">main()</span><br><span class="line"></span><br><span class="line">&#123;<span class="class"><span class="keyword">struct</span> <span class="title">person</span> &#123;</span><span class="type">char</span> name[<span class="number">9</span>];<span class="type">int</span> age;&#125;;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">person</span> <span class="title">clas</span>[10]=</span>&#123; &#123;<span class="string">&quot;Johu&quot;</span>,<span class="number">17</span>&#125;,&#123;<span class="string">&quot;Paul&quot;</span>,<span class="number">19</span>&#125;,&#123;<span class="string">&quot;Mary&quot;</span>,<span class="number">18</span>&#125;,&#123;<span class="string">&quot;Adam&quot;</span>,<span class="number">16</span>&#125; &#125;; <span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,clas[<span class="number">3</span>].name);&#125;</span><br></pre></td></tr></table></div></figure>
+
+<p>A、Adam<br>B、Johu<br>C、Paul<br>D、Mary</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>20.单选题（2 分）</p>
+    </div>
+  
+
+<p>有如下定义:</p>
+<figure class="highlight c"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">date</span></span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&#123;</span><span class="type">int</span> year,month,day;&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">worklist</span></span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&#123;</span><span class="type">char</span> name[<span class="number">20</span>];</span><br><span class="line"></span><br><span class="line"><span class="type">char</span> sex;<span class="class"><span class="keyword">struct</span> <span class="title">date</span> <span class="title">birthday</span>;</span>&#125;personone;</span><br></pre></td></tr></table></div></figure>
+
+<p>对结构体变量 personone 的出生年份进行赋值时,下面正确的赋值语句是（ ）。<br>A、year=1968<br>B、birthday.year=1968<br>C、personone.birthday.year=1968<br>D、personone.year=1968</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>21.单选题（2 分）</p>
+    </div>
+  
+
+<p>有以下程序</p>
+<figure class="highlight c"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&#123;</span> <span class="type">int</span> num;<span class="type">double</span> s;&#125;REC;</span><br><span class="line"></span><br><span class="line"><span class="type">void</span> <span class="title function_">fun1</span><span class="params">( REC x )</span></span><br><span class="line"></span><br><span class="line">&#123; x.num=<span class="number">23</span>; x.s=<span class="number">88.5</span>; &#125;</span><br><span class="line"></span><br><span class="line">main( )</span><br><span class="line"></span><br><span class="line">&#123; REC a=&#123;<span class="number">16</span>,<span class="number">90.0</span> &#125;;</span><br><span class="line"></span><br><span class="line">fun1(a);</span><br><span class="line"></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,a.num); &#125;</span><br></pre></td></tr></table></div></figure>
+
+<p>程序运行后的输出结果是（ ）。<br>A、16<br>B、23<br>C、88<br>D、90</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>22.单选题（2 分）</p>
+    </div>
+  
+
+<p>一个函数返回值的类型是由（ ）。<br>A、return 语句中的表达式类型决定<br>B、定义函数时所指定的函数类型决定<br>C、调用该函数的主调函数的类型决定<br>D、在调用函数时临时指定</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>23.单选题（2 分）</p>
+    </div>
+  
+
+<p>以下 fun 函数的类型是（ ）。</p>
+<p>fun(float x)</p>
+<p>{print f(“%d\n”,x*x);}<br>A、与参数 x 的类型相同<br>B、void 类型<br>C、int 类型<br>D、无法确定</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>24.单选题（2 分）</p>
+    </div>
+  
+
+<p>返回值为 void 的函数,其含义是（ ）。<br>A、调用函数之后,被调用的函数没有返回值<br>B、调用函数之后,被调用的函数不返回<br>C、调用函数之后,被调用的函数的返回值为任意的类型<br>D、以上三种说法都是错误的</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>25.单选题（2 分）</p>
+    </div>
+  
+
+<p>有如下函数调用语句 fuc(rec2+rec3,(rec4,rec5));该函数调用语句中,含有的实参个数是( )。</p>
+<p>A、2<br>B、3<br>C、5<br>D、有语法错</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>26.单选题（2 分）</p>
+    </div>
+  
+
+<p>有以下函数定义:void fun(int n,double x){ }若以下选项中的变量都已经正确定义并赋值,则对函数 fun 的正确调用语句是()。<br>A、fun(int y);<br>B、k=fun(10);<br>C、fun(x,n);<br>D、void fun(n,x);</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>27.单选题（2 分）</p>
+    </div>
+  
+
+<p>下列函数中，属于用户自定义函数的是（ ）。<br>A、getchar<br>B、fun1<br>C、strcmp<br>D、sqrt</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>28.单选题（2 分）</p>
+    </div>
+  
+
+<p>设有如下的函数 float ggg（float x）{printf（\n%f，x*x）；} 则函数的类型（ ）。<br>A、与参数 x 的类型相同<br>B、void<br>C、int<br>D、无法确定</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>29.单选题（2 分）</p>
+    </div>
+  
+
+<p>以下是 C 语言中输出单个字符函数的是（ ）。<br>A、input<br>B、putchar<br>C、puts<br>D、printf</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>30.单选题（2 分）</p>
+    </div>
+  
+
+<p>若有以下定义和语句：int a[10]={1，2，3，4，5，6，7，8，9，10}，*p=a； 则不能表示 a 数组元素的表达式是（ ）。<br>A、<em>p<br>B、a[10]<br>C、</em>a<br>D、a[p-a]</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>31.单选题（2 分）</p>
+    </div>
+  
+
+<p>要求函数的功能是交换 x 和 y 中的值，且通过正确调用返回交换结果.能正确执行此功能的函数是（ ）。<br>A、fun (int *x,int *y) {int p; p=*x; *x=*y; *y=p; }<br>B、fun (int x, int y) {int t; t=x; X=y; y=t; }<br>C、fun (int *x, int *y) {*x=*y; *y=*x; }<br>D、fun (int <em>x, int</em>y){*x=*x+*y; *y=*x-*y;*x=*x-*y;}</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>32.单选题（2 分）</p>
+    </div>
+  
+
+<p>已知：int a, *y=&amp;a；则下列函数调用中错误的是（ ）。<br>A、scanf(“%d”, &amp;a);<br>B、scanf(“%d”,y);<br>C、printf(“%d”, a);<br>D、printf(“%d”,y)</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：D</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>33.单选题（2 分）</p>
+    </div>
+  
+
+<p>有如下程序段 int *p，a=10，b=1； p=&amp;a； a=*p+b； 执行该程序段后，a 的值为（ ）。<br>A、12<br>B、11<br>C、10<br>D、编译出错</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>34.单选题（2 分）</p>
+    </div>
+  
+
+<p>程序中有下面的说明和定义 struct abc {int x；char y；} struct ab s1，s2； 则会发生的情况是（）。<br>A、编译出错<br>B、程序将顺利编译、连接、执行<br>C、能顺利通过编译、连接、但不能执行<br>D、能顺利通过编译、但连接出错</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>35.单选题（2 分）</p>
+    </div>
+  
+
+<p>设有以下说明语句：struct stu{int a；float b；}stutype； 则下面的叙述不正确的是（ ）。<br>A、struct 是结构体类型的关键字<br>B、struct stu 是用户定义的结构体类型<br>C、stutype 是用户定义的结构体类型名<br>D、a 和 b 都是结构体成员名</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：C</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>36.单选题（2 分）</p>
+    </div>
+  
+
+<p>设有如下定义： struct sk{int a；float b；}data，*p； 若有 p=&amp;data；，则对 data 中的 a 域的正确引用是（ ）。<br>A、(*p) .data.a<br>B、(*p) .a<br>C、p-&gt;data.a<br>D、p.data.a</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>37.单选题（2 分）</p>
+    </div>
+  
+
+<p>说明一个结构体变量时系统分配给它的内存是（ ）。<br>A、各成员所需要内存量的总和<br>B、结构体中第一个成员所需内存量<br>C、成员中占内存量最大者所需的容量<br>D、结构中最后一个成员所需内存量</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：A</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>38.单选题（2 分）</p>
+    </div>
+  
+
+<p>下列程序的输出结果是（ ）。</p>
+<figure class="highlight c"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span><span class="string">&quot;stdio.h&quot;</span></span></span><br><span class="line"></span><br><span class="line">main( )</span><br><span class="line"></span><br><span class="line">&#123;<span class="class"><span class="keyword">struct</span> <span class="title">abc</span></span></span><br><span class="line"><span class="class"></span></span><br><span class="line"><span class="class">&#123;</span><span class="type">int</span> a;<span class="type">int</span> b;<span class="type">int</span> c;&#125;;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">abc</span> <span class="title">s</span>[2]=</span>&#123; &#123;<span class="number">1</span>,<span class="number">2</span>,<span class="number">3</span>&#125;,&#123;<span class="number">4</span>,<span class="number">5</span>,<span class="number">6</span>&#125;&#125;;</span><br><span class="line"></span><br><span class="line"><span class="type">int</span> t; t=s[<span class="number">0</span>].a+s[<span class="number">1</span>].b;</span><br><span class="line"></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,t);&#125;</span><br></pre></td></tr></table></div></figure>
+<p>A、5<br>B、6<br>C、7<br>D、8</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>39.单选题（2 分）</p>
+    </div>
+  
+
+<p>下面结构体的定义语句中，错误的是（ ）。<br>A、struct ord {int x;int y;int z;}; struct ord a;<br>B、struct ord {int x;int y;int z;}struct ord a;<br>C、struct ord {int x;int y;int z;}a;<br>D、struct {int x;int y;int z;} a;</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：B</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>40.单选题（2 分）</p>
+    </div>
+  
+
+<p>有如下定义</p>
+<p>struct person</p>
+<p>{char name[9]；int age；}；</p>
+<p>struct person class[10]={“Johu”，17，”Paul”，19，”Mary”，18，”Adam”，16}； 根据上述定义，能输出字母 M 的语句是（ ）。<br>A、prinft ( “%c\n”, class[3].name) ;<br>B、printf ( “%c\n”, class[3].name[1]) ;<br>C、prinft ( “%c\n”, class[2].name[1]) ;<br>D、printf ( “%c\n”, class[2].name[0]) ;</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：D</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>41.判断题（2 分）</p>
+    </div>
+  
+
+<p>break 语句和 continue 语句可以应用于任何 C 语言语句中，结束语句的执行。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：错误</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>42.判断题（2 分）</p>
+    </div>
+  
+
+<p>continue 语句和 break 语句用在循环体中，都是结束本次循环。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：错误</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>43.判断题（2 分）</p>
+    </div>
+  
+
+<p>建立函数的目的之一是提高程序的可读性。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：正确</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>44.判断题（2 分）</p>
+    </div>
+  
+
+<p>一个 C 程序可以有一个或多个主函数。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：错误</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>45.判断题（2 分）</p>
+    </div>
+  
+
+<p>定义符号常量的命令是#define。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：正确</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>46.判断题（2 分）</p>
+    </div>
+  
+
+<p>for 循环是先执行循环体语句，后判断表达式。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：错误</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>47.判断题（2 分）</p>
+    </div>
+  
+
+<p>C 语言中表达式 sizeof(double)的值是 8( )。</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：正确</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>48.判断题（2 分）</p>
+    </div>
+  
+
+<p>i=3;执行语句++i,后变量 i 的值为 4。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：正确</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>49.判断题（2 分）</p>
+    </div>
+  
+
+<p>若有 int a[]={10,20,30,40,50},则数组 a 的实际长度为 5。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：正确</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+    <div class="note-plugin info no-icon">
+      
+      <p>50.判断题（2 分）</p>
+    </div>
+  
+
+<p>sum 和 Sum 不是相同的标识符。( )</p>
+<details>
+<summary>正确答案</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">正确答案：正确</span><br></pre></td></tr></table></div></figure>
+</details>
+</div><footer class="post-footer"><div class="post-ending ending"><div class="ending__text">------ 本文结束，感谢您的阅读 ------</div></div><div class="post-copyright copyright"><div class="copyright-author"><span class="copyright-author__name">本文作者: </span><span class="copyright-author__value"><a href="https://ronrnrn.github.io">Ron Rao</a></span></div><div class="copyright-link"><span class="copyright-link__name">本文链接: </span><span class="copyright-link__value"><a href="https://ronrnrn.github.io/2023/05/06/C%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%956/">https://ronrnrn.github.io/2023/05/06/C%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%956/</a></span></div><div class="copyright-notice"><span class="copyright-notice__name">版权声明: </span><span class="copyright-notice__value">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" rel="external nofollow" target="_blank">BY-NC-SA</a> 许可协议。转载请注明出处！</span></div></div><div class="post-tags"><span class="post-tags-item"><span class="post-tags-item__icon"><i class="fas fa-tag"></i></span><a class="post-tags-item__link" href="https://ronrnrn.github.io/tags/c%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%95/">c语言模拟考试</a></span></div><nav class="post-paginator paginator"><div class="paginator-prev"><a class="paginator-prev__link" href="/2023/05/06/C%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%957/"><span class="paginator-prev__icon"><i class="fas fa-angle-left"></i></span><span class="paginator-prev__text">C语言模拟考试7</span></a></div><div class="paginator-next"><a class="paginator-next__link" href="/2023/05/06/C%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%955/"><span class="paginator-prev__text">C语言模拟考试5</span><span class="paginator-next__icon"><i class="fas fa-angle-right"></i></span></a></div></nav></footer></div></div></div><div class="sidebar-wrap" id="sidebar-wrap"><aside class="sidebar" id="sidebar"><div class="sidebar-nav"><span class="sidebar-nav-toc current">文章目录</span><span class="sidebar-nav-ov">站点概览</span></div><section class="sidebar-toc"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#C-%E8%AF%AD%E8%A8%80%E6%A8%A1%E6%8B%9F%E8%80%83%E8%AF%95-6"><span class="toc-number">1.</span> <span class="toc-text">
+          C 语言模拟考试 6</span></a></li></ol></section><!-- ov = overview--><section class="sidebar-ov hide"><div class="sidebar-ov-author"><div class="sidebar-ov-author__avatar"><img class="sidebar-ov-author__avatar_img" src="/images/icons/avatar.jpg" alt="avatar"></div><p class="sidebar-ov-author__text">风吹山角晦还明。</p></div><div class="sidebar-ov-social"><a class="sidebar-ov-social-item" href="https://github.com/ronrnrn" target="_blank" rel="noopener" data-popover="Github" data-popover-pos="up"><span class="sidebar-ov-social-item__icon"><i class="fab fa-github"></i></span></a></div><div class="sidebar-ov-state"><a class="sidebar-ov-state-item sidebar-ov-state-item--posts" href="/archives/"><div class="sidebar-ov-state-item__count">48</div><div class="sidebar-ov-state-item__name">归档</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--categories" href="/categories/"><div class="sidebar-ov-state-item__count">13</div><div class="sidebar-ov-state-item__name">分类</div></a><a class="sidebar-ov-state-item sidebar-ov-state-item--tags" href="/tags/"><div class="sidebar-ov-state-item__count">37</div><div class="sidebar-ov-state-item__name">标签</div></a></div><div class="sidebar-ov-cc"><a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en" target="_blank" rel="noopener" data-popover="知识共享许可协议" data-popover-pos="up"><img src="/images/cc-by-nc-sa.svg"></a></div></section><div class="sidebar-reading"><div class="sidebar-reading-info"><span class="sidebar-reading-info__text">你已阅读了 </span><span class="sidebar-reading-info__num">0</span><span class="sidebar-reading-info__perc">%</span></div><div class="sidebar-reading-line"></div></div></aside></div><div class="clearfix"></div></div></main><footer class="footer" id="footer"><div class="footer-inner"><div><span>Copyright © 2023</span><span class="footer__icon"><i class="fas fa-heart"></i></span><span>Ron Rao</span></div><div><span>由 <a href="http://hexo.io/" title="Hexo" target="_blank" rel="noopener">Hexo</a> 强力驱动</span><span> v5.4.2</span><span class="footer__devider">|</span><span>主题 - <a href="https://github.com/liuyib/hexo-theme-stun/" title="Stun" target="_blank" rel="noopener">Stun</a></span><span> v2.6.2</span></div></div></footer><div class="loading-bar" id="loading-bar"><div class="loading-bar__progress"></div></div><div class="back2top" id="back2top"><span class="back2top__icon"><i class="fas fa-rocket"></i></span></div></div><script src="https://cdn.jsdelivr.net/npm/jquery@v3.4.1/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@1.5.2/velocity.ui.min.js"></script><script src="https://cdn.jsdelivr.net/npm/ribbon.js@latest/dist/ribbon.min.js" size="120" alpha="0.6" zIndex="-1"></script><script src="https://cdn.jsdelivr.net/npm/canvas-nest.js@1.0.1/dist/canvas-nest.min.js" color="0,0,150" opacity="1" count="20" zIndex="-1"></script><script src="/js/utils.js?v=2.6.2"></script><script src="/js/stun-boot.js?v=2.6.2"></script><script src="/js/scroll.js?v=2.6.2"></script><script src="/js/header.js?v=2.6.2"></script><script src="/js/sidebar.js?v=2.6.2"></script></body></html>
