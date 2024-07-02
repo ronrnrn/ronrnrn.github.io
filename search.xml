@@ -3512,55 +3512,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CMD快捷指令汇总</title>
-    <url>/2024/07/02/%E7%94%B5%E8%84%91%E5%A6%82%E4%BD%95%E5%88%A0%E9%99%A4%E6%9C%AC%E5%9C%B0%E7%BD%91%E7%BB%9C%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[
-        <h1 id="CMD-快捷指令汇总"   >
-          <a href="#CMD-快捷指令汇总" class="heading-link"><i class="fas fa-link"></i></a><a href="#CMD-快捷指令汇总" class="headerlink" title="CMD 快捷指令汇总"></a>CMD 快捷指令汇总</h1>
-      
-        <h2 id="查看所有接口-WLAN-上的配置文件："   >
-          <a href="#查看所有接口-WLAN-上的配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看所有接口-WLAN-上的配置文件：" class="headerlink" title="查看所有接口 WLAN 上的配置文件："></a>查看所有接口 WLAN 上的配置文件：</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>netsh wlan show profile(s)</p>
-    </div>
-  
-
-
-        <h2 id="查看-WLAN-配置文件已保存的密码："   >
-          <a href="#查看-WLAN-配置文件已保存的密码：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看-WLAN-配置文件已保存的密码：" class="headerlink" title="查看 WLAN 配置文件已保存的密码："></a>查看 WLAN 配置文件已保存的密码：</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>netsh wlan show profile(s) key=clear</p>
-    </div>
-  
-
-
-        <h2 id="从接口-WLAN-中删除配置文件："   >
-          <a href="#从接口-WLAN-中删除配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#从接口-WLAN-中删除配置文件：" class="headerlink" title="从接口 WLAN 中删除配置文件："></a>从接口 WLAN 中删除配置文件：</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>netsh wlan delete profile(s) name=”<profile name>“</p>
-    </div>
-  
-]]></content>
-      <categories>
-        <category>cmd</category>
-      </categories>
-      <tags>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>离散数学笔记</title>
     <url>/2022/07/16/%E7%A6%BB%E6%95%A3%E6%95%B0%E5%AD%A6%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[
@@ -8032,6 +7983,55 @@
       <tags>
         <tag>Java</tag>
         <tag>IO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>CMD快捷指令汇总</title>
+    <url>/2024/07/02/CMD%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
+    <content><![CDATA[
+        <h1 id="CMD-快捷指令汇总"   >
+          <a href="#CMD-快捷指令汇总" class="heading-link"><i class="fas fa-link"></i></a><a href="#CMD-快捷指令汇总" class="headerlink" title="CMD 快捷指令汇总"></a>CMD 快捷指令汇总</h1>
+      
+        <h2 id="查看所有接口-WLAN-上的配置文件："   >
+          <a href="#查看所有接口-WLAN-上的配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看所有接口-WLAN-上的配置文件：" class="headerlink" title="查看所有接口 WLAN 上的配置文件："></a>查看所有接口 WLAN 上的配置文件：</h2>
+      
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>netsh wlan show profile(s)</p>
+    </div>
+  
+
+
+        <h2 id="查看-WLAN-配置文件已保存的密码："   >
+          <a href="#查看-WLAN-配置文件已保存的密码：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看-WLAN-配置文件已保存的密码：" class="headerlink" title="查看 WLAN 配置文件已保存的密码："></a>查看 WLAN 配置文件已保存的密码：</h2>
+      
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>netsh wlan show profile(s) key=clear</p>
+    </div>
+  
+
+
+        <h2 id="从接口-WLAN-中删除配置文件："   >
+          <a href="#从接口-WLAN-中删除配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#从接口-WLAN-中删除配置文件：" class="headerlink" title="从接口 WLAN 中删除配置文件："></a>从接口 WLAN 中删除配置文件：</h2>
+      
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>netsh wlan delete profile(s) name=”profile name”</p>
+    </div>
+  
+]]></content>
+      <categories>
+        <category>cmd</category>
+      </categories>
+      <tags>
+        <tag>cmd</tag>
       </tags>
   </entry>
 </search>
