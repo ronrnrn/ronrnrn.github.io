@@ -195,6 +195,21 @@
       </tags>
   </entry>
   <entry>
+    <title>CSS效果与书签</title>
+    <url>/2023/04/22/CSS%E6%95%88%E6%9E%9C%E4%B9%A6%E7%AD%BE/</url>
+    <content><![CDATA[
+        <h2 id="CSS-实现-3D-旋转效果动画"   >
+          <a href="#CSS-实现-3D-旋转效果动画" class="heading-link"><i class="fas fa-link"></i></a><a href="#CSS-实现-3D-旋转效果动画" class="headerlink" title="CSS 实现 3D 旋转效果动画"></a>CSS 实现 3D 旋转效果动画</h2>
+      <p><span class="exturl"><a class="exturl__link"   href="https://x.st/spinning-diagrams-with-css/" >网址</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CMD快捷指令汇总</title>
     <url>/2024/07/02/CMD%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[
@@ -241,43 +256,6 @@
       </categories>
       <tags>
         <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS-Intro</title>
-    <url>/2023/03/12/CSSIntro/</url>
-    <content><![CDATA[
-        <h1 id="CSS"   >
-          <a href="#CSS" class="heading-link"><i class="fas fa-link"></i></a><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1>
-      
-        <h2 id="Button"   >
-          <a href="#Button" class="heading-link"><i class="fas fa-link"></i></a><a href="#Button" class="headerlink" title="Button"></a>Button</h2>
-      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="hover-transition-shadow"   >
-          <a href="#hover-transition-shadow" class="heading-link"><i class="fas fa-link"></i></a><a href="#hover-transition-shadow" class="headerlink" title="hover | transition | shadow"></a>hover | transition | shadow</h2>
-      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: opacity <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* pseudo-class */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.8</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* click */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.5</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: background-color <span class="number">0.15s</span>,</span></span><br><span class="line"><span class="language-css">    color <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.7</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: box-shadow <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">box-shadow</span>:  <span class="number">5px</span> <span class="number">5px</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">15</span>);</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>]]></content>
-      <categories>
-        <category>CSS</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS效果与书签</title>
-    <url>/2023/04/22/CSS%E6%95%88%E6%9E%9C%E4%B9%A6%E7%AD%BE/</url>
-    <content><![CDATA[
-        <h2 id="CSS-实现-3D-旋转效果动画"   >
-          <a href="#CSS-实现-3D-旋转效果动画" class="heading-link"><i class="fas fa-link"></i></a><a href="#CSS-实现-3D-旋转效果动画" class="headerlink" title="CSS 实现 3D 旋转效果动画"></a>CSS 实现 3D 旋转效果动画</h2>
-      <p><span class="exturl"><a class="exturl__link"   href="https://x.st/spinning-diagrams-with-css/" >网址</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-]]></content>
-      <categories>
-        <category>CSS</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -1173,6 +1151,28 @@
       </tags>
   </entry>
   <entry>
+    <title>CSS-Intro</title>
+    <url>/2023/03/12/CSSIntro/</url>
+    <content><![CDATA[
+        <h1 id="CSS"   >
+          <a href="#CSS" class="heading-link"><i class="fas fa-link"></i></a><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1>
+      
+        <h2 id="Button"   >
+          <a href="#Button" class="heading-link"><i class="fas fa-link"></i></a><a href="#Button" class="headerlink" title="Button"></a>Button</h2>
+      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="hover-transition-shadow"   >
+          <a href="#hover-transition-shadow" class="heading-link"><i class="fas fa-link"></i></a><a href="#hover-transition-shadow" class="headerlink" title="hover | transition | shadow"></a>hover | transition | shadow</h2>
+      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: opacity <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* pseudo-class */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.8</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* click */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.5</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: background-color <span class="number">0.15s</span>,</span></span><br><span class="line"><span class="language-css">    color <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.7</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: box-shadow <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">box-shadow</span>:  <span class="number">5px</span> <span class="number">5px</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">15</span>);</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java-反射</title>
     <url>/2023/02/03/Java-%E5%8F%8D%E5%B0%84/</url>
     <content><![CDATA[
@@ -1786,7 +1786,9 @@
     <content><![CDATA[
         <h1 id="Spotify-测试"   >
           <a href="#Spotify-测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-测试" class="headerlink" title="Spotify 测试"></a>Spotify 测试</h1>
-      <iframe src="https://open.spotify.com/embed/artist/5p9CTsn5ueGU4oScNX1axu/undefined" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+      <iframe src="https://open.spotify.com/embed/undefined/undefined" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+
+<iframe src="https://open.spotify.com/embed/track/7kkRhGDCAVd5YVoieTChxG" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
 ]]></content>
       <categories>
         <category>spotify</category>
@@ -2711,70 +2713,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Vue-指定webpack的entry和output</title>
-    <url>/2023/02/27/changerowscolor02/</url>
-    <content><![CDATA[
-        <h1 id="Vuejs创建隔行变色项目-指定webpack的entry和output"   >
-          <a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="headerlink" title="Vuejs创建隔行变色项目(指定webpack的entry和output)"></a>Vuejs创建隔行变色项目(指定webpack的entry和output)</h1>
-      
-        <h2 id="Webpack"   >
-          <a href="#Webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h2>
-      <ul>
-<li>前端项目工程化的具体解决方案</li>
-</ul>
-
-        <h2 id="创建列表隔行变色项目"   >
-          <a href="#创建列表隔行变色项目" class="heading-link"><i class="fas fa-link"></i></a><a href="#创建列表隔行变色项目" class="headerlink" title="创建列表隔行变色项目"></a>创建列表隔行变色项目</h2>
-      
-        <h3 id="初始化"   >
-          <a href="#初始化" class="heading-link"><i class="fas fa-link"></i></a><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3>
-      
-        <h4 id="npm安装jQuery报错问题"   >
-          <a href="#npm安装jQuery报错问题" class="heading-link"><i class="fas fa-link"></i></a><a href="#npm安装jQuery报错问题" class="headerlink" title="npm安装jQuery报错问题"></a><span class="exturl"><a class="exturl__link"   href="https://blog.csdn.net/weixin_55894946/article/details/124756160?ops_request_misc=&request_id=&biz_id=102&utm_term=%E5%89%8D%E7%AB%AFnpm%E5%AE%89%E8%A3%85jquery%E6%95%99%E7%A8%8B%E6%8A%A5%E9%94%99&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-124756160.142%5Ev73%5Econtrol,201%5Ev4%5Eadd_ask,239%5Ev2%5Einsert_chatgpt&spm=1018.2226.3001.4187" >npm安装jQuery报错问题</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></h4>
-      
-        <h4 id="安装webpack"   >
-          <a href="#安装webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h4>
-      <blockquote>
-<p>(c)npm install webpack webpack-cli -D // -D表示开发依赖</p>
-</blockquote>
-
-        <h4 id="安装jquery"   >
-          <a href="#安装jquery" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装jquery" class="headerlink" title="安装jquery"></a>安装jquery</h4>
-      <blockquote>
-<p>(c)npm install jquery //没有-D表示运行依赖</p>
-</blockquote>
-
-        <h3 id="源码"   >
-          <a href="#源码" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码" class="headerlink" title="源码"></a>源码</h3>
-      
-        <h4 id="index-html"   >
-          <a href="#index-html" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-html" class="headerlink" title="index.html"></a>index.html</h4>
-      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span> = <span class="string">&quot;../dist/bundle.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 1 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 2 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 3 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 4 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 5 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 6 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 7 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 8 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 9 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
-
-
-        <h4 id="index-js"   >
-          <a href="#index-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h4>
-      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> $ <span class="keyword">from</span> <span class="string">&#x27;jquery&#x27;</span></span><br><span class="line">$(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">  $(<span class="string">&#x27;li:odd&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;red&#x27;</span>)</span><br><span class="line">  $(<span class="string">&#x27;li:even&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;cyan&#x27;</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></div></figure>
-
-
-        <h4 id="package-json"   >
-          <a href="#package-json" class="heading-link"><i class="fas fa-link"></i></a><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h4>
-      <figure class="highlight json"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;change-rows-color&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="string">&quot;index.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;dev&quot;</span><span class="punctuation">:</span> <span class="string">&quot;webpack&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;license&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ISC&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;devDependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;webpack&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.75.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;webpack-cli&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.0.1&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;dependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;jquery&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^3.6.3&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></div></figure>
-
-
-        <h4 id="webpack-config-js"   >
-          <a href="#webpack-config-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#webpack-config-js" class="headerlink" title="webpack.config.js"></a>webpack.config.js</h4>
-      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> path=<span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">mode</span>: <span class="string">&#x27;development&#x27;</span>,</span><br><span class="line">  <span class="comment">// entry指定要处理哪个文件</span></span><br><span class="line">  <span class="attr">entry</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;./src/index1.js&#x27;</span>),</span><br><span class="line">  <span class="comment">// output指定生成的文件存放地址</span></span><br><span class="line">  <span class="attr">output</span>: &#123;</span><br><span class="line">    <span class="comment">// 存放到目录</span></span><br><span class="line">    <span class="attr">path</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;dist&#x27;</span>),</span><br><span class="line">    <span class="comment">// 生成的文件名</span></span><br><span class="line">    <span class="attr">filename</span>: <span class="string">&#x27;bundle.js&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">  &#125;;  </span><br></pre></td></tr></table></div></figure>]]></content>
-      <categories>
-        <category>Vue</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
-        <tag>webpack</tag>
-        <tag>jquery</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Java-AWT-container容器</title>
     <url>/2023/02/27/container/</url>
     <content><![CDATA[
@@ -3110,6 +3048,70 @@
       </tags>
   </entry>
   <entry>
+    <title>Vue-指定webpack的entry和output</title>
+    <url>/2023/02/27/changerowscolor02/</url>
+    <content><![CDATA[
+        <h1 id="Vuejs创建隔行变色项目-指定webpack的entry和output"   >
+          <a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="headerlink" title="Vuejs创建隔行变色项目(指定webpack的entry和output)"></a>Vuejs创建隔行变色项目(指定webpack的entry和output)</h1>
+      
+        <h2 id="Webpack"   >
+          <a href="#Webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h2>
+      <ul>
+<li>前端项目工程化的具体解决方案</li>
+</ul>
+
+        <h2 id="创建列表隔行变色项目"   >
+          <a href="#创建列表隔行变色项目" class="heading-link"><i class="fas fa-link"></i></a><a href="#创建列表隔行变色项目" class="headerlink" title="创建列表隔行变色项目"></a>创建列表隔行变色项目</h2>
+      
+        <h3 id="初始化"   >
+          <a href="#初始化" class="heading-link"><i class="fas fa-link"></i></a><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3>
+      
+        <h4 id="npm安装jQuery报错问题"   >
+          <a href="#npm安装jQuery报错问题" class="heading-link"><i class="fas fa-link"></i></a><a href="#npm安装jQuery报错问题" class="headerlink" title="npm安装jQuery报错问题"></a><span class="exturl"><a class="exturl__link"   href="https://blog.csdn.net/weixin_55894946/article/details/124756160?ops_request_misc=&request_id=&biz_id=102&utm_term=%E5%89%8D%E7%AB%AFnpm%E5%AE%89%E8%A3%85jquery%E6%95%99%E7%A8%8B%E6%8A%A5%E9%94%99&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-124756160.142%5Ev73%5Econtrol,201%5Ev4%5Eadd_ask,239%5Ev2%5Einsert_chatgpt&spm=1018.2226.3001.4187" >npm安装jQuery报错问题</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></h4>
+      
+        <h4 id="安装webpack"   >
+          <a href="#安装webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h4>
+      <blockquote>
+<p>(c)npm install webpack webpack-cli -D // -D表示开发依赖</p>
+</blockquote>
+
+        <h4 id="安装jquery"   >
+          <a href="#安装jquery" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装jquery" class="headerlink" title="安装jquery"></a>安装jquery</h4>
+      <blockquote>
+<p>(c)npm install jquery //没有-D表示运行依赖</p>
+</blockquote>
+
+        <h3 id="源码"   >
+          <a href="#源码" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码" class="headerlink" title="源码"></a>源码</h3>
+      
+        <h4 id="index-html"   >
+          <a href="#index-html" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-html" class="headerlink" title="index.html"></a>index.html</h4>
+      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span> = <span class="string">&quot;../dist/bundle.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 1 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 2 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 3 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 4 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 5 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 6 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 7 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 8 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 9 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="index-js"   >
+          <a href="#index-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h4>
+      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> $ <span class="keyword">from</span> <span class="string">&#x27;jquery&#x27;</span></span><br><span class="line">$(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">  $(<span class="string">&#x27;li:odd&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;red&#x27;</span>)</span><br><span class="line">  $(<span class="string">&#x27;li:even&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;cyan&#x27;</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="package-json"   >
+          <a href="#package-json" class="heading-link"><i class="fas fa-link"></i></a><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h4>
+      <figure class="highlight json"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;change-rows-color&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="string">&quot;index.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;dev&quot;</span><span class="punctuation">:</span> <span class="string">&quot;webpack&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;license&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ISC&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;devDependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;webpack&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.75.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;webpack-cli&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.0.1&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;dependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;jquery&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^3.6.3&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="webpack-config-js"   >
+          <a href="#webpack-config-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#webpack-config-js" class="headerlink" title="webpack.config.js"></a>webpack.config.js</h4>
+      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> path=<span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">mode</span>: <span class="string">&#x27;development&#x27;</span>,</span><br><span class="line">  <span class="comment">// entry指定要处理哪个文件</span></span><br><span class="line">  <span class="attr">entry</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;./src/index1.js&#x27;</span>),</span><br><span class="line">  <span class="comment">// output指定生成的文件存放地址</span></span><br><span class="line">  <span class="attr">output</span>: &#123;</span><br><span class="line">    <span class="comment">// 存放到目录</span></span><br><span class="line">    <span class="attr">path</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;dist&#x27;</span>),</span><br><span class="line">    <span class="comment">// 生成的文件名</span></span><br><span class="line">    <span class="attr">filename</span>: <span class="string">&#x27;bundle.js&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">  &#125;;  </span><br></pre></td></tr></table></div></figure>]]></content>
+      <categories>
+        <category>Vue</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+        <tag>webpack</tag>
+        <tag>jquery</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vue-cli使用commander解析命令行参数</title>
     <url>/2023/04/15/vue-cli%E4%BD%BF%E7%94%A8commander%E8%A7%A3%E6%9E%90%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%8F%82%E6%95%B0/</url>
     <content><![CDATA[
@@ -3169,6 +3171,64 @@
         <h1 id="Vue3-新特性"   >
           <a href="#Vue3-新特性" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue3-新特性" class="headerlink" title="Vue3 新特性"></a>Vue3 新特性</h1>
       <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;home&quot;&gt;&#123;&#123; name &#125;&#125;-&#123;&#123; age &#125;&#125;-&#123;&#123; num &#125;&#125;&lt;/div&gt;</span><br><span class="line">  &lt;button @click=&quot;change()&quot;&gt;click&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// import HelloWorld from &#x27;@/components/HelloWorld.vue&#x27;</span><br><span class="line"></span><br><span class="line">import &#123; reactive, toRefs, onMounted, onUnmounted, computed &#125; from &quot;vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HomeView&quot;,</span><br><span class="line">  // components: &#123;</span><br><span class="line">  //   HelloWorld</span><br><span class="line">  // &#125;</span><br><span class="line">  setup(props, context) &#123;</span><br><span class="line">    // 响应式数据</span><br><span class="line">    const state = reactive(&#123;</span><br><span class="line">      name: &quot;jindu&quot;,</span><br><span class="line">      age: 20,</span><br><span class="line">      num: computed(() =&gt; state.age + 1),</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    // 方法定义</span><br><span class="line">    const change = () =&gt; &#123;</span><br><span class="line">      state.age += 1;</span><br><span class="line">      console.log(state.age);</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    onMounted(() =&gt; &#123;</span><br><span class="line">      change();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    onUnmounted(() =&gt; &#123;&#125;);</span><br><span class="line"></span><br><span class="line">    return &#123;</span><br><span class="line">      ...toRefs(state),</span><br><span class="line">      change,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>youtube-trip-Backpacker</title>
+    <url>/2023/04/09/youtube-trip-Backpacker/</url>
+    <content><![CDATA[
+        <h1 id="题目"   >
+          <a href="#题目" class="heading-link"><i class="fas fa-link"></i></a><a href="#题目" class="headerlink" title="题目"></a>题目</h1>
+      <p>Backpackers guide to Living and Working in Queenstown, New Zealand</p>
+
+        <h2 id="视频地址"   >
+          <a href="#视频地址" class="heading-link"><i class="fas fa-link"></i></a><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h2>
+      <p><span class="exturl"><a class="exturl__link"   href="https://www.youtube.com/watch?v=EJRGJmGq_ec" >youtube</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="关键词"   >
+          <a href="#关键词" class="heading-link"><i class="fas fa-link"></i></a><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h2>
+      <p>Backpacker<br>backpacking<br>Working holiday visa<br>Adrenaline<br>bungee jump<br>tips and tricks<br>freebie</p>
+
+        <h2 id="地理"   >
+          <a href="#地理" class="heading-link"><i class="fas fa-link"></i></a><a href="#地理" class="headerlink" title="地理"></a>地理</h2>
+      <p>The bottom half of the south island of New Zealand<br>It is surrounded by mountains.<br>a lakeside town<br>Lake Wanaka<br>Glenorchy<br>Frankton</p>
+
+        <h2 id="Tips"   >
+          <a href="#Tips" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2>
+      <details>
+  <summary>👇Get a car:</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">go wherever you want whenever you want to have that freedom</span><br></pre></td></tr></table></div></figure>
+</details>
+
+<details>
+  <summary>👇How to find a job in Queenstown: </summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">shift work</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+        <h2 id="网站-社交媒体"   >
+          <a href="#网站-社交媒体" class="heading-link"><i class="fas fa-link"></i></a><a href="#网站-社交媒体" class="headerlink" title="网站/社交媒体"></a>网站/社交媒体</h2>
+      <p>Kiwi experience<br>Facebook group Queenstown trading<br>Facebook group for rent in Queenstown</p>
+
+        <h2 id="工种"   >
+          <a href="#工种" class="heading-link"><i class="fas fa-link"></i></a><a href="#工种" class="headerlink" title="工种"></a>工种</h2>
+      <p>Backpacker<br>Waiter/Waitress<br>housekeeper</p>
+]]></content>
+      <categories>
+        <category>trip</category>
+      </categories>
+      <tags>
+        <tag>trip</tag>
+        <tag>Backpacker</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>zhelper</title>
+    <url>/2023/03/09/zhelper/</url>
+    <content><![CDATA[
+        <h1 id="zhepler"   >
+          <a href="#zhepler" class="heading-link"><i class="fas fa-link"></i></a><a href="#zhepler" class="headerlink" title="zhepler"></a>zhepler</h1>
+      <p><span class="exturl"><a class="exturl__link"   href="https://search.zhelper.net/" >zhelper</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 ]]></content>
   </entry>
   <entry>
@@ -3248,64 +3308,6 @@
         <tag>webpack</tag>
         <tag>Plugin</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>youtube-trip-Backpacker</title>
-    <url>/2023/04/09/youtube-trip-Backpacker/</url>
-    <content><![CDATA[
-        <h1 id="题目"   >
-          <a href="#题目" class="heading-link"><i class="fas fa-link"></i></a><a href="#题目" class="headerlink" title="题目"></a>题目</h1>
-      <p>Backpackers guide to Living and Working in Queenstown, New Zealand</p>
-
-        <h2 id="视频地址"   >
-          <a href="#视频地址" class="heading-link"><i class="fas fa-link"></i></a><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h2>
-      <p><span class="exturl"><a class="exturl__link"   href="https://www.youtube.com/watch?v=EJRGJmGq_ec" >youtube</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="关键词"   >
-          <a href="#关键词" class="heading-link"><i class="fas fa-link"></i></a><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h2>
-      <p>Backpacker<br>backpacking<br>Working holiday visa<br>Adrenaline<br>bungee jump<br>tips and tricks<br>freebie</p>
-
-        <h2 id="地理"   >
-          <a href="#地理" class="heading-link"><i class="fas fa-link"></i></a><a href="#地理" class="headerlink" title="地理"></a>地理</h2>
-      <p>The bottom half of the south island of New Zealand<br>It is surrounded by mountains.<br>a lakeside town<br>Lake Wanaka<br>Glenorchy<br>Frankton</p>
-
-        <h2 id="Tips"   >
-          <a href="#Tips" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2>
-      <details>
-  <summary>👇Get a car:</summary>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">go wherever you want whenever you want to have that freedom</span><br></pre></td></tr></table></div></figure>
-</details>
-
-<details>
-  <summary>👇How to find a job in Queenstown: </summary>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">shift work</span><br></pre></td></tr></table></div></figure>
-</details>
-
-
-        <h2 id="网站-社交媒体"   >
-          <a href="#网站-社交媒体" class="heading-link"><i class="fas fa-link"></i></a><a href="#网站-社交媒体" class="headerlink" title="网站/社交媒体"></a>网站/社交媒体</h2>
-      <p>Kiwi experience<br>Facebook group Queenstown trading<br>Facebook group for rent in Queenstown</p>
-
-        <h2 id="工种"   >
-          <a href="#工种" class="heading-link"><i class="fas fa-link"></i></a><a href="#工种" class="headerlink" title="工种"></a>工种</h2>
-      <p>Backpacker<br>Waiter/Waitress<br>housekeeper</p>
-]]></content>
-      <categories>
-        <category>trip</category>
-      </categories>
-      <tags>
-        <tag>trip</tag>
-        <tag>Backpacker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>zhelper</title>
-    <url>/2023/03/09/zhelper/</url>
-    <content><![CDATA[
-        <h1 id="zhepler"   >
-          <a href="#zhepler" class="heading-link"><i class="fas fa-link"></i></a><a href="#zhepler" class="headerlink" title="zhepler"></a>zhepler</h1>
-      <p><span class="exturl"><a class="exturl__link"   href="https://search.zhelper.net/" >zhelper</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-]]></content>
   </entry>
   <entry>
     <title>概率论笔记</title>
