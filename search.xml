@@ -1566,6 +1566,21 @@
       </tags>
   </entry>
   <entry>
+    <title>JavaWebJDBC</title>
+    <url>/2023/12/11/JavaWebJDBC/</url>
+    <content><![CDATA[
+        <h1 id="JDBC-连接"   >
+          <a href="#JDBC-连接" class="heading-link"><i class="fas fa-link"></i></a><a href="#JDBC-连接" class="headerlink" title="JDBC 连接"></a>JDBC 连接</h1>
+      <figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> src.jdbc.test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.sql.Connection;</span><br><span class="line"><span class="keyword">import</span> java.sql.Driver;</span><br><span class="line"><span class="keyword">import</span> java.sql.SQLException;</span><br><span class="line"><span class="keyword">import</span> java.util.Properties;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@ClassName</span>: DriverTest</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: Ron Rao</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span>: 2023/12/11 20:46</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">DriverTest</span> &#123;</span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">test1</span><span class="params">()</span> <span class="keyword">throws</span> SQLException&#123;</span><br><span class="line">        <span class="type">Driver</span> <span class="variable">driver</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">com</span>.mysql.cj.jdbc.Driver();</span><br><span class="line">        <span class="type">String</span> <span class="variable">url</span> <span class="operator">=</span> <span class="string">&quot;jdbc:mysql://127.0.0.1:3306/jdbc&quot;</span>;</span><br><span class="line">        <span class="type">Properties</span> <span class="variable">info</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Properties</span>();</span><br><span class="line">        info.setProperty(<span class="string">&quot;user&quot;</span>,<span class="string">&quot;root&quot;</span>);</span><br><span class="line">        info.setProperty(<span class="string">&quot;password&quot;</span>,<span class="string">&quot;123456&quot;</span>);</span><br><span class="line">        <span class="type">Connection</span> <span class="variable">connection</span> <span class="operator">=</span> driver.connect(url,info);</span><br><span class="line">        System.out.println(connection);</span><br><span class="line">        connection.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></div></figure>
+]]></content>
+      <categories>
+        <category>JDBC</category>
+      </categories>
+      <tags>
+        <tag>JDBC</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Java-AWT-LayoutManager</title>
     <url>/2023/02/27/LayoutManager/</url>
     <content><![CDATA[
@@ -1651,21 +1666,6 @@
       </tags>
   </entry>
   <entry>
-    <title>JavaWebJDBC</title>
-    <url>/2023/12/11/JavaWebJDBC/</url>
-    <content><![CDATA[
-        <h1 id="JDBC-连接"   >
-          <a href="#JDBC-连接" class="heading-link"><i class="fas fa-link"></i></a><a href="#JDBC-连接" class="headerlink" title="JDBC 连接"></a>JDBC 连接</h1>
-      <figure class="highlight java"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> src.jdbc.test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> org.junit.Test;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> java.sql.Connection;</span><br><span class="line"><span class="keyword">import</span> java.sql.Driver;</span><br><span class="line"><span class="keyword">import</span> java.sql.SQLException;</span><br><span class="line"><span class="keyword">import</span> java.util.Properties;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@ClassName</span>: DriverTest</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@author</span>: Ron Rao</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@date</span>: 2023/12/11 20:46</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">DriverTest</span> &#123;</span><br><span class="line">    <span class="meta">@Test</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">void</span> <span class="title function_">test1</span><span class="params">()</span> <span class="keyword">throws</span> SQLException&#123;</span><br><span class="line">        <span class="type">Driver</span> <span class="variable">driver</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">com</span>.mysql.cj.jdbc.Driver();</span><br><span class="line">        <span class="type">String</span> <span class="variable">url</span> <span class="operator">=</span> <span class="string">&quot;jdbc:mysql://127.0.0.1:3306/jdbc&quot;</span>;</span><br><span class="line">        <span class="type">Properties</span> <span class="variable">info</span> <span class="operator">=</span> <span class="keyword">new</span> <span class="title class_">Properties</span>();</span><br><span class="line">        info.setProperty(<span class="string">&quot;user&quot;</span>,<span class="string">&quot;root&quot;</span>);</span><br><span class="line">        info.setProperty(<span class="string">&quot;password&quot;</span>,<span class="string">&quot;123456&quot;</span>);</span><br><span class="line">        <span class="type">Connection</span> <span class="variable">connection</span> <span class="operator">=</span> driver.connect(url,info);</span><br><span class="line">        System.out.println(connection);</span><br><span class="line">        connection.close();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></div></figure>
-]]></content>
-      <categories>
-        <category>JDBC</category>
-      </categories>
-      <tags>
-        <tag>JDBC</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Maven相关配置</title>
     <url>/2023/12/04/Maven/</url>
     <content><![CDATA[
@@ -1716,6 +1716,17 @@
       </tags>
   </entry>
   <entry>
+    <title>Prologue</title>
+    <url>/2022/06/09/Prologue/</url>
+    <content><![CDATA[
+        <h2 id="Prologue"   >
+          <a href="#Prologue" class="heading-link"><i class="fas fa-link"></i></a><a href="#Prologue" class="headerlink" title="Prologue"></a>Prologue</h2>
+      <p>那天吃过午饭，回图书馆收拾书包，走过林荫道，看到楼梯前老师的背影。他站在原地看手机，左手好像拿着一个小橘子。当时似乎有了一种坚定的感觉，就算不能真正刻苦，不能够到与其相近的高度，心里也总是会有一种定式与实际，因而相信付出即是有收获的。</p>
+<p>至今也还记得，高考英语考场上，右前方有个男生被蜜蜂蛰了一下，中途离开教室，直到考试结束后，才回来收拾桌面上的文具。当时很庆幸蜜蜂没有飞到我的身边，因为在那个年纪，没有按时考试、不能如期毕业抑或考试成绩并非所预想的，都会看作是挫折与坎坷。</p>
+<p>后来渐渐发觉，认真去做的每件事到最后总会有意料之外但又有迹可循的结果。不管好的、不好的，都不可避免地构成了自己的生活。那些如实逝去的经历与时分，都变成心底红色的、松软的土层。因而对升学的执念也变轻了许多许多，只希望自己能再克制和勤奋一些。</p>
+]]></content>
+  </entry>
+  <entry>
     <title>MySQL数据库</title>
     <url>/2023/02/04/MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/</url>
     <content><![CDATA[
@@ -1754,17 +1765,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Prologue</title>
-    <url>/2022/06/09/Prologue/</url>
-    <content><![CDATA[
-        <h2 id="Prologue"   >
-          <a href="#Prologue" class="heading-link"><i class="fas fa-link"></i></a><a href="#Prologue" class="headerlink" title="Prologue"></a>Prologue</h2>
-      <p>那天吃过午饭，回图书馆收拾书包，走过林荫道，看到楼梯前老师的背影。他站在原地看手机，左手好像拿着一个小橘子。当时似乎有了一种坚定的感觉，就算不能真正刻苦，不能够到与其相近的高度，心里也总是会有一种定式与实际，因而相信付出即是有收获的。</p>
-<p>至今也还记得，高考英语考场上，右前方有个男生被蜜蜂蛰了一下，中途离开教室，直到考试结束后，才回来收拾桌面上的文具。当时很庆幸蜜蜂没有飞到我的身边，因为在那个年纪，没有按时考试、不能如期毕业抑或考试成绩并非所预想的，都会看作是挫折与坎坷。</p>
-<p>后来渐渐发觉，认真去做的每件事到最后总会有意料之外但又有迹可循的结果。不管好的、不好的，都不可避免地构成了自己的生活。那些如实逝去的经历与时分，都变成心底红色的、松软的土层。因而对升学的执念也变轻了许多许多，只希望自己能再克制和勤奋一些。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>Screenplay</title>
     <url>/2023/12/03/Screenplay/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">
@@ -1779,39 +1779,6 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-  </entry>
-  <entry>
-    <title>Spotify插件测试</title>
-    <url>/2024/07/04/Spotify%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[
-        <h1 id="Spotify-插件测试"   >
-          <a href="#Spotify-插件测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-插件测试" class="headerlink" title="Spotify 插件测试"></a>Spotify 插件测试</h1>
-      
-        <h2 id="Spotify：主页"   >
-          <a href="#Spotify：主页" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify：主页" class="headerlink" title="Spotify：主页"></a>Spotify：主页</h2>
-      <iframe src="https://open.spotify.com/embed/track/7kkRhGDCAVd5YVoieTChxG" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-
-
-        <h2 id="Spotify-Album-URI-测试"   >
-          <a href="#Spotify-Album-URI-测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Album-URI-测试" class="headerlink" title="Spotify: Album-URI 测试"></a>Spotify: Album-URI 测试</h2>
-      <iframe src="https://open.spotify.com/embed/album/27ftYHLeunzcSzb33Wk1hf" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-
-
-        <h2 id="Spotify-Artisty-URI-测试"   >
-          <a href="#Spotify-Artisty-URI-测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Artisty-URI-测试" class="headerlink" title="Spotify: Artisty-URI 测试"></a>Spotify: Artisty-URI 测试</h2>
-      <iframe src="https://open.spotify.com/embed/artist/3mvkWMe6swnknwscwvGCHO" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-
-
-        <h2 id="Spotify-Track-URI-测试"   >
-          <a href="#Spotify-Track-URI-测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Track-URI-测试" class="headerlink" title="Spotify: Track-URI 测试"></a>Spotify: Track-URI 测试</h2>
-      <iframe src="https://open.spotify.com/embed/track/7lEptt4wbM0yJTvSG5EBof" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-]]></content>
-      <categories>
-        <category>spotify</category>
-      </categories>
-      <tags>
-        <tag>spotify</tag>
-      </tags>
   </entry>
   <entry>
     <title>Vue-Router初始化入门源码</title>
@@ -1856,6 +1823,34 @@
       <tags>
         <tag>Vue</tag>
         <tag>Router</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Spotify插件测试示例</title>
+    <url>/2024/07/04/Spotify%E6%B5%8B%E8%AF%95/</url>
+    <content><![CDATA[
+        <h1 id="Spotify-插件测试示例"   >
+          <a href="#Spotify-插件测试示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-插件测试示例" class="headerlink" title="Spotify 插件测试示例"></a>Spotify 插件测试示例</h1>
+      
+        <h2 id="Spotify-Album-URI-测试"   >
+          <a href="#Spotify-Album-URI-测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Album-URI-测试" class="headerlink" title="Spotify: Album-URI 测试"></a>Spotify: Album-URI 测试</h2>
+      <iframe src="https://open.spotify.com/embed/album/27ftYHLeunzcSzb33Wk1hf" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+
+
+        <h2 id="Spotify-Artisty-URI-测试"   >
+          <a href="#Spotify-Artisty-URI-测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Artisty-URI-测试" class="headerlink" title="Spotify: Artisty-URI 测试"></a>Spotify: Artisty-URI 测试</h2>
+      <iframe src="https://open.spotify.com/embed/artist/3mvkWMe6swnknwscwvGCHO" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+
+
+        <h2 id="Spotify-Track-URI-测试"   >
+          <a href="#Spotify-Track-URI-测试" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Track-URI-测试" class="headerlink" title="Spotify: Track-URI 测试"></a>Spotify: Track-URI 测试</h2>
+      <iframe src="https://open.spotify.com/embed/track/7lEptt4wbM0yJTvSG5EBof" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+]]></content>
+      <categories>
+        <category>spotify</category>
+      </categories>
+      <tags>
+        <tag>spotify</tag>
       </tags>
   </entry>
   <entry>
@@ -2338,6 +2333,87 @@
       </tags>
   </entry>
   <entry>
+    <title>Vue-深入组件</title>
+    <url>/2023/04/15/Vue%E6%B7%B1%E5%85%A5%E7%BB%84%E4%BB%B6/</url>
+    <content><![CDATA[
+        <h1 id="组件基础"   >
+          <a href="#组件基础" class="heading-link"><i class="fas fa-link"></i></a><a href="#组件基础" class="headerlink" title="组件基础"></a>组件基础</h1>
+      
+        <h2 id="源码-App-vue"   >
+          <a href="#源码-App-vue" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;img alt=&quot;Vue logo&quot; src=&quot;./assets/logo.png&quot; /&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;MyComponent /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">import HelloWorld from &quot;./components/HelloWorld.vue&quot;;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    HelloWorld,</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">#app &#123;</span><br><span class="line">  font-family: Avenir, Helvetica, Arial, sans-serif;</span><br><span class="line">  -webkit-font-smoothing: antialiased;</span><br><span class="line">  -moz-osx-font-smoothing: grayscale;</span><br><span class="line">  text-align: center;</span><br><span class="line">  color: #2c3e50;</span><br><span class="line">  margin-top: 60px;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h1 id="Props-组件交互"   >
+          <a href="#Props-组件交互" class="heading-link"><i class="fas fa-link"></i></a><a href="#Props-组件交互" class="headerlink" title="Props 组件交互"></a>Props 组件交互</h1>
+      
+        <h2 id="源码-MyComponent-vue"   >
+          <a href="#源码-MyComponent-vue" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-MyComponent-vue" class="headerlink" title="源码(MyComponent.vue)"></a>源码(MyComponent.vue)</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h3&gt;Props传递数据&lt;/h3&gt;</span><br><span class="line">  &lt;p&gt;&#123;&#123; title &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;age=&#123;&#123; age &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;ul&gt;</span><br><span class="line">    &lt;li v-for=&quot;(item, index) in names&quot; :key=&quot;index&quot;&gt;&#123;&#123; item &#125;&#125;&lt;/li&gt;</span><br><span class="line">  &lt;/ul&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;MyComponent&quot;,</span><br><span class="line">  props: &#123;</span><br><span class="line">    title: &#123;</span><br><span class="line">      type: String,</span><br><span class="line">      default: &quot;&quot;,</span><br><span class="line">    &#125;,</span><br><span class="line">    age: &#123;</span><br><span class="line">      type: Number,</span><br><span class="line">      default: 0,</span><br><span class="line">    &#125;,</span><br><span class="line">    names: &#123;</span><br><span class="line">      type: Array,</span><br><span class="line">      // 数组和对象必须使用函数进行返回</span><br><span class="line">      default: function () &#123;</span><br><span class="line">        return [];</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="源码-App-vue-1"   >
+          <a href="#源码-App-vue-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue-1" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;img alt=&quot;Vue logo&quot; src=&quot;./assets/logo.png&quot; /&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;MyComponent :title=&quot;title&quot; :age=&quot;age&quot; :names=&quot;names&quot; /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      title: &quot;我是一个标题&quot;,</span><br><span class="line">      age: 20,</span><br><span class="line">      names: [&quot;Amy&quot;, &quot;John&quot;, &quot;Simon&quot;],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">#app &#123;</span><br><span class="line">  font-family: Avenir, Helvetica, Arial, sans-serif;</span><br><span class="line">  -webkit-font-smoothing: antialiased;</span><br><span class="line">  -moz-osx-font-smoothing: grayscale;</span><br><span class="line">  text-align: center;</span><br><span class="line">  color: #2c3e50;</span><br><span class="line">  margin-top: 60px;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="Tips"   >
+          <a href="#Tips" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2>
+      
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>数据类型为数组或者对象的时候，默认值是需要返回工厂模式</p>
+    </div>
+  
+
+
+        <h1 id="自定义事件组件交互"   >
+          <a href="#自定义事件组件交互" class="heading-link"><i class="fas fa-link"></i></a><a href="#自定义事件组件交互" class="headerlink" title="自定义事件组件交互"></a>自定义事件组件交互</h1>
+      
+        <h2 id="Tips-1"   >
+          <a href="#Tips-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips-1" class="headerlink" title="Tips"></a>Tips</h2>
+      
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>自定义事件<code>$emit</code>可以将数据从子组件传递到父组件</p>
+    </div>
+  
+
+
+        <h2 id="源码-App-vue-2"   >
+          <a href="#源码-App-vue-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue-2" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;MyComponent @onEvent=&quot;getDataHandle&quot; /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    getDataHandle(data) &#123;</span><br><span class="line">      this.message = data;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="源码-MyComponent-vue-1"   >
+          <a href="#源码-MyComponent-vue-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-MyComponent-vue-1" class="headerlink" title="源码(MyComponent.vue)"></a>源码(MyComponent.vue)</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h3&gt;自定义事件传递数据&lt;/h3&gt;</span><br><span class="line">  &lt;button @click=&quot;sendClickHandle&quot;&gt;点击传递&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;MyComponent&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;我是MyComponent数据&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    sendClickHandle() &#123;</span><br><span class="line">      // 参数1是字符串，参数2是传递的数据</span><br><span class="line">      this.$emit(&quot;onEvent&quot;, this.message);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h1 id="组件生命周期"   >
+          <a href="#组件生命周期" class="heading-link"><i class="fas fa-link"></i></a><a href="#组件生命周期" class="headerlink" title="组件生命周期"></a>组件生命周期</h1>
+      
+        <h2 id="源码-MyComponent-vue-2"   >
+          <a href="#源码-MyComponent-vue-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-MyComponent-vue-2" class="headerlink" title="源码(MyComponent.vue)"></a>源码(MyComponent.vue)</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h3&gt;生命周期函数&lt;/h3&gt;</span><br><span class="line">  &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;button @click=&quot;message = &#x27;数据&#x27;&quot;&gt;点击&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  // 8个生命周期函数</span><br><span class="line">  beforeCreate() &#123;</span><br><span class="line">    console.log(&quot;beforeCreate:组件创建之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  created() &#123;</span><br><span class="line">    console.log(&quot;created:组件创建完成&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  beforeMount() &#123;</span><br><span class="line">    console.log(&quot;beforeMount:组件渲染之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    console.log(&quot;mounted:组件渲染完成&quot;);</span><br><span class="line">    // 把网络请求放在这里</span><br><span class="line">  &#125;,</span><br><span class="line">  beforeUpdate() &#123;</span><br><span class="line">    console.log(&quot;beforeUpdate:组件更新之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  updated() &#123;</span><br><span class="line">    console.log(&quot;updated:组件更新之后&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  beforeUnmount() &#123;</span><br><span class="line">    console.log(&quot;beforeUnmount:组件卸载之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  unmounted() &#123;</span><br><span class="line">    console.log(&quot;unmounted:组件卸载之后&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="源码-App-vue-3"   >
+          <a href="#源码-App-vue-3" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue-3" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;MyComponent /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vue基础</title>
     <url>/2023/04/15/Vue%E5%9F%BA%E7%A1%80/</url>
     <content><![CDATA[
@@ -2424,87 +2500,6 @@
         <h2 id="源码-4"   >
           <a href="#源码-4" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-4" class="headerlink" title="源码"></a>源码</h2>
       <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      表单输入绑定，使用v-model创建双向数据绑定--&gt;</span><br><span class="line">    &lt;!--      使用.lazy修饰符，避免立刻反应，减少性能消耗--&gt;</span><br><span class="line">    &lt;input type=&quot;text&quot; v-model.lazy=&quot;username&quot; /&gt;</span><br><span class="line">    &lt;!--      使用.trim修饰符，自动去除用户输入内容中两端的空格--&gt;</span><br><span class="line">    &lt;input type=&quot;text&quot; v-model.trim=&quot;password&quot; /&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; username &#125;&#125;,&#123;&#123; password &#125;&#125;&lt;/p&gt;</span><br><span class="line">    &lt;button @click=&quot;clickGetUsername&quot;&gt;获取用户名&lt;/button&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      username: &quot;&quot;,</span><br><span class="line">      password: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    clickGetUsername() &#123;</span><br><span class="line">      console.log(this.username);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Vue-深入组件</title>
-    <url>/2023/04/15/Vue%E6%B7%B1%E5%85%A5%E7%BB%84%E4%BB%B6/</url>
-    <content><![CDATA[
-        <h1 id="组件基础"   >
-          <a href="#组件基础" class="heading-link"><i class="fas fa-link"></i></a><a href="#组件基础" class="headerlink" title="组件基础"></a>组件基础</h1>
-      
-        <h2 id="源码-App-vue"   >
-          <a href="#源码-App-vue" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;img alt=&quot;Vue logo&quot; src=&quot;./assets/logo.png&quot; /&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;MyComponent /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">import HelloWorld from &quot;./components/HelloWorld.vue&quot;;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    HelloWorld,</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">#app &#123;</span><br><span class="line">  font-family: Avenir, Helvetica, Arial, sans-serif;</span><br><span class="line">  -webkit-font-smoothing: antialiased;</span><br><span class="line">  -moz-osx-font-smoothing: grayscale;</span><br><span class="line">  text-align: center;</span><br><span class="line">  color: #2c3e50;</span><br><span class="line">  margin-top: 60px;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h1 id="Props-组件交互"   >
-          <a href="#Props-组件交互" class="heading-link"><i class="fas fa-link"></i></a><a href="#Props-组件交互" class="headerlink" title="Props 组件交互"></a>Props 组件交互</h1>
-      
-        <h2 id="源码-MyComponent-vue"   >
-          <a href="#源码-MyComponent-vue" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-MyComponent-vue" class="headerlink" title="源码(MyComponent.vue)"></a>源码(MyComponent.vue)</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h3&gt;Props传递数据&lt;/h3&gt;</span><br><span class="line">  &lt;p&gt;&#123;&#123; title &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;p&gt;age=&#123;&#123; age &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;ul&gt;</span><br><span class="line">    &lt;li v-for=&quot;(item, index) in names&quot; :key=&quot;index&quot;&gt;&#123;&#123; item &#125;&#125;&lt;/li&gt;</span><br><span class="line">  &lt;/ul&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;MyComponent&quot;,</span><br><span class="line">  props: &#123;</span><br><span class="line">    title: &#123;</span><br><span class="line">      type: String,</span><br><span class="line">      default: &quot;&quot;,</span><br><span class="line">    &#125;,</span><br><span class="line">    age: &#123;</span><br><span class="line">      type: Number,</span><br><span class="line">      default: 0,</span><br><span class="line">    &#125;,</span><br><span class="line">    names: &#123;</span><br><span class="line">      type: Array,</span><br><span class="line">      // 数组和对象必须使用函数进行返回</span><br><span class="line">      default: function () &#123;</span><br><span class="line">        return [];</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="源码-App-vue-1"   >
-          <a href="#源码-App-vue-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue-1" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;img alt=&quot;Vue logo&quot; src=&quot;./assets/logo.png&quot; /&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;MyComponent :title=&quot;title&quot; :age=&quot;age&quot; :names=&quot;names&quot; /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      title: &quot;我是一个标题&quot;,</span><br><span class="line">      age: 20,</span><br><span class="line">      names: [&quot;Amy&quot;, &quot;John&quot;, &quot;Simon&quot;],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">#app &#123;</span><br><span class="line">  font-family: Avenir, Helvetica, Arial, sans-serif;</span><br><span class="line">  -webkit-font-smoothing: antialiased;</span><br><span class="line">  -moz-osx-font-smoothing: grayscale;</span><br><span class="line">  text-align: center;</span><br><span class="line">  color: #2c3e50;</span><br><span class="line">  margin-top: 60px;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="Tips"   >
-          <a href="#Tips" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>数据类型为数组或者对象的时候，默认值是需要返回工厂模式</p>
-    </div>
-  
-
-
-        <h1 id="自定义事件组件交互"   >
-          <a href="#自定义事件组件交互" class="heading-link"><i class="fas fa-link"></i></a><a href="#自定义事件组件交互" class="headerlink" title="自定义事件组件交互"></a>自定义事件组件交互</h1>
-      
-        <h2 id="Tips-1"   >
-          <a href="#Tips-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips-1" class="headerlink" title="Tips"></a>Tips</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>自定义事件<code>$emit</code>可以将数据从子组件传递到父组件</p>
-    </div>
-  
-
-
-        <h2 id="源码-App-vue-2"   >
-          <a href="#源码-App-vue-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue-2" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;MyComponent @onEvent=&quot;getDataHandle&quot; /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    getDataHandle(data) &#123;</span><br><span class="line">      this.message = data;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="源码-MyComponent-vue-1"   >
-          <a href="#源码-MyComponent-vue-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-MyComponent-vue-1" class="headerlink" title="源码(MyComponent.vue)"></a>源码(MyComponent.vue)</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h3&gt;自定义事件传递数据&lt;/h3&gt;</span><br><span class="line">  &lt;button @click=&quot;sendClickHandle&quot;&gt;点击传递&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;MyComponent&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;我是MyComponent数据&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    sendClickHandle() &#123;</span><br><span class="line">      // 参数1是字符串，参数2是传递的数据</span><br><span class="line">      this.$emit(&quot;onEvent&quot;, this.message);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h1 id="组件生命周期"   >
-          <a href="#组件生命周期" class="heading-link"><i class="fas fa-link"></i></a><a href="#组件生命周期" class="headerlink" title="组件生命周期"></a>组件生命周期</h1>
-      
-        <h2 id="源码-MyComponent-vue-2"   >
-          <a href="#源码-MyComponent-vue-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-MyComponent-vue-2" class="headerlink" title="源码(MyComponent.vue)"></a>源码(MyComponent.vue)</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;h3&gt;生命周期函数&lt;/h3&gt;</span><br><span class="line">  &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;button @click=&quot;message = &#x27;数据&#x27;&quot;&gt;点击&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  // 8个生命周期函数</span><br><span class="line">  beforeCreate() &#123;</span><br><span class="line">    console.log(&quot;beforeCreate:组件创建之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  created() &#123;</span><br><span class="line">    console.log(&quot;created:组件创建完成&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  beforeMount() &#123;</span><br><span class="line">    console.log(&quot;beforeMount:组件渲染之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    console.log(&quot;mounted:组件渲染完成&quot;);</span><br><span class="line">    // 把网络请求放在这里</span><br><span class="line">  &#125;,</span><br><span class="line">  beforeUpdate() &#123;</span><br><span class="line">    console.log(&quot;beforeUpdate:组件更新之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  updated() &#123;</span><br><span class="line">    console.log(&quot;updated:组件更新之后&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  beforeUnmount() &#123;</span><br><span class="line">    console.log(&quot;beforeUnmount:组件卸载之前&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">  unmounted() &#123;</span><br><span class="line">    console.log(&quot;unmounted:组件卸载之后&quot;);</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="源码-App-vue-3"   >
-          <a href="#源码-App-vue-3" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-App-vue-3" class="headerlink" title="源码(App.vue)"></a>源码(App.vue)</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;!--相当于根组件--&gt;</span><br><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;!--    第三步，显示组件--&gt;</span><br><span class="line">  &lt;MyComponent /&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// 第一步，引入组件</span><br><span class="line">import MyComponent from &quot;./components/MyComponent.vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;App&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  components: &#123;</span><br><span class="line">    // 第二步挂载组件</span><br><span class="line">    MyComponent,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
 ]]></content>
       <categories>
         <category>vue</category>
@@ -2821,70 +2816,6 @@
       </tags>
   </entry>
   <entry>
-    <title>git 协同开发-创建分支-操作步骤</title>
-    <url>/2023/05/22/git%E5%8D%8F%E5%90%8C%E5%BC%80%E5%8F%91%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4/</url>
-    <content><![CDATA[
-        <h1 id="git-协同开发-创建分支-操作步骤"   >
-          <a href="#git-协同开发-创建分支-操作步骤" class="heading-link"><i class="fas fa-link"></i></a><a href="#git-协同开发-创建分支-操作步骤" class="headerlink" title="git 协同开发-创建分支-操作步骤"></a>git 协同开发-创建分支-操作步骤</h1>
-      
-        <h2 id="克隆（clone）项目仓库到本地"   >
-          <a href="#克隆（clone）项目仓库到本地" class="heading-link"><i class="fas fa-link"></i></a><a href="#克隆（clone）项目仓库到本地" class="headerlink" title="克隆（clone）项目仓库到本地"></a>克隆（clone）项目仓库到本地</h2>
-      <blockquote>
-<p>git clone &lt;Gitee 项目仓库地址&gt;</p>
-</blockquote>
-
-        <h2 id="进入项目目录："   >
-          <a href="#进入项目目录：" class="heading-link"><i class="fas fa-link"></i></a><a href="#进入项目目录：" class="headerlink" title="进入项目目录："></a>进入项目目录：</h2>
-      <blockquote>
-<p>cd <project-directory></p>
-</blockquote>
-
-        <h2 id="小明创建自己的开发分支："   >
-          <a href="#小明创建自己的开发分支：" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明创建自己的开发分支：" class="headerlink" title="小明创建自己的开发分支："></a>小明创建自己的开发分支：</h2>
-      <blockquote>
-<p>git checkout -b ming-dev</p>
-</blockquote>
-
-        <h2 id="小明在自己的分支上进行代码修改和开发工作"   >
-          <a href="#小明在自己的分支上进行代码修改和开发工作" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明在自己的分支上进行代码修改和开发工作" class="headerlink" title="小明在自己的分支上进行代码修改和开发工作"></a>小明在自己的分支上进行代码修改和开发工作</h2>
-      <p>以在 src 文件夹中，创建 test.txt 为例</p>
-<blockquote>
-<p>cd src<br>touch test.txt</p>
-</blockquote>
-
-        <h2 id="小明提交自己的更改到本地仓库："   >
-          <a href="#小明提交自己的更改到本地仓库：" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明提交自己的更改到本地仓库：" class="headerlink" title="小明提交自己的更改到本地仓库："></a>小明提交自己的更改到本地仓库：</h2>
-      <blockquote>
-<p>git add .<br>git commit -m “(描述小明的更改)在 src 文件夹中创建了 test.txt”</p>
-</blockquote>
-
-        <h2 id="小明推送（push）自己的分支到远程仓库："   >
-          <a href="#小明推送（push）自己的分支到远程仓库：" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明推送（push）自己的分支到远程仓库：" class="headerlink" title="小明推送（push）自己的分支到远程仓库："></a>小明推送（push）自己的分支到远程仓库：</h2>
-      <blockquote>
-<p>git push origin ming-dev</p>
-</blockquote>
-
-        <h2 id="切换到-master-主分支"   >
-          <a href="#切换到-master-主分支" class="heading-link"><i class="fas fa-link"></i></a><a href="#切换到-master-主分支" class="headerlink" title="切换到 master 主分支"></a>切换到 master 主分支</h2>
-      <blockquote>
-<p>git checkout master</p>
-</blockquote>
-
-        <h2 id="push-到远程仓库"   >
-          <a href="#push-到远程仓库" class="heading-link"><i class="fas fa-link"></i></a><a href="#push-到远程仓库" class="headerlink" title="push 到远程仓库"></a>push 到远程仓库</h2>
-      <blockquote>
-<p>git push origin master</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>gitee</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>hexo-stun博客配置存档</title>
     <url>/2023/04/15/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E5%AD%98%E6%A1%A3/</url>
     <content><![CDATA[
@@ -3051,6 +2982,85 @@
       </tags>
   </entry>
   <entry>
+    <title>git 协同开发-创建分支-操作步骤</title>
+    <url>/2023/05/22/git%E5%8D%8F%E5%90%8C%E5%BC%80%E5%8F%91%E6%93%8D%E4%BD%9C%E6%AD%A5%E9%AA%A4/</url>
+    <content><![CDATA[
+        <h1 id="git-协同开发-创建分支-操作步骤"   >
+          <a href="#git-协同开发-创建分支-操作步骤" class="heading-link"><i class="fas fa-link"></i></a><a href="#git-协同开发-创建分支-操作步骤" class="headerlink" title="git 协同开发-创建分支-操作步骤"></a>git 协同开发-创建分支-操作步骤</h1>
+      
+        <h2 id="克隆（clone）项目仓库到本地"   >
+          <a href="#克隆（clone）项目仓库到本地" class="heading-link"><i class="fas fa-link"></i></a><a href="#克隆（clone）项目仓库到本地" class="headerlink" title="克隆（clone）项目仓库到本地"></a>克隆（clone）项目仓库到本地</h2>
+      <blockquote>
+<p>git clone &lt;Gitee 项目仓库地址&gt;</p>
+</blockquote>
+
+        <h2 id="进入项目目录："   >
+          <a href="#进入项目目录：" class="heading-link"><i class="fas fa-link"></i></a><a href="#进入项目目录：" class="headerlink" title="进入项目目录："></a>进入项目目录：</h2>
+      <blockquote>
+<p>cd <project-directory></p>
+</blockquote>
+
+        <h2 id="小明创建自己的开发分支："   >
+          <a href="#小明创建自己的开发分支：" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明创建自己的开发分支：" class="headerlink" title="小明创建自己的开发分支："></a>小明创建自己的开发分支：</h2>
+      <blockquote>
+<p>git checkout -b ming-dev</p>
+</blockquote>
+
+        <h2 id="小明在自己的分支上进行代码修改和开发工作"   >
+          <a href="#小明在自己的分支上进行代码修改和开发工作" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明在自己的分支上进行代码修改和开发工作" class="headerlink" title="小明在自己的分支上进行代码修改和开发工作"></a>小明在自己的分支上进行代码修改和开发工作</h2>
+      <p>以在 src 文件夹中，创建 test.txt 为例</p>
+<blockquote>
+<p>cd src<br>touch test.txt</p>
+</blockquote>
+
+        <h2 id="小明提交自己的更改到本地仓库："   >
+          <a href="#小明提交自己的更改到本地仓库：" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明提交自己的更改到本地仓库：" class="headerlink" title="小明提交自己的更改到本地仓库："></a>小明提交自己的更改到本地仓库：</h2>
+      <blockquote>
+<p>git add .<br>git commit -m “(描述小明的更改)在 src 文件夹中创建了 test.txt”</p>
+</blockquote>
+
+        <h2 id="小明推送（push）自己的分支到远程仓库："   >
+          <a href="#小明推送（push）自己的分支到远程仓库：" class="heading-link"><i class="fas fa-link"></i></a><a href="#小明推送（push）自己的分支到远程仓库：" class="headerlink" title="小明推送（push）自己的分支到远程仓库："></a>小明推送（push）自己的分支到远程仓库：</h2>
+      <blockquote>
+<p>git push origin ming-dev</p>
+</blockquote>
+
+        <h2 id="切换到-master-主分支"   >
+          <a href="#切换到-master-主分支" class="heading-link"><i class="fas fa-link"></i></a><a href="#切换到-master-主分支" class="headerlink" title="切换到 master 主分支"></a>切换到 master 主分支</h2>
+      <blockquote>
+<p>git checkout master</p>
+</blockquote>
+
+        <h2 id="push-到远程仓库"   >
+          <a href="#push-到远程仓库" class="heading-link"><i class="fas fa-link"></i></a><a href="#push-到远程仓库" class="headerlink" title="push 到远程仓库"></a>push 到远程仓库</h2>
+      <blockquote>
+<p>git push origin master</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
+        <tag>gitee</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>museum-展馆界面-交通路线</title>
+    <url>/2023/05/22/museum-%E5%B1%95%E9%A6%86%E7%95%8C%E9%9D%A2-%E4%BA%A4%E9%80%9A%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[
+        <h1 id="museum-展馆界面-交通路线"   >
+          <a href="#museum-展馆界面-交通路线" class="heading-link"><i class="fas fa-link"></i></a><a href="#museum-展馆界面-交通路线" class="headerlink" title="museum-展馆界面-交通路线"></a>museum-展馆界面-交通路线</h1>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;nav-bar&quot;&gt;</span><br><span class="line">    &lt;!-- 导航栏代码 --&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;li&gt;</span><br><span class="line">        &lt;img</span><br><span class="line">          data-v-039b8a00=&quot;&quot;</span><br><span class="line">          src=&quot;https://ajycc20.github.io/museum-frontend/static/img/menu-logo.9d415e7c.png&quot;</span><br><span class="line">          class=&quot;menu-logo&quot;</span><br><span class="line">        /&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li&gt;&lt;a href=&quot;http://localhost:5173/&quot;&gt;主页&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibition&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibition&quot;&gt;展馆&lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;exhibition-dropdown&quot;&gt;</span><br><span class="line">          &lt;!-- 下拉导航栏内容 --&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToExhibition&quot;&gt;全部展馆&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMapContainer&quot;&gt;交通路线&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMyCollection&quot;&gt;我的收藏&lt;/a&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibits&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibits&quot;&gt;展品&lt;/a&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li style=&quot;float: right&quot;&gt;&lt;a class=&quot;active&quot; href=&quot;#about&quot;&gt;个人中心&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;main-content&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;exhibition&quot; ref=&quot;exhibition&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;bjone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;故宫博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;bjtwo&quot;&gt;</span><br><span class="line">        &lt;h3&gt;首都博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;njone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;南京博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;shone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;上海博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;img src=&quot;../assets/exh1.jpg&quot; alt=&quot;&quot; class=&quot;exh1&quot; /&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;mapcontainer&quot; ref=&quot;mapContainer&quot;&gt;&lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;textcontainer&quot;&gt;</span><br><span class="line">        &lt;h3&gt;交通路线&lt;/h3&gt;</span><br><span class="line">        &lt;p&gt;地址：南京市玄武区中山东路321号&lt;/p&gt;</span><br><span class="line">        &lt;button @click=&quot;showBusInfo&quot;&gt;公交&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showMapInfo&quot;&gt;地铁&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showCarInfo&quot;&gt;自驾停车&lt;/button&gt;</span><br><span class="line">        &lt;div class=&quot;bus-info&quot; v-if=&quot;showBus&quot;&gt;</span><br><span class="line">          &lt;h4&gt;如何乘坐公交到达南京博物院？&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            乘坐公交 5路、34路、36路、55路、59路&lt;br /&gt;</span><br><span class="line">            到中山门站</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;map-info&quot; v-if=&quot;showMap&quot;&gt;</span><br><span class="line">          &lt;h4&gt;周边地铁&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;2号线明故宫站，由一号出口向东300米&lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;car-info&quot; v-if=&quot;showCar&quot;&gt;</span><br><span class="line">          &lt;h4&gt;自驾停车点&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            设有大巴车及小车停车场。&lt;br /&gt;</span><br><span class="line">            小车停车入口处在南京博物院西门。&lt;br /&gt;</span><br><span class="line">            停车时间：星期二至星期天9:00-18:00</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;collection&quot; ref=&quot;myCollection&quot;&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      showBus: false,</span><br><span class="line">      showMap: false,</span><br><span class="line">      showCar: false,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    /**</span><br><span class="line">     * 1、左侧部分：地图</span><br><span class="line">     */</span><br><span class="line"></span><br><span class="line">    // 跳转至全部展馆exhibition</span><br><span class="line">    scrollToExhibition() &#123;</span><br><span class="line">      const exhibition = this.$refs.exhibition;</span><br><span class="line">      if (exhibition) &#123;</span><br><span class="line">        exhibition.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至交通路线mapcontainer</span><br><span class="line">    scrollToMapContainer() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      if (mapContainer) &#123;</span><br><span class="line">        mapContainer.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至我的收藏myCollection</span><br><span class="line">    scrollToMyCollection() &#123;</span><br><span class="line">      const myCollection = this.$refs.myCollection;</span><br><span class="line">      if (myCollection) &#123;</span><br><span class="line">        myCollection.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 显示地图控件</span><br><span class="line">    initializeMap() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      const map = new AMap.Map(mapContainer, &#123;</span><br><span class="line">        center: [118.825064, 32.040802], // 设置地图中心点经纬度</span><br><span class="line">        zoom: 15, // 设置地图缩放级别</span><br><span class="line">      &#125;);</span><br><span class="line"></span><br><span class="line">      // 添加地图控件</span><br><span class="line">      AMap.plugin(</span><br><span class="line">        [&quot;AMap.ToolBar&quot;, &quot;AMap.Scale&quot;, &quot;AMap.MapType&quot;, &quot;AMap.Geolocation&quot;],</span><br><span class="line">        () =&gt; &#123;</span><br><span class="line">          map.addControl(new AMap.ToolBar());</span><br><span class="line">          map.addControl(new AMap.Scale());</span><br><span class="line">          map.addControl(new AMap.MapType());</span><br><span class="line">          map.addControl(new AMap.Geolocation());</span><br><span class="line">        &#125;</span><br><span class="line">      );</span><br><span class="line"></span><br><span class="line">      // 在地图上添加一个标记点</span><br><span class="line">      const marker = new AMap.Marker(&#123;</span><br><span class="line">        position: [118.825064, 32.040802], // 设置标记点的经纬度</span><br><span class="line">        map: map,</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;,</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 2、右侧部分：文字</span><br><span class="line">     */</span><br><span class="line">    showBusInfo() &#123;</span><br><span class="line">      this.showBus = true;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showMapInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = true;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showCarInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = true;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    const mapScript = document.createElement(&quot;script&quot;);</span><br><span class="line">    mapScript.src =</span><br><span class="line">      &quot;https://webapi.amap.com/maps?v=1.4.15&amp;key=0eb3710f749e5a9df901264fcdc8599a&quot;;</span><br><span class="line">    mapScript.async = true;</span><br><span class="line">    mapScript.onload = this.initializeMap;</span><br><span class="line">    document.head.appendChild(mapScript);</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">/* 导航栏的样式 */</span><br><span class="line">.nav-bar &#123;</span><br><span class="line">  position: fixed;</span><br><span class="line">  top: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  width: 100%;</span><br><span class="line">  z-index: 999;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ul &#123;</span><br><span class="line">  list-style-type: none;</span><br><span class="line">  margin: 0;</span><br><span class="line">  padding: 0;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  background-color: white;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li &#123;</span><br><span class="line">  float: left;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li a &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  text-align: center;</span><br><span class="line">  padding: 14px 16px;</span><br><span class="line">  text-decoration: none;</span><br><span class="line">&#125;</span><br><span class="line">li a:hover &#123;</span><br><span class="line">  color: red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown &#123;</span><br><span class="line">  display: none;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition:hover .exhibition-dropdown &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  position: absolute;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 设置展馆下拉框的字体样式 */</span><br><span class="line">.exhibition-dropdown a &#123;</span><br><span class="line">  /* 默认黑色字体 */</span><br><span class="line">  color: black;</span><br><span class="line">  font-size: 20px;</span><br><span class="line">  /* 添加过渡效果 */</span><br><span class="line">  transition: color 0.3s;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:hover &#123;</span><br><span class="line">  color: white;</span><br><span class="line">  transform: translateY(-2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:focus &#123;</span><br><span class="line">  outline: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:active &#123;</span><br><span class="line">  transform: translateY(2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 全部展馆的样式设计 */</span><br><span class="line">.exhibition &#123;</span><br><span class="line">  background-color: rgb(244, 241, 241);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exh1 &#123;</span><br><span class="line">  width: 300px;</span><br><span class="line">  height: 300px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 交通路线地图框与文字描述框的样式设计 */</span><br><span class="line">.container &#123;</span><br><span class="line">  display: flex;</span><br><span class="line">  flex-wrap: wrap;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.mapcontainer,</span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  width: 50%;</span><br><span class="line">  height: 400px;</span><br><span class="line">  box-sizing: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">  color: #ffffff;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+]]></content>
+      <categories>
+        <category>vue3</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>site</title>
     <url>/2023/03/28/site/</url>
     <content><![CDATA[
@@ -3093,21 +3103,6 @@
           <a href="#ciro-club" class="heading-link"><i class="fas fa-link"></i></a><a href="#ciro-club" class="headerlink" title="ciro.club"></a>ciro.club</h3>
       <p><span class="exturl"><a class="exturl__link"   href="https://ciro.club/navigations" >ciro.club</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>museum-展馆界面-交通路线</title>
-    <url>/2023/05/22/museum-%E5%B1%95%E9%A6%86%E7%95%8C%E9%9D%A2-%E4%BA%A4%E9%80%9A%E8%B7%AF%E7%BA%BF/</url>
-    <content><![CDATA[
-        <h1 id="museum-展馆界面-交通路线"   >
-          <a href="#museum-展馆界面-交通路线" class="heading-link"><i class="fas fa-link"></i></a><a href="#museum-展馆界面-交通路线" class="headerlink" title="museum-展馆界面-交通路线"></a>museum-展馆界面-交通路线</h1>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;nav-bar&quot;&gt;</span><br><span class="line">    &lt;!-- 导航栏代码 --&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;li&gt;</span><br><span class="line">        &lt;img</span><br><span class="line">          data-v-039b8a00=&quot;&quot;</span><br><span class="line">          src=&quot;https://ajycc20.github.io/museum-frontend/static/img/menu-logo.9d415e7c.png&quot;</span><br><span class="line">          class=&quot;menu-logo&quot;</span><br><span class="line">        /&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li&gt;&lt;a href=&quot;http://localhost:5173/&quot;&gt;主页&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibition&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibition&quot;&gt;展馆&lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;exhibition-dropdown&quot;&gt;</span><br><span class="line">          &lt;!-- 下拉导航栏内容 --&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToExhibition&quot;&gt;全部展馆&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMapContainer&quot;&gt;交通路线&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMyCollection&quot;&gt;我的收藏&lt;/a&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibits&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibits&quot;&gt;展品&lt;/a&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li style=&quot;float: right&quot;&gt;&lt;a class=&quot;active&quot; href=&quot;#about&quot;&gt;个人中心&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;main-content&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;exhibition&quot; ref=&quot;exhibition&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;bjone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;故宫博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;bjtwo&quot;&gt;</span><br><span class="line">        &lt;h3&gt;首都博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;njone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;南京博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;shone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;上海博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;img src=&quot;../assets/exh1.jpg&quot; alt=&quot;&quot; class=&quot;exh1&quot; /&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;mapcontainer&quot; ref=&quot;mapContainer&quot;&gt;&lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;textcontainer&quot;&gt;</span><br><span class="line">        &lt;h3&gt;交通路线&lt;/h3&gt;</span><br><span class="line">        &lt;p&gt;地址：南京市玄武区中山东路321号&lt;/p&gt;</span><br><span class="line">        &lt;button @click=&quot;showBusInfo&quot;&gt;公交&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showMapInfo&quot;&gt;地铁&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showCarInfo&quot;&gt;自驾停车&lt;/button&gt;</span><br><span class="line">        &lt;div class=&quot;bus-info&quot; v-if=&quot;showBus&quot;&gt;</span><br><span class="line">          &lt;h4&gt;如何乘坐公交到达南京博物院？&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            乘坐公交 5路、34路、36路、55路、59路&lt;br /&gt;</span><br><span class="line">            到中山门站</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;map-info&quot; v-if=&quot;showMap&quot;&gt;</span><br><span class="line">          &lt;h4&gt;周边地铁&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;2号线明故宫站，由一号出口向东300米&lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;car-info&quot; v-if=&quot;showCar&quot;&gt;</span><br><span class="line">          &lt;h4&gt;自驾停车点&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            设有大巴车及小车停车场。&lt;br /&gt;</span><br><span class="line">            小车停车入口处在南京博物院西门。&lt;br /&gt;</span><br><span class="line">            停车时间：星期二至星期天9:00-18:00</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;collection&quot; ref=&quot;myCollection&quot;&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      showBus: false,</span><br><span class="line">      showMap: false,</span><br><span class="line">      showCar: false,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    /**</span><br><span class="line">     * 1、左侧部分：地图</span><br><span class="line">     */</span><br><span class="line"></span><br><span class="line">    // 跳转至全部展馆exhibition</span><br><span class="line">    scrollToExhibition() &#123;</span><br><span class="line">      const exhibition = this.$refs.exhibition;</span><br><span class="line">      if (exhibition) &#123;</span><br><span class="line">        exhibition.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至交通路线mapcontainer</span><br><span class="line">    scrollToMapContainer() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      if (mapContainer) &#123;</span><br><span class="line">        mapContainer.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至我的收藏myCollection</span><br><span class="line">    scrollToMyCollection() &#123;</span><br><span class="line">      const myCollection = this.$refs.myCollection;</span><br><span class="line">      if (myCollection) &#123;</span><br><span class="line">        myCollection.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 显示地图控件</span><br><span class="line">    initializeMap() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      const map = new AMap.Map(mapContainer, &#123;</span><br><span class="line">        center: [118.825064, 32.040802], // 设置地图中心点经纬度</span><br><span class="line">        zoom: 15, // 设置地图缩放级别</span><br><span class="line">      &#125;);</span><br><span class="line"></span><br><span class="line">      // 添加地图控件</span><br><span class="line">      AMap.plugin(</span><br><span class="line">        [&quot;AMap.ToolBar&quot;, &quot;AMap.Scale&quot;, &quot;AMap.MapType&quot;, &quot;AMap.Geolocation&quot;],</span><br><span class="line">        () =&gt; &#123;</span><br><span class="line">          map.addControl(new AMap.ToolBar());</span><br><span class="line">          map.addControl(new AMap.Scale());</span><br><span class="line">          map.addControl(new AMap.MapType());</span><br><span class="line">          map.addControl(new AMap.Geolocation());</span><br><span class="line">        &#125;</span><br><span class="line">      );</span><br><span class="line"></span><br><span class="line">      // 在地图上添加一个标记点</span><br><span class="line">      const marker = new AMap.Marker(&#123;</span><br><span class="line">        position: [118.825064, 32.040802], // 设置标记点的经纬度</span><br><span class="line">        map: map,</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;,</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 2、右侧部分：文字</span><br><span class="line">     */</span><br><span class="line">    showBusInfo() &#123;</span><br><span class="line">      this.showBus = true;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showMapInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = true;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showCarInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = true;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    const mapScript = document.createElement(&quot;script&quot;);</span><br><span class="line">    mapScript.src =</span><br><span class="line">      &quot;https://webapi.amap.com/maps?v=1.4.15&amp;key=0eb3710f749e5a9df901264fcdc8599a&quot;;</span><br><span class="line">    mapScript.async = true;</span><br><span class="line">    mapScript.onload = this.initializeMap;</span><br><span class="line">    document.head.appendChild(mapScript);</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">/* 导航栏的样式 */</span><br><span class="line">.nav-bar &#123;</span><br><span class="line">  position: fixed;</span><br><span class="line">  top: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  width: 100%;</span><br><span class="line">  z-index: 999;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ul &#123;</span><br><span class="line">  list-style-type: none;</span><br><span class="line">  margin: 0;</span><br><span class="line">  padding: 0;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  background-color: white;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li &#123;</span><br><span class="line">  float: left;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li a &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  text-align: center;</span><br><span class="line">  padding: 14px 16px;</span><br><span class="line">  text-decoration: none;</span><br><span class="line">&#125;</span><br><span class="line">li a:hover &#123;</span><br><span class="line">  color: red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown &#123;</span><br><span class="line">  display: none;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition:hover .exhibition-dropdown &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  position: absolute;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 设置展馆下拉框的字体样式 */</span><br><span class="line">.exhibition-dropdown a &#123;</span><br><span class="line">  /* 默认黑色字体 */</span><br><span class="line">  color: black;</span><br><span class="line">  font-size: 20px;</span><br><span class="line">  /* 添加过渡效果 */</span><br><span class="line">  transition: color 0.3s;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:hover &#123;</span><br><span class="line">  color: white;</span><br><span class="line">  transform: translateY(-2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:focus &#123;</span><br><span class="line">  outline: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:active &#123;</span><br><span class="line">  transform: translateY(2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 全部展馆的样式设计 */</span><br><span class="line">.exhibition &#123;</span><br><span class="line">  background-color: rgb(244, 241, 241);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exh1 &#123;</span><br><span class="line">  width: 300px;</span><br><span class="line">  height: 300px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 交通路线地图框与文字描述框的样式设计 */</span><br><span class="line">.container &#123;</span><br><span class="line">  display: flex;</span><br><span class="line">  flex-wrap: wrap;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.mapcontainer,</span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  width: 50%;</span><br><span class="line">  height: 400px;</span><br><span class="line">  box-sizing: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">  color: #ffffff;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-]]></content>
-      <categories>
-        <category>vue3</category>
-      </categories>
-      <tags>
-        <tag>vue3</tag>
-      </tags>
   </entry>
   <entry>
     <title>Vue-事件处理</title>
@@ -3178,6 +3173,64 @@
       </categories>
       <tags>
         <tag>Vue3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/05/19/vue3%E6%96%B0%E7%89%B9%E6%80%A7/</url>
+    <content><![CDATA[
+        <h1 id="Vue3-新特性"   >
+          <a href="#Vue3-新特性" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue3-新特性" class="headerlink" title="Vue3 新特性"></a>Vue3 新特性</h1>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;home&quot;&gt;&#123;&#123; name &#125;&#125;-&#123;&#123; age &#125;&#125;-&#123;&#123; num &#125;&#125;&lt;/div&gt;</span><br><span class="line">  &lt;button @click=&quot;change()&quot;&gt;click&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// import HelloWorld from &#x27;@/components/HelloWorld.vue&#x27;</span><br><span class="line"></span><br><span class="line">import &#123; reactive, toRefs, onMounted, onUnmounted, computed &#125; from &quot;vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HomeView&quot;,</span><br><span class="line">  // components: &#123;</span><br><span class="line">  //   HelloWorld</span><br><span class="line">  // &#125;</span><br><span class="line">  setup(props, context) &#123;</span><br><span class="line">    // 响应式数据</span><br><span class="line">    const state = reactive(&#123;</span><br><span class="line">      name: &quot;jindu&quot;,</span><br><span class="line">      age: 20,</span><br><span class="line">      num: computed(() =&gt; state.age + 1),</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    // 方法定义</span><br><span class="line">    const change = () =&gt; &#123;</span><br><span class="line">      state.age += 1;</span><br><span class="line">      console.log(state.age);</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    onMounted(() =&gt; &#123;</span><br><span class="line">      change();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    onUnmounted(() =&gt; &#123;&#125;);</span><br><span class="line"></span><br><span class="line">    return &#123;</span><br><span class="line">      ...toRefs(state),</span><br><span class="line">      change,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></div></figure>
+]]></content>
+  </entry>
+  <entry>
+    <title>youtube-trip-Backpacker</title>
+    <url>/2023/04/09/youtube-trip-Backpacker/</url>
+    <content><![CDATA[
+        <h1 id="题目"   >
+          <a href="#题目" class="heading-link"><i class="fas fa-link"></i></a><a href="#题目" class="headerlink" title="题目"></a>题目</h1>
+      <p>Backpackers guide to Living and Working in Queenstown, New Zealand</p>
+
+        <h2 id="视频地址"   >
+          <a href="#视频地址" class="heading-link"><i class="fas fa-link"></i></a><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h2>
+      <p><span class="exturl"><a class="exturl__link"   href="https://www.youtube.com/watch?v=EJRGJmGq_ec" >youtube</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="关键词"   >
+          <a href="#关键词" class="heading-link"><i class="fas fa-link"></i></a><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h2>
+      <p>Backpacker<br>backpacking<br>Working holiday visa<br>Adrenaline<br>bungee jump<br>tips and tricks<br>freebie</p>
+
+        <h2 id="地理"   >
+          <a href="#地理" class="heading-link"><i class="fas fa-link"></i></a><a href="#地理" class="headerlink" title="地理"></a>地理</h2>
+      <p>The bottom half of the south island of New Zealand<br>It is surrounded by mountains.<br>a lakeside town<br>Lake Wanaka<br>Glenorchy<br>Frankton</p>
+
+        <h2 id="Tips"   >
+          <a href="#Tips" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2>
+      <details>
+  <summary>👇Get a car:</summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">go wherever you want whenever you want to have that freedom</span><br></pre></td></tr></table></div></figure>
+</details>
+
+<details>
+  <summary>👇How to find a job in Queenstown: </summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">shift work</span><br></pre></td></tr></table></div></figure>
+</details>
+
+
+        <h2 id="网站-社交媒体"   >
+          <a href="#网站-社交媒体" class="heading-link"><i class="fas fa-link"></i></a><a href="#网站-社交媒体" class="headerlink" title="网站/社交媒体"></a>网站/社交媒体</h2>
+      <p>Kiwi experience<br>Facebook group Queenstown trading<br>Facebook group for rent in Queenstown</p>
+
+        <h2 id="工种"   >
+          <a href="#工种" class="heading-link"><i class="fas fa-link"></i></a><a href="#工种" class="headerlink" title="工种"></a>工种</h2>
+      <p>Backpacker<br>Waiter/Waitress<br>housekeeper</p>
+]]></content>
+      <categories>
+        <category>trip</category>
+      </categories>
+      <tags>
+        <tag>trip</tag>
+        <tag>Backpacker</tag>
       </tags>
   </entry>
   <entry>
@@ -3259,55 +3312,6 @@
       </tags>
   </entry>
   <entry>
-    <title>youtube-trip-Backpacker</title>
-    <url>/2023/04/09/youtube-trip-Backpacker/</url>
-    <content><![CDATA[
-        <h1 id="题目"   >
-          <a href="#题目" class="heading-link"><i class="fas fa-link"></i></a><a href="#题目" class="headerlink" title="题目"></a>题目</h1>
-      <p>Backpackers guide to Living and Working in Queenstown, New Zealand</p>
-
-        <h2 id="视频地址"   >
-          <a href="#视频地址" class="heading-link"><i class="fas fa-link"></i></a><a href="#视频地址" class="headerlink" title="视频地址"></a>视频地址</h2>
-      <p><span class="exturl"><a class="exturl__link"   href="https://www.youtube.com/watch?v=EJRGJmGq_ec" >youtube</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="关键词"   >
-          <a href="#关键词" class="heading-link"><i class="fas fa-link"></i></a><a href="#关键词" class="headerlink" title="关键词"></a>关键词</h2>
-      <p>Backpacker<br>backpacking<br>Working holiday visa<br>Adrenaline<br>bungee jump<br>tips and tricks<br>freebie</p>
-
-        <h2 id="地理"   >
-          <a href="#地理" class="heading-link"><i class="fas fa-link"></i></a><a href="#地理" class="headerlink" title="地理"></a>地理</h2>
-      <p>The bottom half of the south island of New Zealand<br>It is surrounded by mountains.<br>a lakeside town<br>Lake Wanaka<br>Glenorchy<br>Frankton</p>
-
-        <h2 id="Tips"   >
-          <a href="#Tips" class="heading-link"><i class="fas fa-link"></i></a><a href="#Tips" class="headerlink" title="Tips"></a>Tips</h2>
-      <details>
-  <summary>👇Get a car:</summary>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">go wherever you want whenever you want to have that freedom</span><br></pre></td></tr></table></div></figure>
-</details>
-
-<details>
-  <summary>👇How to find a job in Queenstown: </summary>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">shift work</span><br></pre></td></tr></table></div></figure>
-</details>
-
-
-        <h2 id="网站-社交媒体"   >
-          <a href="#网站-社交媒体" class="heading-link"><i class="fas fa-link"></i></a><a href="#网站-社交媒体" class="headerlink" title="网站/社交媒体"></a>网站/社交媒体</h2>
-      <p>Kiwi experience<br>Facebook group Queenstown trading<br>Facebook group for rent in Queenstown</p>
-
-        <h2 id="工种"   >
-          <a href="#工种" class="heading-link"><i class="fas fa-link"></i></a><a href="#工种" class="headerlink" title="工种"></a>工种</h2>
-      <p>Backpacker<br>Waiter/Waitress<br>housekeeper</p>
-]]></content>
-      <categories>
-        <category>trip</category>
-      </categories>
-      <tags>
-        <tag>trip</tag>
-        <tag>Backpacker</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>zhelper</title>
     <url>/2023/03/09/zhelper/</url>
     <content><![CDATA[
@@ -3315,283 +3319,6 @@
           <a href="#zhepler" class="heading-link"><i class="fas fa-link"></i></a><a href="#zhepler" class="headerlink" title="zhepler"></a>zhepler</h1>
       <p><span class="exturl"><a class="exturl__link"   href="https://search.zhelper.net/" >zhelper</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
 ]]></content>
-  </entry>
-  <entry>
-    <title></title>
-    <url>/2023/05/19/vue3%E6%96%B0%E7%89%B9%E6%80%A7/</url>
-    <content><![CDATA[
-        <h1 id="Vue3-新特性"   >
-          <a href="#Vue3-新特性" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue3-新特性" class="headerlink" title="Vue3 新特性"></a>Vue3 新特性</h1>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;home&quot;&gt;&#123;&#123; name &#125;&#125;-&#123;&#123; age &#125;&#125;-&#123;&#123; num &#125;&#125;&lt;/div&gt;</span><br><span class="line">  &lt;button @click=&quot;change()&quot;&gt;click&lt;/button&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">// import HelloWorld from &#x27;@/components/HelloWorld.vue&#x27;</span><br><span class="line"></span><br><span class="line">import &#123; reactive, toRefs, onMounted, onUnmounted, computed &#125; from &quot;vue&quot;;</span><br><span class="line"></span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HomeView&quot;,</span><br><span class="line">  // components: &#123;</span><br><span class="line">  //   HelloWorld</span><br><span class="line">  // &#125;</span><br><span class="line">  setup(props, context) &#123;</span><br><span class="line">    // 响应式数据</span><br><span class="line">    const state = reactive(&#123;</span><br><span class="line">      name: &quot;jindu&quot;,</span><br><span class="line">      age: 20,</span><br><span class="line">      num: computed(() =&gt; state.age + 1),</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    // 方法定义</span><br><span class="line">    const change = () =&gt; &#123;</span><br><span class="line">      state.age += 1;</span><br><span class="line">      console.log(state.age);</span><br><span class="line">    &#125;;</span><br><span class="line"></span><br><span class="line">    onMounted(() =&gt; &#123;</span><br><span class="line">      change();</span><br><span class="line">    &#125;);</span><br><span class="line"></span><br><span class="line">    onUnmounted(() =&gt; &#123;&#125;);</span><br><span class="line"></span><br><span class="line">    return &#123;</span><br><span class="line">      ...toRefs(state),</span><br><span class="line">      change,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br></pre></td></tr></table></div></figure>
-]]></content>
-  </entry>
-  <entry>
-    <title>概率论笔记</title>
-    <url>/2022/06/09/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B0/</url>
-    <content><![CDATA[
-        <h2 id="第一节-随机事件与概率"   >
-          <a href="#第一节-随机事件与概率" class="heading-link"><i class="fas fa-link"></i></a><a href="#第一节-随机事件与概率" class="headerlink" title="第一节 随机事件与概率"></a>第一节 随机事件与概率</h2>
-      
-        <h3 id="一、随机试验"   >
-          <a href="#一、随机试验" class="heading-link"><i class="fas fa-link"></i></a><a href="#一、随机试验" class="headerlink" title="一、随机试验"></a>一、随机试验</h3>
-      <ul>
-<li>为了研究随机现象的统计规律性，就要对客观事物进行观察，观察的过程叫<strong>随机试验</strong> <ul>
-<li>（1）在相同的条件下试验可以重复进行；</li>
-<li>（2）每次试验的结果不止一种，但是试验之前必须明确试验的所有可能结果；</li>
-<li>（3）每次试验将会出现什么样的结果是事先无法预知的．</li>
-</ul>
-</li>
-</ul>
-
-        <h3 id="二、样本空间"   >
-          <a href="#二、样本空间" class="heading-link"><i class="fas fa-link"></i></a><a href="#二、样本空间" class="headerlink" title="二、样本空间"></a>二、样本空间</h3>
-      <ul>
-<li>随机试验的一切可能结果组成的集合称为<strong>样本空间</strong>，记为Ω={ω}<ul>
-<li>其中ω表示试验的每一个可能结果，又称为<strong>样本点</strong> </li>
-</ul>
-</li>
-</ul>
-
-        <h4 id="三、随机事件"   >
-          <a href="#三、随机事件" class="heading-link"><i class="fas fa-link"></i></a><a href="#三、随机事件" class="headerlink" title="三、随机事件"></a>三、随机事件</h4>
-      <ul>
-<li>这些在一次试验中可能出现，也可能不出现的一类结果称为<strong>随机事件</strong>，简称为<strong>事件</strong></li>
-<li>随机事件通常用大写字母A，B，C，…表示．</li>
-</ul>
-<p>-注意：</p>
-<ol>
-<li>任一随机事件A是样本空间Ω的一个子集．</li>
-<li>当试验的结果ω属于该子集时，就说事件A发生了．</li>
-<li>仅含一个样本点的随机事件称为<strong>基本事件</strong>．</li>
-<li>样本空间Ω也是自己的一个子集，所以它也称为一个事件．由于Ω包含所有可能的试验结果，所以Ω在每一次试验中一定发生，又称为<strong>必然事件</strong>．</li>
-<li>空集∅也是样本空间Ω的一个子集，所以它也称为一个事件．由于∅中不包含任何元素，所以∅在每一次试验中一定不发生，又称为<strong>不可能事件</strong>．</li>
-</ol>
-
-        <h3 id="四、随机事件间的关系与运算"   >
-          <a href="#四、随机事件间的关系与运算" class="heading-link"><i class="fas fa-link"></i></a><a href="#四、随机事件间的关系与运算" class="headerlink" title="四、随机事件间的关系与运算"></a>四、随机事件间的关系与运算</h3>
-      <ol>
-<li>关系</li>
-</ol>
-<ul>
-<li>包含关系：<ul>
-<li>事件A发生必然导致事件B发生．</li>
-</ul>
-</li>
-<li>相等关系：<ul>
-<li>事件A发生必然导致事件B发生，且B发生必然导致A发生，即A与B是同一个事件．</li>
-</ul>
-</li>
-<li>互斥关系：<ul>
-<li>事件A与事件B不可能同时发生．</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">对立事件一定是互斥事件，成立。</span><br><span class="line">反之，不成立。</span><br></pre></td></tr></table></div></figure>
-
-
-
-<ol start="2">
-<li>运算</li>
-</ol>
-<ul>
-<li>并（A∪B）[也称和事件]：<ul>
-<li>事件A与B中至少有一个发生．</li>
-</ul>
-</li>
-<li>交（A∩B/AB）[也称积事件]：<ul>
-<li>事件A与B同时发生．</li>
-</ul>
-</li>
-<li>差（A-B）：<ul>
-<li>事件A发生且B不发生．</li>
-</ul>
-</li>
-<li>余（）[也称对立事件或逆事件]：<ul>
-<li>事件A不发生．</li>
-</ul>
-</li>
-</ul>
-<ol start="3">
-<li>事件的运算性质</li>
-</ol>
-<ul>
-<li>交换律</li>
-<li>结合律</li>
-<li>分配律</li>
-<li>对偶律</li>
-</ul>
-
-        <h2 id="第二节-集合论"   >
-          <a href="#第二节-集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第二节-集合论" class="headerlink" title="第二节 集合论"></a>第二节 集合论</h2>
-      
-        <h3 id="一、概率函数"   >
-          <a href="#一、概率函数" class="heading-link"><i class="fas fa-link"></i></a><a href="#一、概率函数" class="headerlink" title="一、概率函数"></a>一、概率函数</h3>
-      <ul>
-<li>P(A)=1/5</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">P，概率函数</span><br><span class="line">A，事件</span><br><span class="line"></span><br><span class="line">概率函数的自变数是：事件</span><br><span class="line">其中，事件是一种集合</span><br></pre></td></tr></table></div></figure>
-
-
-
-
-        <h3 id="二、集合论名词"   >
-          <a href="#二、集合论名词" class="heading-link"><i class="fas fa-link"></i></a><a href="#二、集合论名词" class="headerlink" title="二、集合论名词"></a>二、集合论名词</h3>
-      <ul>
-<li>元素 Element</li>
-<li>集合 Set<ul>
-<li>S={1, 2, 3}</li>
-</ul>
-</li>
-<li>子集合 Subset</li>
-<li>全集（宇集） Universal Set</li>
-<li>空集 Empty Set</li>
-<li>交集 Intersection</li>
-<li>并集 Union</li>
-<li>补集 Complement</li>
-<li>差集 Difference</li>
-<li>不相交 Disjiont</li>
-<li>互斥 Mutually Exclusive</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">1、不相交：两个集合没有重叠部分</span><br><span class="line">2、互斥：（1）建立在不相交的定义之上；</span><br><span class="line">		（2）一组集合中任选两个集合都不相交，则这组集合互斥</span><br></pre></td></tr></table></div></figure>
-
-
-
-
-        <h3 id="三、德摩根定理-De-Morgan’s-Law"   >
-          <a href="#三、德摩根定理-De-Morgan’s-Law" class="heading-link"><i class="fas fa-link"></i></a><a href="#三、德摩根定理-De-Morgan’s-Law" class="headerlink" title="三、德摩根定理 De Morgan’s Law"></a>三、德摩根定理 De Morgan’s Law</h3>
-      
-        <h3 id="概率论名词"   >
-          <a href="#概率论名词" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率论名词" class="headerlink" title="概率论名词"></a>概率论名词</h3>
-      <ul>
-<li>实验 Experiment</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">一个概率实验包含：</span><br><span class="line">（1）步骤 Procedures；</span><br><span class="line">（2）模型 Model；</span><br><span class="line">（3）观察 Observations；</span><br></pre></td></tr></table></div></figure>
-
-<ul>
-<li>结果 Outcome</li>
-<li><strong>样本空间 Sample Space</strong> : 概率实验中所有可能结果的集合</li>
-<li><strong>事件 Event</strong> ：对于实验结果的某种叙述<ul>
-<li>概率就是讲实验<strong>结果</strong>符合某种<strong>事件</strong>的机会有多大</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">样本空间=&#123;事件1，事件2，... ，事件n&#125;</span><br><span class="line"></span><br><span class="line">其中，事件=&#123;结果1，结果2，... ，结果n&#125;</span><br></pre></td></tr></table></div></figure>
-
-<ul>
-<li>事件空间 Event Space<ul>
-<li>定义：包含所有事件的集合</li>
-</ul>
-</li>
-</ul>
-
-        <h3 id="概率公理-Axiom-of-Probability"   >
-          <a href="#概率公理-Axiom-of-Probability" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率公理-Axiom-of-Probability" class="headerlink" title="概率公理 Axiom of  Probability"></a>概率公理 Axiom of  Probability</h3>
-      
-        <h4 id="概率性质1"   >
-          <a href="#概率性质1" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率性质1" class="headerlink" title="概率性质1"></a>概率性质1</h4>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">（1）对任何事件A而言，P(A)≥0；[非负]</span><br><span class="line">（2）P（S）=1；[规范]</span><br><span class="line">（3）事件A1,A2,...An互斥，则：</span><br><span class="line">	P（A1∪A2∪...∪An）=P(A1)+P(A2)+...+P(An)；[可列可加]</span><br></pre></td></tr></table></div></figure>
-
-
-        <h4 id="概率性质2"   >
-          <a href="#概率性质2" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率性质2" class="headerlink" title="概率性质2"></a>概率性质2</h4>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">(1) P（∅）=0； （*）</span><br><span class="line">(2) P(A)=P(A-B)+P(AB)；</span><br><span class="line">(3)P(A∪B)=P(A)+P(B)-P(A∩B);</span><br><span class="line">(4)若C1,C2,...,Cn=S，则对任何事件A：P(A)=P(A∩C1)+P(A∩C2)+...+P(A∩Cn);</span><br></pre></td></tr></table></div></figure>
-
-<p><span class="exturl"><a class="exturl__link"   href="https://www.bilibili.com/video/BV1Zy4y1J7vM?p=10" >(4)“切面包”定理：P10</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p>（*）证明：</p>
-<p>因为S∩∅=∅，所以S与∅互斥</p>
-<p>又S=S∪∅，</p>
-<p>则P(S)=<strong>P(S∪∅)=P(S)+P(∅)</strong> [ref. 性质3]</p>
-<p>所以，P(∅)=0</p>
-
-        <h3 id="条件概率-Conditional-Probability"   >
-          <a href="#条件概率-Conditional-Probability" class="heading-link"><i class="fas fa-link"></i></a><a href="#条件概率-Conditional-Probability" class="headerlink" title="条件概率 Conditional Probability"></a>条件概率 Conditional Probability</h3>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">P(X | Y)：</span><br><span class="line">X，对象事件</span><br><span class="line">Y，条件（已发生的事件）</span><br></pre></td></tr></table></div></figure>
-
-<ul>
-<li><p>延伸：</p>
-<p>​        P(X | Y) = P(X∩Y) / P(Y)</p>
-</li>
-<li><p>对任何事件X及任何条件事件Y，有：</p>
-<ul>
-<li>P(X | Y) ≥ 0；</li>
-<li>P(Y | Y) = 1；</li>
-<li>A，B互斥，P(A∪B | Y) = P(A | Y) + P(B | Y) ;</li>
-</ul>
-</li>
-</ul>
-
-        <h3 id="Total-Probability定理"   >
-          <a href="#Total-Probability定理" class="heading-link"><i class="fas fa-link"></i></a><a href="#Total-Probability定理" class="headerlink" title="Total Probability定理"></a>Total Probability定理</h3>
-      <ul>
-<li><p>若C1，C2，…，Cn互斥，且C1∪C2∪…∪Cn=S,</p>
-<p>则对任意事件A，有：</p>
-<p>P(A) = P(A | C1)P(C1)+ P(A | C2)P(C2)+…+ P(A | Cn)P(Cn)</p>
-</li>
-</ul>
-
-        <h3 id="贝叶斯定理-Bayes’-Rule"   >
-          <a href="#贝叶斯定理-Bayes’-Rule" class="heading-link"><i class="fas fa-link"></i></a><a href="#贝叶斯定理-Bayes’-Rule" class="headerlink" title="贝叶斯定理 Bayes’ Rule"></a>贝叶斯定理 Bayes’ Rule</h3>
-      
-        <h3 id="概率的独立性"   >
-          <a href="#概率的独立性" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率的独立性" class="headerlink" title="概率的独立性"></a>概率的独立性</h3>
-      <ul>
-<li>独立事件</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">(1)若两事件A、B的概率满足：</span><br><span class="line">P（A∩B）=P(A)P(B)，</span><br><span class="line">则A、B两事件称为概率上的独立事件;</span><br><span class="line"></span><br><span class="line">(2)P(A | B) = P(A);</span><br></pre></td></tr></table></div></figure>
-
-<ul>
-<li>多事件独立</li>
-</ul>
-
-        <h3 id="Fundamental-Principle-of-Counting"   >
-          <a href="#Fundamental-Principle-of-Counting" class="heading-link"><i class="fas fa-link"></i></a><a href="#Fundamental-Principle-of-Counting" class="headerlink" title="Fundamental Principle of Counting"></a>Fundamental Principle of Counting</h3>
-      <ul>
-<li><p>判断方式：(1)所有物品是否可以区分；</p>
-<p>​                (2)抽中的物品是否可以放回；</p>
-<p>​                (3)抽选顺序是否有差异；</p>
-</li>
-<li><p>排列 Permutation</p>
-</li>
-<li><p>组合 Combination</p>
-</li>
-</ul>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">Q：若有n个数，从中取k个，共有多少结果？</span><br><span class="line">A： (n!)/((n-k)!k!).</span><br><span class="line"></span><br><span class="line">ref:二项式定理的二项式系数 Binomial coefficient</span><br></pre></td></tr></table></div></figure>
-
-<ul>
-<li>多项组合 Multinomial</li>
-</ul>
-
-        <h3 id="随机变量-Random-Variable（R-V-）"   >
-          <a href="#随机变量-Random-Variable（R-V-）" class="heading-link"><i class="fas fa-link"></i></a><a href="#随机变量-Random-Variable（R-V-）" class="headerlink" title="随机变量 Random Variable（R.V.）"></a>随机变量 Random Variable（R.V.）</h3>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">(1) 定义：把实验结果数字化的表示方式；</span><br><span class="line">(2) 通常用大写英文字母表示；</span><br><span class="line">(3) 本质：随机变数是一种函数，X：S ➡ R；</span><br></pre></td></tr></table></div></figure>
-
-<p>根据取值范围的不同，可分为：</p>
-<ul>
-<li>离散随机变量 Discrete R.V.<ul>
-<li>随机变量的取值为有限个或可数个</li>
-<li>可数集：正整数集{1，3，5，…}</li>
-<li>不可数集：区间[0，1]</li>
-<li>贝努利实验：只有两个可能结果的实验</li>
-</ul>
-</li>
-<li>连续随机变量 Continuous R.V.</li>
-</ul>
-
-        <h3 id="累积分布函数-Cumulative-Distribution-Function-CDF"   >
-          <a href="#累积分布函数-Cumulative-Distribution-Function-CDF" class="heading-link"><i class="fas fa-link"></i></a><a href="#累积分布函数-Cumulative-Distribution-Function-CDF" class="headerlink" title="累积分布函数 Cumulative Distribution Function (CDF)"></a>累积分布函数 Cumulative Distribution Function (CDF)</h3>
-      <ul>
-<li>计算X落在某个范围内的概率</li>
-</ul>
-
-        <h2 id="第二节-常用的离散型随机变量"   >
-          <a href="#第二节-常用的离散型随机变量" class="heading-link"><i class="fas fa-link"></i></a><a href="#第二节-常用的离散型随机变量" class="headerlink" title="第二节 常用的离散型随机变量"></a>第二节 常用的离散型随机变量</h2>
-      
-        <h3 id="分布函数"   >
-          <a href="#分布函数" class="heading-link"><i class="fas fa-link"></i></a><a href="#分布函数" class="headerlink" title="分布函数"></a>分布函数</h3>
-      ]]></content>
-      <tags>
-        <tag>概率论</tag>
-      </tags>
   </entry>
   <entry>
     <title>离散数学笔记</title>
@@ -4028,6 +3755,274 @@
       <tags>
         <tag>离散数学</tag>
         <tag>Discrete Mathematics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论笔记</title>
+    <url>/2022/06/09/%E6%A6%82%E7%8E%87%E8%AE%BA%E7%AC%94%E8%AE%B0/</url>
+    <content><![CDATA[
+        <h2 id="第一节-随机事件与概率"   >
+          <a href="#第一节-随机事件与概率" class="heading-link"><i class="fas fa-link"></i></a><a href="#第一节-随机事件与概率" class="headerlink" title="第一节 随机事件与概率"></a>第一节 随机事件与概率</h2>
+      
+        <h3 id="一、随机试验"   >
+          <a href="#一、随机试验" class="heading-link"><i class="fas fa-link"></i></a><a href="#一、随机试验" class="headerlink" title="一、随机试验"></a>一、随机试验</h3>
+      <ul>
+<li>为了研究随机现象的统计规律性，就要对客观事物进行观察，观察的过程叫<strong>随机试验</strong> <ul>
+<li>（1）在相同的条件下试验可以重复进行；</li>
+<li>（2）每次试验的结果不止一种，但是试验之前必须明确试验的所有可能结果；</li>
+<li>（3）每次试验将会出现什么样的结果是事先无法预知的．</li>
+</ul>
+</li>
+</ul>
+
+        <h3 id="二、样本空间"   >
+          <a href="#二、样本空间" class="heading-link"><i class="fas fa-link"></i></a><a href="#二、样本空间" class="headerlink" title="二、样本空间"></a>二、样本空间</h3>
+      <ul>
+<li>随机试验的一切可能结果组成的集合称为<strong>样本空间</strong>，记为Ω={ω}<ul>
+<li>其中ω表示试验的每一个可能结果，又称为<strong>样本点</strong> </li>
+</ul>
+</li>
+</ul>
+
+        <h4 id="三、随机事件"   >
+          <a href="#三、随机事件" class="heading-link"><i class="fas fa-link"></i></a><a href="#三、随机事件" class="headerlink" title="三、随机事件"></a>三、随机事件</h4>
+      <ul>
+<li>这些在一次试验中可能出现，也可能不出现的一类结果称为<strong>随机事件</strong>，简称为<strong>事件</strong></li>
+<li>随机事件通常用大写字母A，B，C，…表示．</li>
+</ul>
+<p>-注意：</p>
+<ol>
+<li>任一随机事件A是样本空间Ω的一个子集．</li>
+<li>当试验的结果ω属于该子集时，就说事件A发生了．</li>
+<li>仅含一个样本点的随机事件称为<strong>基本事件</strong>．</li>
+<li>样本空间Ω也是自己的一个子集，所以它也称为一个事件．由于Ω包含所有可能的试验结果，所以Ω在每一次试验中一定发生，又称为<strong>必然事件</strong>．</li>
+<li>空集∅也是样本空间Ω的一个子集，所以它也称为一个事件．由于∅中不包含任何元素，所以∅在每一次试验中一定不发生，又称为<strong>不可能事件</strong>．</li>
+</ol>
+
+        <h3 id="四、随机事件间的关系与运算"   >
+          <a href="#四、随机事件间的关系与运算" class="heading-link"><i class="fas fa-link"></i></a><a href="#四、随机事件间的关系与运算" class="headerlink" title="四、随机事件间的关系与运算"></a>四、随机事件间的关系与运算</h3>
+      <ol>
+<li>关系</li>
+</ol>
+<ul>
+<li>包含关系：<ul>
+<li>事件A发生必然导致事件B发生．</li>
+</ul>
+</li>
+<li>相等关系：<ul>
+<li>事件A发生必然导致事件B发生，且B发生必然导致A发生，即A与B是同一个事件．</li>
+</ul>
+</li>
+<li>互斥关系：<ul>
+<li>事件A与事件B不可能同时发生．</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">对立事件一定是互斥事件，成立。</span><br><span class="line">反之，不成立。</span><br></pre></td></tr></table></div></figure>
+
+
+
+<ol start="2">
+<li>运算</li>
+</ol>
+<ul>
+<li>并（A∪B）[也称和事件]：<ul>
+<li>事件A与B中至少有一个发生．</li>
+</ul>
+</li>
+<li>交（A∩B/AB）[也称积事件]：<ul>
+<li>事件A与B同时发生．</li>
+</ul>
+</li>
+<li>差（A-B）：<ul>
+<li>事件A发生且B不发生．</li>
+</ul>
+</li>
+<li>余（）[也称对立事件或逆事件]：<ul>
+<li>事件A不发生．</li>
+</ul>
+</li>
+</ul>
+<ol start="3">
+<li>事件的运算性质</li>
+</ol>
+<ul>
+<li>交换律</li>
+<li>结合律</li>
+<li>分配律</li>
+<li>对偶律</li>
+</ul>
+
+        <h2 id="第二节-集合论"   >
+          <a href="#第二节-集合论" class="heading-link"><i class="fas fa-link"></i></a><a href="#第二节-集合论" class="headerlink" title="第二节 集合论"></a>第二节 集合论</h2>
+      
+        <h3 id="一、概率函数"   >
+          <a href="#一、概率函数" class="heading-link"><i class="fas fa-link"></i></a><a href="#一、概率函数" class="headerlink" title="一、概率函数"></a>一、概率函数</h3>
+      <ul>
+<li>P(A)=1/5</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">P，概率函数</span><br><span class="line">A，事件</span><br><span class="line"></span><br><span class="line">概率函数的自变数是：事件</span><br><span class="line">其中，事件是一种集合</span><br></pre></td></tr></table></div></figure>
+
+
+
+
+        <h3 id="二、集合论名词"   >
+          <a href="#二、集合论名词" class="heading-link"><i class="fas fa-link"></i></a><a href="#二、集合论名词" class="headerlink" title="二、集合论名词"></a>二、集合论名词</h3>
+      <ul>
+<li>元素 Element</li>
+<li>集合 Set<ul>
+<li>S={1, 2, 3}</li>
+</ul>
+</li>
+<li>子集合 Subset</li>
+<li>全集（宇集） Universal Set</li>
+<li>空集 Empty Set</li>
+<li>交集 Intersection</li>
+<li>并集 Union</li>
+<li>补集 Complement</li>
+<li>差集 Difference</li>
+<li>不相交 Disjiont</li>
+<li>互斥 Mutually Exclusive</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">1、不相交：两个集合没有重叠部分</span><br><span class="line">2、互斥：（1）建立在不相交的定义之上；</span><br><span class="line">		（2）一组集合中任选两个集合都不相交，则这组集合互斥</span><br></pre></td></tr></table></div></figure>
+
+
+
+
+        <h3 id="三、德摩根定理-De-Morgan’s-Law"   >
+          <a href="#三、德摩根定理-De-Morgan’s-Law" class="heading-link"><i class="fas fa-link"></i></a><a href="#三、德摩根定理-De-Morgan’s-Law" class="headerlink" title="三、德摩根定理 De Morgan’s Law"></a>三、德摩根定理 De Morgan’s Law</h3>
+      
+        <h3 id="概率论名词"   >
+          <a href="#概率论名词" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率论名词" class="headerlink" title="概率论名词"></a>概率论名词</h3>
+      <ul>
+<li>实验 Experiment</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">一个概率实验包含：</span><br><span class="line">（1）步骤 Procedures；</span><br><span class="line">（2）模型 Model；</span><br><span class="line">（3）观察 Observations；</span><br></pre></td></tr></table></div></figure>
+
+<ul>
+<li>结果 Outcome</li>
+<li><strong>样本空间 Sample Space</strong> : 概率实验中所有可能结果的集合</li>
+<li><strong>事件 Event</strong> ：对于实验结果的某种叙述<ul>
+<li>概率就是讲实验<strong>结果</strong>符合某种<strong>事件</strong>的机会有多大</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">样本空间=&#123;事件1，事件2，... ，事件n&#125;</span><br><span class="line"></span><br><span class="line">其中，事件=&#123;结果1，结果2，... ，结果n&#125;</span><br></pre></td></tr></table></div></figure>
+
+<ul>
+<li>事件空间 Event Space<ul>
+<li>定义：包含所有事件的集合</li>
+</ul>
+</li>
+</ul>
+
+        <h3 id="概率公理-Axiom-of-Probability"   >
+          <a href="#概率公理-Axiom-of-Probability" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率公理-Axiom-of-Probability" class="headerlink" title="概率公理 Axiom of  Probability"></a>概率公理 Axiom of  Probability</h3>
+      
+        <h4 id="概率性质1"   >
+          <a href="#概率性质1" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率性质1" class="headerlink" title="概率性质1"></a>概率性质1</h4>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">（1）对任何事件A而言，P(A)≥0；[非负]</span><br><span class="line">（2）P（S）=1；[规范]</span><br><span class="line">（3）事件A1,A2,...An互斥，则：</span><br><span class="line">	P（A1∪A2∪...∪An）=P(A1)+P(A2)+...+P(An)；[可列可加]</span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="概率性质2"   >
+          <a href="#概率性质2" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率性质2" class="headerlink" title="概率性质2"></a>概率性质2</h4>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">(1) P（∅）=0； （*）</span><br><span class="line">(2) P(A)=P(A-B)+P(AB)；</span><br><span class="line">(3)P(A∪B)=P(A)+P(B)-P(A∩B);</span><br><span class="line">(4)若C1,C2,...,Cn=S，则对任何事件A：P(A)=P(A∩C1)+P(A∩C2)+...+P(A∩Cn);</span><br></pre></td></tr></table></div></figure>
+
+<p><span class="exturl"><a class="exturl__link"   href="https://www.bilibili.com/video/BV1Zy4y1J7vM?p=10" >(4)“切面包”定理：P10</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p>（*）证明：</p>
+<p>因为S∩∅=∅，所以S与∅互斥</p>
+<p>又S=S∪∅，</p>
+<p>则P(S)=<strong>P(S∪∅)=P(S)+P(∅)</strong> [ref. 性质3]</p>
+<p>所以，P(∅)=0</p>
+
+        <h3 id="条件概率-Conditional-Probability"   >
+          <a href="#条件概率-Conditional-Probability" class="heading-link"><i class="fas fa-link"></i></a><a href="#条件概率-Conditional-Probability" class="headerlink" title="条件概率 Conditional Probability"></a>条件概率 Conditional Probability</h3>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">P(X | Y)：</span><br><span class="line">X，对象事件</span><br><span class="line">Y，条件（已发生的事件）</span><br></pre></td></tr></table></div></figure>
+
+<ul>
+<li><p>延伸：</p>
+<p>​        P(X | Y) = P(X∩Y) / P(Y)</p>
+</li>
+<li><p>对任何事件X及任何条件事件Y，有：</p>
+<ul>
+<li>P(X | Y) ≥ 0；</li>
+<li>P(Y | Y) = 1；</li>
+<li>A，B互斥，P(A∪B | Y) = P(A | Y) + P(B | Y) ;</li>
+</ul>
+</li>
+</ul>
+
+        <h3 id="Total-Probability定理"   >
+          <a href="#Total-Probability定理" class="heading-link"><i class="fas fa-link"></i></a><a href="#Total-Probability定理" class="headerlink" title="Total Probability定理"></a>Total Probability定理</h3>
+      <ul>
+<li><p>若C1，C2，…，Cn互斥，且C1∪C2∪…∪Cn=S,</p>
+<p>则对任意事件A，有：</p>
+<p>P(A) = P(A | C1)P(C1)+ P(A | C2)P(C2)+…+ P(A | Cn)P(Cn)</p>
+</li>
+</ul>
+
+        <h3 id="贝叶斯定理-Bayes’-Rule"   >
+          <a href="#贝叶斯定理-Bayes’-Rule" class="heading-link"><i class="fas fa-link"></i></a><a href="#贝叶斯定理-Bayes’-Rule" class="headerlink" title="贝叶斯定理 Bayes’ Rule"></a>贝叶斯定理 Bayes’ Rule</h3>
+      
+        <h3 id="概率的独立性"   >
+          <a href="#概率的独立性" class="heading-link"><i class="fas fa-link"></i></a><a href="#概率的独立性" class="headerlink" title="概率的独立性"></a>概率的独立性</h3>
+      <ul>
+<li>独立事件</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">(1)若两事件A、B的概率满足：</span><br><span class="line">P（A∩B）=P(A)P(B)，</span><br><span class="line">则A、B两事件称为概率上的独立事件;</span><br><span class="line"></span><br><span class="line">(2)P(A | B) = P(A);</span><br></pre></td></tr></table></div></figure>
+
+<ul>
+<li>多事件独立</li>
+</ul>
+
+        <h3 id="Fundamental-Principle-of-Counting"   >
+          <a href="#Fundamental-Principle-of-Counting" class="heading-link"><i class="fas fa-link"></i></a><a href="#Fundamental-Principle-of-Counting" class="headerlink" title="Fundamental Principle of Counting"></a>Fundamental Principle of Counting</h3>
+      <ul>
+<li><p>判断方式：(1)所有物品是否可以区分；</p>
+<p>​                (2)抽中的物品是否可以放回；</p>
+<p>​                (3)抽选顺序是否有差异；</p>
+</li>
+<li><p>排列 Permutation</p>
+</li>
+<li><p>组合 Combination</p>
+</li>
+</ul>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">Q：若有n个数，从中取k个，共有多少结果？</span><br><span class="line">A： (n!)/((n-k)!k!).</span><br><span class="line"></span><br><span class="line">ref:二项式定理的二项式系数 Binomial coefficient</span><br></pre></td></tr></table></div></figure>
+
+<ul>
+<li>多项组合 Multinomial</li>
+</ul>
+
+        <h3 id="随机变量-Random-Variable（R-V-）"   >
+          <a href="#随机变量-Random-Variable（R-V-）" class="heading-link"><i class="fas fa-link"></i></a><a href="#随机变量-Random-Variable（R-V-）" class="headerlink" title="随机变量 Random Variable（R.V.）"></a>随机变量 Random Variable（R.V.）</h3>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">(1) 定义：把实验结果数字化的表示方式；</span><br><span class="line">(2) 通常用大写英文字母表示；</span><br><span class="line">(3) 本质：随机变数是一种函数，X：S ➡ R；</span><br></pre></td></tr></table></div></figure>
+
+<p>根据取值范围的不同，可分为：</p>
+<ul>
+<li>离散随机变量 Discrete R.V.<ul>
+<li>随机变量的取值为有限个或可数个</li>
+<li>可数集：正整数集{1，3，5，…}</li>
+<li>不可数集：区间[0，1]</li>
+<li>贝努利实验：只有两个可能结果的实验</li>
+</ul>
+</li>
+<li>连续随机变量 Continuous R.V.</li>
+</ul>
+
+        <h3 id="累积分布函数-Cumulative-Distribution-Function-CDF"   >
+          <a href="#累积分布函数-Cumulative-Distribution-Function-CDF" class="heading-link"><i class="fas fa-link"></i></a><a href="#累积分布函数-Cumulative-Distribution-Function-CDF" class="headerlink" title="累积分布函数 Cumulative Distribution Function (CDF)"></a>累积分布函数 Cumulative Distribution Function (CDF)</h3>
+      <ul>
+<li>计算X落在某个范围内的概率</li>
+</ul>
+
+        <h2 id="第二节-常用的离散型随机变量"   >
+          <a href="#第二节-常用的离散型随机变量" class="heading-link"><i class="fas fa-link"></i></a><a href="#第二节-常用的离散型随机变量" class="headerlink" title="第二节 常用的离散型随机变量"></a>第二节 常用的离散型随机变量</h2>
+      
+        <h3 id="分布函数"   >
+          <a href="#分布函数" class="heading-link"><i class="fas fa-link"></i></a><a href="#分布函数" class="headerlink" title="分布函数"></a>分布函数</h3>
+      ]]></content>
+      <tags>
+        <tag>概率论</tag>
       </tags>
   </entry>
   <entry>
