@@ -91,55 +91,6 @@
       </tags>
   </entry>
   <entry>
-    <title>CMD快捷指令汇总</title>
-    <url>/2024/07/02/CMD%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
-    <content><![CDATA[
-        <h1 id="CMD-快捷指令汇总"   >
-          <a href="#CMD-快捷指令汇总" class="heading-link"><i class="fas fa-link"></i></a><a href="#CMD-快捷指令汇总" class="headerlink" title="CMD 快捷指令汇总"></a>CMD 快捷指令汇总</h1>
-      
-        <h2 id="查看所有接口-WLAN-上的配置文件："   >
-          <a href="#查看所有接口-WLAN-上的配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看所有接口-WLAN-上的配置文件：" class="headerlink" title="查看所有接口 WLAN 上的配置文件："></a>查看所有接口 WLAN 上的配置文件：</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>netsh wlan show profile(s)</p>
-    </div>
-  
-
-
-        <h2 id="查看-WLAN-配置文件已保存的密码："   >
-          <a href="#查看-WLAN-配置文件已保存的密码：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看-WLAN-配置文件已保存的密码：" class="headerlink" title="查看 WLAN 配置文件已保存的密码："></a>查看 WLAN 配置文件已保存的密码：</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>netsh wlan show profile(s) key=clear</p>
-    </div>
-  
-
-
-        <h2 id="从接口-WLAN-中删除配置文件："   >
-          <a href="#从接口-WLAN-中删除配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#从接口-WLAN-中删除配置文件：" class="headerlink" title="从接口 WLAN 中删除配置文件："></a>从接口 WLAN 中删除配置文件：</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>netsh wlan delete profile(s) name=”profile name”</p>
-    </div>
-  
-]]></content>
-      <categories>
-        <category>cmd</category>
-      </categories>
-      <tags>
-        <tag>cmd</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue3中引入BalmUI</title>
     <url>/2023/05/26/Balm-UI%E6%BA%90%E7%A0%81%E7%A4%BA%E4%BE%8B/</url>
     <content><![CDATA[
@@ -155,28 +106,6 @@
       </categories>
       <tags>
         <tag>BalmUI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>CSS-Intro</title>
-    <url>/2023/03/12/CSSIntro/</url>
-    <content><![CDATA[
-        <h1 id="CSS"   >
-          <a href="#CSS" class="heading-link"><i class="fas fa-link"></i></a><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1>
-      
-        <h2 id="Button"   >
-          <a href="#Button" class="heading-link"><i class="fas fa-link"></i></a><a href="#Button" class="headerlink" title="Button"></a>Button</h2>
-      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="hover-transition-shadow"   >
-          <a href="#hover-transition-shadow" class="heading-link"><i class="fas fa-link"></i></a><a href="#hover-transition-shadow" class="headerlink" title="hover | transition | shadow"></a>hover | transition | shadow</h2>
-      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: opacity <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* pseudo-class */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.8</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* click */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.5</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: background-color <span class="number">0.15s</span>,</span></span><br><span class="line"><span class="language-css">    color <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.7</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: box-shadow <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">box-shadow</span>:  <span class="number">5px</span> <span class="number">5px</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">15</span>);</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>]]></content>
-      <categories>
-        <category>CSS</category>
-      </categories>
-      <tags>
-        <tag>CSS</tag>
       </tags>
   </entry>
   <entry>
@@ -266,6 +195,28 @@
       </tags>
   </entry>
   <entry>
+    <title>CSS-Intro</title>
+    <url>/2023/03/12/CSSIntro/</url>
+    <content><![CDATA[
+        <h1 id="CSS"   >
+          <a href="#CSS" class="heading-link"><i class="fas fa-link"></i></a><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1>
+      
+        <h2 id="Button"   >
+          <a href="#Button" class="heading-link"><i class="fas fa-link"></i></a><a href="#Button" class="headerlink" title="Button"></a>Button</h2>
+      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="hover-transition-shadow"   >
+          <a href="#hover-transition-shadow" class="heading-link"><i class="fas fa-link"></i></a><a href="#hover-transition-shadow" class="headerlink" title="hover | transition | shadow"></a>hover | transition | shadow</h2>
+      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">style</span>&gt;</span><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: red;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">150px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-right</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: opacity <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* pseudo-class */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.8</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.subscribe-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="comment">/* click */</span></span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.5</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-style</span>: solid;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-width</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: <span class="built_in">rgb</span>(<span class="number">204</span>, <span class="number">204</span>, <span class="number">225</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">2px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: background-color <span class="number">0.15s</span>,</span></span><br><span class="line"><span class="language-css">    color <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">157</span>, <span class="number">157</span>, <span class="number">217</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.join-button</span><span class="selector-pseudo">:active</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">opacity</span>: <span class="number">0.7</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">background-color</span>: <span class="built_in">rgb</span>(<span class="number">110</span>, <span class="number">110</span>, <span class="number">235</span>);</span></span><br><span class="line"><span class="language-css">    <span class="attribute">color</span>: white;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border</span>: none;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">height</span>: <span class="number">36px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">width</span>: <span class="number">80px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">border-radius</span>: <span class="number">16px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-weight</span>: bold;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">font-size</span>: <span class="number">20px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">cursor</span>: pointer;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">margin-left</span>: <span class="number">8px</span>;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">transition</span>: box-shadow <span class="number">0.15s</span>;</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span></span><br><span class="line"><span class="language-css">  <span class="selector-class">.tweet-button</span><span class="selector-pseudo">:hover</span> &#123;</span></span><br><span class="line"><span class="language-css">    <span class="attribute">box-shadow</span>:  <span class="number">5px</span> <span class="number">5px</span> <span class="number">10px</span> <span class="built_in">rgba</span>(<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>,.<span class="number">15</span>);</span></span><br><span class="line"><span class="language-css">  &#125;</span></span><br><span class="line"><span class="language-css"></span><span class="tag">&lt;/<span class="name">style</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;subscribe-button&quot;</span>&gt;</span></span><br><span class="line">  SUBSCRIBE</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;join-button&quot;</span>&gt;</span></span><br><span class="line">  JOIN</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">class</span>=<span class="string">&quot;tweet-button&quot;</span>&gt;</span></span><br><span class="line">  Tweet</span><br><span class="line"><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></div></figure>]]></content>
+      <categories>
+        <category>CSS</category>
+      </categories>
+      <tags>
+        <tag>CSS</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>CSS效果与书签</title>
     <url>/2023/04/22/CSS%E6%95%88%E6%9E%9C%E4%B9%A6%E7%AD%BE/</url>
     <content><![CDATA[
@@ -281,118 +232,52 @@
       </tags>
   </entry>
   <entry>
-    <title>分布式文件系统HDFS</title>
-    <url>/2023/03/25/HDFS%E5%9F%BA%E7%A1%80/</url>
+    <title>CMD快捷指令汇总</title>
+    <url>/2024/07/02/CMD%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4%E6%B1%87%E6%80%BB/</url>
     <content><![CDATA[
-        <h1 id="分布式文件系统HDFS"   >
-          <a href="#分布式文件系统HDFS" class="heading-link"><i class="fas fa-link"></i></a><a href="#分布式文件系统HDFS" class="headerlink" title="分布式文件系统HDFS"></a>分布式文件系统HDFS</h1>
+        <h1 id="CMD-快捷指令汇总"   >
+          <a href="#CMD-快捷指令汇总" class="heading-link"><i class="fas fa-link"></i></a><a href="#CMD-快捷指令汇总" class="headerlink" title="CMD 快捷指令汇总"></a>CMD 快捷指令汇总</h1>
       
-        <h2 id="概述"   >
-          <a href="#概述" class="heading-link"><i class="fas fa-link"></i></a><a href="#概述" class="headerlink" title="概述"></a>概述</h2>
-      <p>Hadoop分布式文件系统。<br>作为大数据生态圈最底层的分布式存储服务而存在。</p>
-<blockquote>
-<p>用于解决大数据如何存储问题。</p>
-</blockquote>
-
-        <h3 id="特性"   >
-          <a href="#特性" class="heading-link"><i class="fas fa-link"></i></a><a href="#特性" class="headerlink" title="特性"></a>特性</h3>
-      <ol>
-<li>横跨在多台计算机上</li>
-<li>高度容错</li>
-<li>提供统一的访问接口</li>
-</ol>
-
-        <h3 id="设计目标"   >
-          <a href="#设计目标" class="heading-link"><i class="fas fa-link"></i></a><a href="#设计目标" class="headerlink" title="设计目标"></a>设计目标</h3>
+        <h2 id="查看所有接口-WLAN-上的配置文件："   >
+          <a href="#查看所有接口-WLAN-上的配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看所有接口-WLAN-上的配置文件：" class="headerlink" title="查看所有接口 WLAN 上的配置文件："></a>查看所有接口 WLAN 上的配置文件：</h2>
       
-        <h4 id="硬件故障"   >
-          <a href="#硬件故障" class="heading-link"><i class="fas fa-link"></i></a><a href="#硬件故障" class="headerlink" title="硬件故障"></a>硬件故障</h4>
-      <p>HDFS核心架构目标<strong>故障检测和自动快速恢复</strong></p>
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>netsh wlan show profile(s)</p>
+    </div>
+  
 
-        <h4 id="流式读取数据"   >
-          <a href="#流式读取数据" class="heading-link"><i class="fas fa-link"></i></a><a href="#流式读取数据" class="headerlink" title="流式读取数据"></a>流式读取数据</h4>
-      <p>HDFS被设计用于<strong>批处理</strong></p>
 
-        <h4 id="支持大文件"   >
-          <a href="#支持大文件" class="heading-link"><i class="fas fa-link"></i></a><a href="#支持大文件" class="headerlink" title="支持大文件"></a>支持大文件</h4>
-      <p>典型的HDFS文件大小是GB到TB的级别</p>
-
-        <h4 id="write-one-read-many模型"   >
-          <a href="#write-one-read-many模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#write-one-read-many模型" class="headerlink" title="write-one-read-many模型"></a>write-one-read-many模型</h4>
-      <p>一个文件一旦创建、写入，关闭之后不需要再修改</p>
-
-        <h4 id="移动计算"   >
-          <a href="#移动计算" class="heading-link"><i class="fas fa-link"></i></a><a href="#移动计算" class="headerlink" title="移动计算"></a>移动计算</h4>
-      <p>移动计算的代价比之移动数据的代价低</p>
-
-        <h3 id="应用场景"   >
-          <a href="#应用场景" class="heading-link"><i class="fas fa-link"></i></a><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3>
-      <ol>
-<li>大文件</li>
-<li>数据流式访问</li>
-<li>一次写入多次读取</li>
-<li>低成本部署，廉价PC</li>
-<li>高容错</li>
-</ol>
-
-        <h3 id="重要特性"   >
-          <a href="#重要特性" class="heading-link"><i class="fas fa-link"></i></a><a href="#重要特性" class="headerlink" title="重要特性"></a>重要特性</h3>
+        <h2 id="查看-WLAN-配置文件已保存的密码："   >
+          <a href="#查看-WLAN-配置文件已保存的密码：" class="heading-link"><i class="fas fa-link"></i></a><a href="#查看-WLAN-配置文件已保存的密码：" class="headerlink" title="查看 WLAN 配置文件已保存的密码："></a>查看 WLAN 配置文件已保存的密码：</h2>
       
-        <h4 id="主从架构"   >
-          <a href="#主从架构" class="heading-link"><i class="fas fa-link"></i></a><a href="#主从架构" class="headerlink" title="主从架构"></a>主从架构</h4>
-      <p>HDFS采用master/slave架构。</p>
-<p>一般一个HDFS集群是有一个Namenode和一定数目的Datanode组成。</p>
-<blockquote>
-<p>Namenode是HDFS主节点<br>Datanode是HDFS从节点</p>
-</blockquote>
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>netsh wlan show profile(s) key=clear</p>
+    </div>
+  
 
-        <h4 id="分块存储机制"   >
-          <a href="#分块存储机制" class="heading-link"><i class="fas fa-link"></i></a><a href="#分块存储机制" class="headerlink" title="分块存储机制"></a>分块存储机制</h4>
-      <p>HDFS中的文件<strong>在物理上是分块存储</strong>的。</p>
-<p>块的大小可以通过配置参数来规定，参数位于hdfs-default.xml中：dfs.blocksize。</p>
-<p>默认大小是128M。</p>
 
-        <h4 id="副本机制"   >
-          <a href="#副本机制" class="heading-link"><i class="fas fa-link"></i></a><a href="#副本机制" class="headerlink" title="副本机制"></a>副本机制</h4>
-      <p>文件的所有block都会有副本。</p>
-<p>文件的block大小：dfs.blocksize。</p>
-<p>副本系数：dfs.replication，默认值为3，会额外复制2份，连同本身总共3份副本</p>
-
-        <h4 id="namespace"   >
-          <a href="#namespace" class="heading-link"><i class="fas fa-link"></i></a><a href="#namespace" class="headerlink" title="namespace"></a>namespace</h4>
-      <p>HDFS支持<strong>层次型文件组织结构</strong>。</p>
-<p>HDFS给客户端提供一个<strong>统一的抽象目录树</strong>。</p>
-
-        <h4 id="元数据管理"   >
-          <a href="#元数据管理" class="heading-link"><i class="fas fa-link"></i></a><a href="#元数据管理" class="headerlink" title="元数据管理"></a>元数据管理</h4>
-      <p>Namenode管理的元数据具有两种类型：</p>
-<ol>
-<li>文件自身属性信息：文件名称、权限，修改时间</li>
-<li>文件块位置映射信息：哪个块位于哪个节点上</li>
-</ol>
-
-        <h4 id="数据块存储"   >
-          <a href="#数据块存储" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据块存储" class="headerlink" title="数据块存储"></a>数据块存储</h4>
-      <p>文件的各个block的<strong>具体存储管理由Datanode节点承担</strong>。</p>
-
-        <h2 id="微博HDFS案例"   >
-          <a href="#微博HDFS案例" class="heading-link"><i class="fas fa-link"></i></a><a href="#微博HDFS案例" class="headerlink" title="微博HDFS案例"></a>微博HDFS案例</h2>
+        <h2 id="从接口-WLAN-中删除配置文件："   >
+          <a href="#从接口-WLAN-中删除配置文件：" class="heading-link"><i class="fas fa-link"></i></a><a href="#从接口-WLAN-中删除配置文件：" class="headerlink" title="从接口 WLAN 中删除配置文件："></a>从接口 WLAN 中删除配置文件：</h2>
       
-        <h3 id="HDFS-Shell-CLI客户端"   >
-          <a href="#HDFS-Shell-CLI客户端" class="heading-link"><i class="fas fa-link"></i></a><a href="#HDFS-Shell-CLI客户端" class="headerlink" title="HDFS Shell CLI客户端"></a>HDFS Shell CLI客户端</h3>
-      <ol>
-<li>命令行界面CLI</li>
-<li>跟文件系统读写相关的命令： hdfs dfs</li>
-</ol>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">hdfs dfs -ls file:/// #操作本地文件系统</span><br><span class="line">hdfs dfs -ls hdfs://localhost:9000/ #操作HDFS分布式文件系统</span><br></pre></td></tr></table></div></figure>
-
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>netsh wlan delete profile(s) name=”profile name”</p>
+    </div>
+  
 ]]></content>
       <categories>
-        <category>HDFS</category>
+        <category>cmd</category>
       </categories>
       <tags>
-        <tag>Hadoop</tag>
-        <tag>HDFS</tag>
+        <tag>cmd</tag>
       </tags>
   </entry>
   <entry>
@@ -1017,9 +902,124 @@
         <category>Hadoop</category>
       </categories>
       <tags>
-        <tag>Hadoop</tag>
         <tag>Linux</tag>
+        <tag>Hadoop</tag>
         <tag>Spark</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>分布式文件系统HDFS</title>
+    <url>/2023/03/25/HDFS%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[
+        <h1 id="分布式文件系统HDFS"   >
+          <a href="#分布式文件系统HDFS" class="heading-link"><i class="fas fa-link"></i></a><a href="#分布式文件系统HDFS" class="headerlink" title="分布式文件系统HDFS"></a>分布式文件系统HDFS</h1>
+      
+        <h2 id="概述"   >
+          <a href="#概述" class="heading-link"><i class="fas fa-link"></i></a><a href="#概述" class="headerlink" title="概述"></a>概述</h2>
+      <p>Hadoop分布式文件系统。<br>作为大数据生态圈最底层的分布式存储服务而存在。</p>
+<blockquote>
+<p>用于解决大数据如何存储问题。</p>
+</blockquote>
+
+        <h3 id="特性"   >
+          <a href="#特性" class="heading-link"><i class="fas fa-link"></i></a><a href="#特性" class="headerlink" title="特性"></a>特性</h3>
+      <ol>
+<li>横跨在多台计算机上</li>
+<li>高度容错</li>
+<li>提供统一的访问接口</li>
+</ol>
+
+        <h3 id="设计目标"   >
+          <a href="#设计目标" class="heading-link"><i class="fas fa-link"></i></a><a href="#设计目标" class="headerlink" title="设计目标"></a>设计目标</h3>
+      
+        <h4 id="硬件故障"   >
+          <a href="#硬件故障" class="heading-link"><i class="fas fa-link"></i></a><a href="#硬件故障" class="headerlink" title="硬件故障"></a>硬件故障</h4>
+      <p>HDFS核心架构目标<strong>故障检测和自动快速恢复</strong></p>
+
+        <h4 id="流式读取数据"   >
+          <a href="#流式读取数据" class="heading-link"><i class="fas fa-link"></i></a><a href="#流式读取数据" class="headerlink" title="流式读取数据"></a>流式读取数据</h4>
+      <p>HDFS被设计用于<strong>批处理</strong></p>
+
+        <h4 id="支持大文件"   >
+          <a href="#支持大文件" class="heading-link"><i class="fas fa-link"></i></a><a href="#支持大文件" class="headerlink" title="支持大文件"></a>支持大文件</h4>
+      <p>典型的HDFS文件大小是GB到TB的级别</p>
+
+        <h4 id="write-one-read-many模型"   >
+          <a href="#write-one-read-many模型" class="heading-link"><i class="fas fa-link"></i></a><a href="#write-one-read-many模型" class="headerlink" title="write-one-read-many模型"></a>write-one-read-many模型</h4>
+      <p>一个文件一旦创建、写入，关闭之后不需要再修改</p>
+
+        <h4 id="移动计算"   >
+          <a href="#移动计算" class="heading-link"><i class="fas fa-link"></i></a><a href="#移动计算" class="headerlink" title="移动计算"></a>移动计算</h4>
+      <p>移动计算的代价比之移动数据的代价低</p>
+
+        <h3 id="应用场景"   >
+          <a href="#应用场景" class="heading-link"><i class="fas fa-link"></i></a><a href="#应用场景" class="headerlink" title="应用场景"></a>应用场景</h3>
+      <ol>
+<li>大文件</li>
+<li>数据流式访问</li>
+<li>一次写入多次读取</li>
+<li>低成本部署，廉价PC</li>
+<li>高容错</li>
+</ol>
+
+        <h3 id="重要特性"   >
+          <a href="#重要特性" class="heading-link"><i class="fas fa-link"></i></a><a href="#重要特性" class="headerlink" title="重要特性"></a>重要特性</h3>
+      
+        <h4 id="主从架构"   >
+          <a href="#主从架构" class="heading-link"><i class="fas fa-link"></i></a><a href="#主从架构" class="headerlink" title="主从架构"></a>主从架构</h4>
+      <p>HDFS采用master/slave架构。</p>
+<p>一般一个HDFS集群是有一个Namenode和一定数目的Datanode组成。</p>
+<blockquote>
+<p>Namenode是HDFS主节点<br>Datanode是HDFS从节点</p>
+</blockquote>
+
+        <h4 id="分块存储机制"   >
+          <a href="#分块存储机制" class="heading-link"><i class="fas fa-link"></i></a><a href="#分块存储机制" class="headerlink" title="分块存储机制"></a>分块存储机制</h4>
+      <p>HDFS中的文件<strong>在物理上是分块存储</strong>的。</p>
+<p>块的大小可以通过配置参数来规定，参数位于hdfs-default.xml中：dfs.blocksize。</p>
+<p>默认大小是128M。</p>
+
+        <h4 id="副本机制"   >
+          <a href="#副本机制" class="heading-link"><i class="fas fa-link"></i></a><a href="#副本机制" class="headerlink" title="副本机制"></a>副本机制</h4>
+      <p>文件的所有block都会有副本。</p>
+<p>文件的block大小：dfs.blocksize。</p>
+<p>副本系数：dfs.replication，默认值为3，会额外复制2份，连同本身总共3份副本</p>
+
+        <h4 id="namespace"   >
+          <a href="#namespace" class="heading-link"><i class="fas fa-link"></i></a><a href="#namespace" class="headerlink" title="namespace"></a>namespace</h4>
+      <p>HDFS支持<strong>层次型文件组织结构</strong>。</p>
+<p>HDFS给客户端提供一个<strong>统一的抽象目录树</strong>。</p>
+
+        <h4 id="元数据管理"   >
+          <a href="#元数据管理" class="heading-link"><i class="fas fa-link"></i></a><a href="#元数据管理" class="headerlink" title="元数据管理"></a>元数据管理</h4>
+      <p>Namenode管理的元数据具有两种类型：</p>
+<ol>
+<li>文件自身属性信息：文件名称、权限，修改时间</li>
+<li>文件块位置映射信息：哪个块位于哪个节点上</li>
+</ol>
+
+        <h4 id="数据块存储"   >
+          <a href="#数据块存储" class="heading-link"><i class="fas fa-link"></i></a><a href="#数据块存储" class="headerlink" title="数据块存储"></a>数据块存储</h4>
+      <p>文件的各个block的<strong>具体存储管理由Datanode节点承担</strong>。</p>
+
+        <h2 id="微博HDFS案例"   >
+          <a href="#微博HDFS案例" class="heading-link"><i class="fas fa-link"></i></a><a href="#微博HDFS案例" class="headerlink" title="微博HDFS案例"></a>微博HDFS案例</h2>
+      
+        <h3 id="HDFS-Shell-CLI客户端"   >
+          <a href="#HDFS-Shell-CLI客户端" class="heading-link"><i class="fas fa-link"></i></a><a href="#HDFS-Shell-CLI客户端" class="headerlink" title="HDFS Shell CLI客户端"></a>HDFS Shell CLI客户端</h3>
+      <ol>
+<li>命令行界面CLI</li>
+<li>跟文件系统读写相关的命令： hdfs dfs</li>
+</ol>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">hdfs dfs -ls file:/// #操作本地文件系统</span><br><span class="line">hdfs dfs -ls hdfs://localhost:9000/ #操作HDFS分布式文件系统</span><br></pre></td></tr></table></div></figure>
+
+]]></content>
+      <categories>
+        <category>HDFS</category>
+      </categories>
+      <tags>
+        <tag>Hadoop</tag>
+        <tag>HDFS</tag>
       </tags>
   </entry>
   <entry>
@@ -1781,6 +1781,34 @@
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
   </entry>
   <entry>
+    <title>Spotify插件测试示例</title>
+    <url>/2024/07/04/Spotify%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%A4%BA%E4%BE%8B/</url>
+    <content><![CDATA[
+        <h1 id="Spotify-插件测试示例"   >
+          <a href="#Spotify-插件测试示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-插件测试示例" class="headerlink" title="Spotify 插件测试示例"></a>Spotify 插件测试示例</h1>
+      
+        <h2 id="Spotify-Album-URI"   >
+          <a href="#Spotify-Album-URI" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Album-URI" class="headerlink" title="Spotify: Album-URI"></a>Spotify: Album-URI</h2>
+      <iframe src="https://open.spotify.com/embed/album/27ftYHLeunzcSzb33Wk1hf" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+
+
+        <h2 id="Spotify-Artisty-URI"   >
+          <a href="#Spotify-Artisty-URI" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Artisty-URI" class="headerlink" title="Spotify: Artisty-URI"></a>Spotify: Artisty-URI</h2>
+      <iframe src="https://open.spotify.com/embed/artist/3mvkWMe6swnknwscwvGCHO" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+
+
+        <h2 id="Spotify-Track-URI"   >
+          <a href="#Spotify-Track-URI" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Track-URI" class="headerlink" title="Spotify: Track-URI"></a>Spotify: Track-URI</h2>
+      <iframe src="https://open.spotify.com/embed/track/7lEptt4wbM0yJTvSG5EBof" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
+]]></content>
+      <categories>
+        <category>spotify</category>
+      </categories>
+      <tags>
+        <tag>spotify</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Vue-Router初始化入门源码</title>
     <url>/2023/05/11/Vue-Router%E5%88%9D%E5%A7%8B%E5%8C%96%E5%85%A5%E9%97%A8%E6%BA%90%E7%A0%81/</url>
     <content><![CDATA[
@@ -1823,39 +1851,6 @@
       <tags>
         <tag>Vue</tag>
         <tag>Router</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Spotify插件测试示例</title>
-    <url>/2024/07/04/Spotify%E6%8F%92%E4%BB%B6%E6%B5%8B%E8%AF%95%E7%A4%BA%E4%BE%8B/</url>
-    <content><![CDATA[
-        <h1 id="Spotify-插件测试示例"   >
-          <a href="#Spotify-插件测试示例" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-插件测试示例" class="headerlink" title="Spotify 插件测试示例"></a>Spotify 插件测试示例</h1>
-      
-        <h2 id="Spotify-Album-URI"   >
-          <a href="#Spotify-Album-URI" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Album-URI" class="headerlink" title="Spotify: Album-URI"></a>Spotify: Album-URI</h2>
-      <iframe src="https://open.spotify.com/embed/album/27ftYHLeunzcSzb33Wk1hf" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-
-
-        <h2 id="Spotify-Artisty-URI"   >
-          <a href="#Spotify-Artisty-URI" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Artisty-URI" class="headerlink" title="Spotify: Artisty-URI"></a>Spotify: Artisty-URI</h2>
-      <iframe src="https://open.spotify.com/embed/artist/3mvkWMe6swnknwscwvGCHO" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-
-
-        <h2 id="Spotify-Track-URI"   >
-          <a href="#Spotify-Track-URI" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify-Track-URI" class="headerlink" title="Spotify: Track-URI"></a>Spotify: Track-URI</h2>
-      <iframe src="https://open.spotify.com/embed/track/7lEptt4wbM0yJTvSG5EBof" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-
-
-        <h2 id="Spotify：社区"   >
-          <a href="#Spotify：社区" class="heading-link"><i class="fas fa-link"></i></a><a href="#Spotify：社区" class="headerlink" title="Spotify：社区"></a>Spotify：社区</h2>
-      <iframe src="https://open.spotify.com/embed//undefined" width="300" height="380" frameborder="0" allowtransparency="allowtransparency" allow="encrypted-media"></iframe>
-]]></content>
-      <categories>
-        <category>spotify</category>
-      </categories>
-      <tags>
-        <tag>spotify</tag>
       </tags>
   </entry>
   <entry>
@@ -2227,101 +2222,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Vue基础</title>
-    <url>/2023/04/15/Vue%E5%9F%BA%E7%A1%80/</url>
-    <content><![CDATA[
-        <h1 id="Vue-基础-模板语法"   >
-          <a href="#Vue-基础-模板语法" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-模板语法" class="headerlink" title="Vue 基础-模板语法"></a>Vue 基础-模板语法</h1>
-      
-        <h2 id="源码"   >
-          <a href="#源码" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码" class="headerlink" title="源码"></a>源码</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;h3&gt;学习Vue：模板语法&lt;/h3&gt;</span><br><span class="line">    &lt;!--      最基本的数据绑定形式是文本插值，使用双花括号--&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">    &lt;!--      双花括号将数据解释为纯文本，若需插入html，需要使用v-html指令--&gt;</span><br><span class="line">    &lt;div&gt;&#123;&#123; rawHtml &#125;&#125;&lt;/div&gt;</span><br><span class="line">    &lt;div v-html=&quot;rawHtml&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;!--      响应式地绑定一个属性attribute--&gt;</span><br><span class="line">    &lt;div :id=&quot;dynamicId&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;!--      vue的数据绑定中支持完整的js表达式--&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; num + 10 &#125;&#125;&lt;/p&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; flag ? &quot;对的&quot; : &quot;错的&quot; &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;测试&quot;,</span><br><span class="line">      rawHtml: &#x27;&lt;a href=&quot;https://www.baidu.com&quot;&gt;百度网页&lt;/a&gt;&#x27;,</span><br><span class="line">      dynamicId: 10000,</span><br><span class="line">      num: 10,</span><br><span class="line">      flag: true,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h1 id="Vue-基础-条件渲染"   >
-          <a href="#Vue-基础-条件渲染" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-条件渲染" class="headerlink" title="Vue 基础-条件渲染"></a>Vue 基础-条件渲染</h1>
-      
-        <h2 id="源码-1"   >
-          <a href="#源码-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-1" class="headerlink" title="源码"></a>源码</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;p&gt;v-if用于判断条件是否为真,显示如下:&lt;/p&gt;</span><br><span class="line">    &lt;!--      v-if用于条件性地渲染一块内容,表达式为真值时才被渲染--&gt;</span><br><span class="line">    &lt;p v-if=&quot;flag&quot;&gt;✅对的&lt;/p&gt;</span><br><span class="line">    &lt;p v-else&gt;❌错的&lt;/p&gt;</span><br><span class="line">    &lt;!--      另一个用来按条件显示一个元素的指令是v-show--&gt;</span><br><span class="line">    &lt;p v-show=&quot;show&quot;&gt;✅展示对的&lt;/p&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      flag: true,</span><br><span class="line">      show: true,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h1 id="Vue-基础-列表渲染"   >
-          <a href="#Vue-基础-列表渲染" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-列表渲染" class="headerlink" title="Vue 基础-列表渲染"></a>Vue 基础-列表渲染</h1>
-      
-        <h2 id="源码-2"   >
-          <a href="#源码-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-2" class="headerlink" title="源码"></a>源码</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用v-for指令基于一个数组来渲染一个列表--&gt;</span><br><span class="line">    &lt;h3&gt;列表渲染：&lt;/h3&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;!--          item代表数组中的每一个元素，是迭代项的别名,newsList是源数组--&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示id--&gt;</span><br><span class="line">        &#123;&#123; item.id &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示title--&gt;</span><br><span class="line">        &#123;&#123; item.title &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              展示源数据--&gt;</span><br><span class="line">        &#123;&#123; item &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // newsList是源数据数据，包含3组数据，2个属性分别是id和title</span><br><span class="line">      newsList: [</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1001,</span><br><span class="line">          title: &quot;新闻1&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1002,</span><br><span class="line">          title: &quot;新闻2&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1003,</span><br><span class="line">          title: &quot;新闻3&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">      ],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="⭐-区分-v-if-和-v-show"   >
-          <a href="#⭐-区分-v-if-和-v-show" class="heading-link"><i class="fas fa-link"></i></a><a href="#⭐-区分-v-if-和-v-show" class="headerlink" title="⭐ 区分 v-if 和 v-show"></a>⭐ 区分 v-if 和 v-show</h2>
-      
-    <div class="note-plugin success">
-      <span class="note-plugin__icon note-plugin__icon--success">
-              <i class="fas fa-check-circle"></i>
-            </span>
-      <p>区分 v-if 和 v-show</p>
-    </div>
-  
-
-<details>
-<summary>v-if<summary>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">在切换过程中，条件块内的事件监听器和子组件会被适当地销毁和重建;</span><br><span class="line">惰性的，适用于偶尔切换</span><br></pre></td></tr></table></div></figure>
-<details>
-
-<details>
-<summary>v-show<summary>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">基于CSS进行切换；</span><br><span class="line">适用于频繁切换</span><br></pre></td></tr></table></div></figure>
-<details>
-
-
-        <h1 id="Vue-基础-列表渲染-1"   >
-          <a href="#Vue-基础-列表渲染-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-列表渲染-1" class="headerlink" title="Vue 基础-列表渲染"></a>Vue 基础-列表渲染</h1>
-      
-        <h2 id="源码-3"   >
-          <a href="#源码-3" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-3" class="headerlink" title="源码"></a>源码</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用v-for指令基于一个数组来渲染一个列表--&gt;</span><br><span class="line">    &lt;h3&gt;列表渲染：&lt;/h3&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;!--          item代表数组中的每一个元素，是迭代项的别名,newsList是源数组--&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示id--&gt;</span><br><span class="line">        &#123;&#123; item.id &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示title--&gt;</span><br><span class="line">        &#123;&#123; item.title &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              展示源数据--&gt;</span><br><span class="line">        &#123;&#123; item &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // newsList是源数据数据，包含3组数据，2个属性分别是id和title</span><br><span class="line">      newsList: [</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1001,</span><br><span class="line">          title: &quot;新闻1&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1002,</span><br><span class="line">          title: &quot;新闻2&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1003,</span><br><span class="line">          title: &quot;新闻3&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">      ],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="⭐-维护状态"   >
-          <a href="#⭐-维护状态" class="heading-link"><i class="fas fa-link"></i></a><a href="#⭐-维护状态" class="headerlink" title="⭐ 维护状态"></a>⭐ 维护状态</h2>
-      <blockquote>
-<p>就地更新策略<br>如果数据项内容有新增，只渲染新增数据项</p>
-</blockquote>
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br></pre></td></tr></table></div></figure>
-
-<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用v-for指令基于一个数组来渲染一个列表--&gt;</span><br><span class="line">    &lt;h3&gt;列表渲染：&lt;/h3&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;!--          item代表数组中的每一个元素，是迭代项的别名,newsList是源数组，key确保唯一索引--&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br><span class="line">        &lt;!--              只展示id--&gt;</span><br><span class="line">        &#123;&#123; item.id &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br><span class="line">        &lt;!--              只展示title--&gt;</span><br><span class="line">        &#123;&#123; item.title &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br><span class="line">        &lt;!--              展示源数据--&gt;</span><br><span class="line">        &#123;&#123; item &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // newsList是源数据数据，包含3组数据，2个属性分别是id和title</span><br><span class="line">      newsList: [</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1001,</span><br><span class="line">          title: &quot;新闻1&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1002,</span><br><span class="line">          title: &quot;新闻2&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1003,</span><br><span class="line">          title: &quot;新闻3&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1004,</span><br><span class="line">          title: &quot;新闻4&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">      ],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h1 id="Vue-基础-事件处理"   >
-          <a href="#Vue-基础-事件处理" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-事件处理" class="headerlink" title="Vue 基础-事件处理"></a>Vue 基础-事件处理</h1>
-      
-        <h2 id="源码-1"   >
-          <a href="#源码-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-1" class="headerlink" title="源码 1"></a>源码 1</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用 v-on 指令 (简写为 @) 来监听 DOM 事件，并在事件触发时执行对应的 JavaScript--&gt;</span><br><span class="line">    &lt;p&gt;内联事件处理器：&lt;/p&gt;</span><br><span class="line">    &lt;button @click=&quot;counter++&quot;&gt;点击:counter=&#123;&#123; counter &#125;&#125;&lt;/button&gt;</span><br><span class="line">    &lt;!--      v-on 也可以接受一个方法名或对某个方法的调用--&gt;</span><br><span class="line">    &lt;p&gt;方法事件处理器：&lt;/p&gt;</span><br><span class="line">    &lt;!--     示例一：显示弹窗--&gt;</span><br><span class="line">    &lt;button @click=&quot;clickHandle&quot;&gt;按钮&lt;/button&gt;</span><br><span class="line">    &lt;!--      示例二：修改文本--&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // counter默认初始值为10</span><br><span class="line">      counter: 10,</span><br><span class="line">      message: &quot;消息通知&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    clickHandle(event) &#123;</span><br><span class="line">      alert(&quot;已点击！&quot;);</span><br><span class="line">      //     在事件中，读取data中的属性，需要通过this.属性指令</span><br><span class="line">      this.message = &quot;新消息通知&quot;;</span><br><span class="line">      // event是原生DOM event</span><br><span class="line">      console.log(event);</span><br><span class="line">      event.target.innerText = &quot;点击之后的按钮&quot;;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h2 id="源码-2"   >
-          <a href="#源码-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-2" class="headerlink" title="源码 2"></a>源码 2</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      事件处理器中的方法，即“事件传递参数”--&gt;</span><br><span class="line">    &lt;button @click=&quot;say(&#x27;hi&#x27;)&quot;&gt;say hi&lt;/button&gt;</span><br><span class="line">    &lt;button @click=&quot;say(&#x27;what&#x27;)&quot;&gt;say what&lt;/button&gt;</span><br><span class="line">    &lt;p&gt;--------分割线---------&lt;/p&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;li</span><br><span class="line">        @click=&quot;clickItemHandle(name)&quot;</span><br><span class="line">        v-for=&quot;(name, index) in names&quot;</span><br><span class="line">        :key=&quot;index&quot;</span><br><span class="line">      &gt;</span><br><span class="line">        &#123;&#123; name &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      names: [&quot;Amy&quot;, &quot;John&quot;, &quot;Simon&quot;],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    say(data) &#123;</span><br><span class="line">      console.log(data);</span><br><span class="line">    &#125;,</span><br><span class="line">    clickItemHandle(name) &#123;</span><br><span class="line">      console.log(name);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-
-
-        <h1 id="Vue-基础-表单输入绑定"   >
-          <a href="#Vue-基础-表单输入绑定" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-表单输入绑定" class="headerlink" title="Vue 基础-表单输入绑定"></a>Vue 基础-表单输入绑定</h1>
-      
-        <h2 id="源码-4"   >
-          <a href="#源码-4" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-4" class="headerlink" title="源码"></a>源码</h2>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      表单输入绑定，使用v-model创建双向数据绑定--&gt;</span><br><span class="line">    &lt;!--      使用.lazy修饰符，避免立刻反应，减少性能消耗--&gt;</span><br><span class="line">    &lt;input type=&quot;text&quot; v-model.lazy=&quot;username&quot; /&gt;</span><br><span class="line">    &lt;!--      使用.trim修饰符，自动去除用户输入内容中两端的空格--&gt;</span><br><span class="line">    &lt;input type=&quot;text&quot; v-model.trim=&quot;password&quot; /&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; username &#125;&#125;,&#123;&#123; password &#125;&#125;&lt;/p&gt;</span><br><span class="line">    &lt;button @click=&quot;clickGetUsername&quot;&gt;获取用户名&lt;/button&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      username: &quot;&quot;,</span><br><span class="line">      password: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    clickGetUsername() &#123;</span><br><span class="line">      console.log(this.username);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue-Webpack-ES6</title>
     <url>/2023/03/08/VueWebpackES6/</url>
     <content><![CDATA[
@@ -2430,6 +2330,101 @@
         <tag>Vue</tag>
         <tag>webpack</tag>
         <tag>ES6</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue基础</title>
+    <url>/2023/04/15/Vue%E5%9F%BA%E7%A1%80/</url>
+    <content><![CDATA[
+        <h1 id="Vue-基础-模板语法"   >
+          <a href="#Vue-基础-模板语法" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-模板语法" class="headerlink" title="Vue 基础-模板语法"></a>Vue 基础-模板语法</h1>
+      
+        <h2 id="源码"   >
+          <a href="#源码" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码" class="headerlink" title="源码"></a>源码</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;h3&gt;学习Vue：模板语法&lt;/h3&gt;</span><br><span class="line">    &lt;!--      最基本的数据绑定形式是文本插值，使用双花括号--&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">    &lt;!--      双花括号将数据解释为纯文本，若需插入html，需要使用v-html指令--&gt;</span><br><span class="line">    &lt;div&gt;&#123;&#123; rawHtml &#125;&#125;&lt;/div&gt;</span><br><span class="line">    &lt;div v-html=&quot;rawHtml&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;!--      响应式地绑定一个属性attribute--&gt;</span><br><span class="line">    &lt;div :id=&quot;dynamicId&quot;&gt;&lt;/div&gt;</span><br><span class="line">    &lt;!--      vue的数据绑定中支持完整的js表达式--&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; num + 10 &#125;&#125;&lt;/p&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; flag ? &quot;对的&quot; : &quot;错的&quot; &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      message: &quot;测试&quot;,</span><br><span class="line">      rawHtml: &#x27;&lt;a href=&quot;https://www.baidu.com&quot;&gt;百度网页&lt;/a&gt;&#x27;,</span><br><span class="line">      dynamicId: 10000,</span><br><span class="line">      num: 10,</span><br><span class="line">      flag: true,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h1 id="Vue-基础-条件渲染"   >
+          <a href="#Vue-基础-条件渲染" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-条件渲染" class="headerlink" title="Vue 基础-条件渲染"></a>Vue 基础-条件渲染</h1>
+      
+        <h2 id="源码-1"   >
+          <a href="#源码-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-1" class="headerlink" title="源码"></a>源码</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;p&gt;v-if用于判断条件是否为真,显示如下:&lt;/p&gt;</span><br><span class="line">    &lt;!--      v-if用于条件性地渲染一块内容,表达式为真值时才被渲染--&gt;</span><br><span class="line">    &lt;p v-if=&quot;flag&quot;&gt;✅对的&lt;/p&gt;</span><br><span class="line">    &lt;p v-else&gt;❌错的&lt;/p&gt;</span><br><span class="line">    &lt;!--      另一个用来按条件显示一个元素的指令是v-show--&gt;</span><br><span class="line">    &lt;p v-show=&quot;show&quot;&gt;✅展示对的&lt;/p&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      flag: true,</span><br><span class="line">      show: true,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h1 id="Vue-基础-列表渲染"   >
+          <a href="#Vue-基础-列表渲染" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-列表渲染" class="headerlink" title="Vue 基础-列表渲染"></a>Vue 基础-列表渲染</h1>
+      
+        <h2 id="源码-2"   >
+          <a href="#源码-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-2" class="headerlink" title="源码"></a>源码</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用v-for指令基于一个数组来渲染一个列表--&gt;</span><br><span class="line">    &lt;h3&gt;列表渲染：&lt;/h3&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;!--          item代表数组中的每一个元素，是迭代项的别名,newsList是源数组--&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示id--&gt;</span><br><span class="line">        &#123;&#123; item.id &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示title--&gt;</span><br><span class="line">        &#123;&#123; item.title &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              展示源数据--&gt;</span><br><span class="line">        &#123;&#123; item &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // newsList是源数据数据，包含3组数据，2个属性分别是id和title</span><br><span class="line">      newsList: [</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1001,</span><br><span class="line">          title: &quot;新闻1&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1002,</span><br><span class="line">          title: &quot;新闻2&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1003,</span><br><span class="line">          title: &quot;新闻3&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">      ],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="⭐-区分-v-if-和-v-show"   >
+          <a href="#⭐-区分-v-if-和-v-show" class="heading-link"><i class="fas fa-link"></i></a><a href="#⭐-区分-v-if-和-v-show" class="headerlink" title="⭐ 区分 v-if 和 v-show"></a>⭐ 区分 v-if 和 v-show</h2>
+      
+    <div class="note-plugin success">
+      <span class="note-plugin__icon note-plugin__icon--success">
+              <i class="fas fa-check-circle"></i>
+            </span>
+      <p>区分 v-if 和 v-show</p>
+    </div>
+  
+
+<details>
+<summary>v-if<summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">在切换过程中，条件块内的事件监听器和子组件会被适当地销毁和重建;</span><br><span class="line">惰性的，适用于偶尔切换</span><br></pre></td></tr></table></div></figure>
+<details>
+
+<details>
+<summary>v-show<summary>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">基于CSS进行切换；</span><br><span class="line">适用于频繁切换</span><br></pre></td></tr></table></div></figure>
+<details>
+
+
+        <h1 id="Vue-基础-列表渲染-1"   >
+          <a href="#Vue-基础-列表渲染-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-列表渲染-1" class="headerlink" title="Vue 基础-列表渲染"></a>Vue 基础-列表渲染</h1>
+      
+        <h2 id="源码-3"   >
+          <a href="#源码-3" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-3" class="headerlink" title="源码"></a>源码</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用v-for指令基于一个数组来渲染一个列表--&gt;</span><br><span class="line">    &lt;h3&gt;列表渲染：&lt;/h3&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;!--          item代表数组中的每一个元素，是迭代项的别名,newsList是源数组--&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示id--&gt;</span><br><span class="line">        &#123;&#123; item.id &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              只展示title--&gt;</span><br><span class="line">        &#123;&#123; item.title &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot;&gt;</span><br><span class="line">        &lt;!--              展示源数据--&gt;</span><br><span class="line">        &#123;&#123; item &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // newsList是源数据数据，包含3组数据，2个属性分别是id和title</span><br><span class="line">      newsList: [</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1001,</span><br><span class="line">          title: &quot;新闻1&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1002,</span><br><span class="line">          title: &quot;新闻2&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1003,</span><br><span class="line">          title: &quot;新闻3&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">      ],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="⭐-维护状态"   >
+          <a href="#⭐-维护状态" class="heading-link"><i class="fas fa-link"></i></a><a href="#⭐-维护状态" class="headerlink" title="⭐ 维护状态"></a>⭐ 维护状态</h2>
+      <blockquote>
+<p>就地更新策略<br>如果数据项内容有新增，只渲染新增数据项</p>
+</blockquote>
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br></pre></td></tr></table></div></figure>
+
+<figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用v-for指令基于一个数组来渲染一个列表--&gt;</span><br><span class="line">    &lt;h3&gt;列表渲染：&lt;/h3&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;!--          item代表数组中的每一个元素，是迭代项的别名,newsList是源数组，key确保唯一索引--&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br><span class="line">        &lt;!--              只展示id--&gt;</span><br><span class="line">        &#123;&#123; item.id &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br><span class="line">        &lt;!--              只展示title--&gt;</span><br><span class="line">        &#123;&#123; item.title &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;p&gt;-----------分割线--------&lt;/p&gt;</span><br><span class="line">      &lt;li v-for=&quot;item in newsList&quot; :key=&quot;item.id&quot;&gt;</span><br><span class="line">        &lt;!--              展示源数据--&gt;</span><br><span class="line">        &#123;&#123; item &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // newsList是源数据数据，包含3组数据，2个属性分别是id和title</span><br><span class="line">      newsList: [</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1001,</span><br><span class="line">          title: &quot;新闻1&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1002,</span><br><span class="line">          title: &quot;新闻2&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1003,</span><br><span class="line">          title: &quot;新闻3&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">        &#123;</span><br><span class="line">          id: 1004,</span><br><span class="line">          title: &quot;新闻4&quot;,</span><br><span class="line">        &#125;,</span><br><span class="line">      ],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h1 id="Vue-基础-事件处理"   >
+          <a href="#Vue-基础-事件处理" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-事件处理" class="headerlink" title="Vue 基础-事件处理"></a>Vue 基础-事件处理</h1>
+      
+        <h2 id="源码-1"   >
+          <a href="#源码-1" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-1" class="headerlink" title="源码 1"></a>源码 1</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      使用 v-on 指令 (简写为 @) 来监听 DOM 事件，并在事件触发时执行对应的 JavaScript--&gt;</span><br><span class="line">    &lt;p&gt;内联事件处理器：&lt;/p&gt;</span><br><span class="line">    &lt;button @click=&quot;counter++&quot;&gt;点击:counter=&#123;&#123; counter &#125;&#125;&lt;/button&gt;</span><br><span class="line">    &lt;!--      v-on 也可以接受一个方法名或对某个方法的调用--&gt;</span><br><span class="line">    &lt;p&gt;方法事件处理器：&lt;/p&gt;</span><br><span class="line">    &lt;!--     示例一：显示弹窗--&gt;</span><br><span class="line">    &lt;button @click=&quot;clickHandle&quot;&gt;按钮&lt;/button&gt;</span><br><span class="line">    &lt;!--      示例二：修改文本--&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; message &#125;&#125;&lt;/p&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      // counter默认初始值为10</span><br><span class="line">      counter: 10,</span><br><span class="line">      message: &quot;消息通知&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    clickHandle(event) &#123;</span><br><span class="line">      alert(&quot;已点击！&quot;);</span><br><span class="line">      //     在事件中，读取data中的属性，需要通过this.属性指令</span><br><span class="line">      this.message = &quot;新消息通知&quot;;</span><br><span class="line">      // event是原生DOM event</span><br><span class="line">      console.log(event);</span><br><span class="line">      event.target.innerText = &quot;点击之后的按钮&quot;;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h2 id="源码-2"   >
+          <a href="#源码-2" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-2" class="headerlink" title="源码 2"></a>源码 2</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      事件处理器中的方法，即“事件传递参数”--&gt;</span><br><span class="line">    &lt;button @click=&quot;say(&#x27;hi&#x27;)&quot;&gt;say hi&lt;/button&gt;</span><br><span class="line">    &lt;button @click=&quot;say(&#x27;what&#x27;)&quot;&gt;say what&lt;/button&gt;</span><br><span class="line">    &lt;p&gt;--------分割线---------&lt;/p&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;li</span><br><span class="line">        @click=&quot;clickItemHandle(name)&quot;</span><br><span class="line">        v-for=&quot;(name, index) in names&quot;</span><br><span class="line">        :key=&quot;index&quot;</span><br><span class="line">      &gt;</span><br><span class="line">        &#123;&#123; name &#125;&#125;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      names: [&quot;Amy&quot;, &quot;John&quot;, &quot;Simon&quot;],</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    say(data) &#123;</span><br><span class="line">      console.log(data);</span><br><span class="line">    &#125;,</span><br><span class="line">    clickItemHandle(name) &#123;</span><br><span class="line">      console.log(name);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+
+
+        <h1 id="Vue-基础-表单输入绑定"   >
+          <a href="#Vue-基础-表单输入绑定" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vue-基础-表单输入绑定" class="headerlink" title="Vue 基础-表单输入绑定"></a>Vue 基础-表单输入绑定</h1>
+      
+        <h2 id="源码-4"   >
+          <a href="#源码-4" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码-4" class="headerlink" title="源码"></a>源码</h2>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;hello&quot;&gt;</span><br><span class="line">    &lt;!--      表单输入绑定，使用v-model创建双向数据绑定--&gt;</span><br><span class="line">    &lt;!--      使用.lazy修饰符，避免立刻反应，减少性能消耗--&gt;</span><br><span class="line">    &lt;input type=&quot;text&quot; v-model.lazy=&quot;username&quot; /&gt;</span><br><span class="line">    &lt;!--      使用.trim修饰符，自动去除用户输入内容中两端的空格--&gt;</span><br><span class="line">    &lt;input type=&quot;text&quot; v-model.trim=&quot;password&quot; /&gt;</span><br><span class="line">    &lt;p&gt;&#123;&#123; username &#125;&#125;,&#123;&#123; password &#125;&#125;&lt;/p&gt;</span><br><span class="line">    &lt;button @click=&quot;clickGetUsername&quot;&gt;获取用户名&lt;/button&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  name: &quot;HelloWorld&quot;,</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      username: &quot;&quot;,</span><br><span class="line">      password: &quot;&quot;,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    clickGetUsername() &#123;</span><br><span class="line">      console.log(this.username);</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;!-- Add &quot;scoped&quot; attribute to limit CSS to this component only --&gt;</span><br><span class="line">&lt;style scoped&gt;&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
@@ -2664,70 +2659,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Vue-指定webpack的entry和output</title>
-    <url>/2023/02/27/changerowscolor02/</url>
-    <content><![CDATA[
-        <h1 id="Vuejs创建隔行变色项目-指定webpack的entry和output"   >
-          <a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="headerlink" title="Vuejs创建隔行变色项目(指定webpack的entry和output)"></a>Vuejs创建隔行变色项目(指定webpack的entry和output)</h1>
-      
-        <h2 id="Webpack"   >
-          <a href="#Webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h2>
-      <ul>
-<li>前端项目工程化的具体解决方案</li>
-</ul>
-
-        <h2 id="创建列表隔行变色项目"   >
-          <a href="#创建列表隔行变色项目" class="heading-link"><i class="fas fa-link"></i></a><a href="#创建列表隔行变色项目" class="headerlink" title="创建列表隔行变色项目"></a>创建列表隔行变色项目</h2>
-      
-        <h3 id="初始化"   >
-          <a href="#初始化" class="heading-link"><i class="fas fa-link"></i></a><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3>
-      
-        <h4 id="npm安装jQuery报错问题"   >
-          <a href="#npm安装jQuery报错问题" class="heading-link"><i class="fas fa-link"></i></a><a href="#npm安装jQuery报错问题" class="headerlink" title="npm安装jQuery报错问题"></a><span class="exturl"><a class="exturl__link"   href="https://blog.csdn.net/weixin_55894946/article/details/124756160?ops_request_misc=&request_id=&biz_id=102&utm_term=%E5%89%8D%E7%AB%AFnpm%E5%AE%89%E8%A3%85jquery%E6%95%99%E7%A8%8B%E6%8A%A5%E9%94%99&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-124756160.142%5Ev73%5Econtrol,201%5Ev4%5Eadd_ask,239%5Ev2%5Einsert_chatgpt&spm=1018.2226.3001.4187" >npm安装jQuery报错问题</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></h4>
-      
-        <h4 id="安装webpack"   >
-          <a href="#安装webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h4>
-      <blockquote>
-<p>(c)npm install webpack webpack-cli -D // -D表示开发依赖</p>
-</blockquote>
-
-        <h4 id="安装jquery"   >
-          <a href="#安装jquery" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装jquery" class="headerlink" title="安装jquery"></a>安装jquery</h4>
-      <blockquote>
-<p>(c)npm install jquery //没有-D表示运行依赖</p>
-</blockquote>
-
-        <h3 id="源码"   >
-          <a href="#源码" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码" class="headerlink" title="源码"></a>源码</h3>
-      
-        <h4 id="index-html"   >
-          <a href="#index-html" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-html" class="headerlink" title="index.html"></a>index.html</h4>
-      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span> = <span class="string">&quot;../dist/bundle.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 1 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 2 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 3 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 4 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 5 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 6 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 7 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 8 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 9 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
-
-
-        <h4 id="index-js"   >
-          <a href="#index-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h4>
-      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> $ <span class="keyword">from</span> <span class="string">&#x27;jquery&#x27;</span></span><br><span class="line">$(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">  $(<span class="string">&#x27;li:odd&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;red&#x27;</span>)</span><br><span class="line">  $(<span class="string">&#x27;li:even&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;cyan&#x27;</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></div></figure>
-
-
-        <h4 id="package-json"   >
-          <a href="#package-json" class="heading-link"><i class="fas fa-link"></i></a><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h4>
-      <figure class="highlight json"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;change-rows-color&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="string">&quot;index.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;dev&quot;</span><span class="punctuation">:</span> <span class="string">&quot;webpack&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;license&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ISC&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;devDependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;webpack&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.75.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;webpack-cli&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.0.1&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;dependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;jquery&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^3.6.3&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></div></figure>
-
-
-        <h4 id="webpack-config-js"   >
-          <a href="#webpack-config-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#webpack-config-js" class="headerlink" title="webpack.config.js"></a>webpack.config.js</h4>
-      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> path=<span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">mode</span>: <span class="string">&#x27;development&#x27;</span>,</span><br><span class="line">  <span class="comment">// entry指定要处理哪个文件</span></span><br><span class="line">  <span class="attr">entry</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;./src/index1.js&#x27;</span>),</span><br><span class="line">  <span class="comment">// output指定生成的文件存放地址</span></span><br><span class="line">  <span class="attr">output</span>: &#123;</span><br><span class="line">    <span class="comment">// 存放到目录</span></span><br><span class="line">    <span class="attr">path</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;dist&#x27;</span>),</span><br><span class="line">    <span class="comment">// 生成的文件名</span></span><br><span class="line">    <span class="attr">filename</span>: <span class="string">&#x27;bundle.js&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">  &#125;;  </span><br></pre></td></tr></table></div></figure>]]></content>
-      <categories>
-        <category>Vue</category>
-      </categories>
-      <tags>
-        <tag>Vue</tag>
-        <tag>webpack</tag>
-        <tag>jquery</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Vue-创建隔行变色项目</title>
     <url>/2023/02/26/changerowscolor/</url>
     <content><![CDATA[
@@ -2785,6 +2716,70 @@
       <categories>
         <category>Vue</category>
         <category>webpack</category>
+      </categories>
+      <tags>
+        <tag>Vue</tag>
+        <tag>webpack</tag>
+        <tag>jquery</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Vue-指定webpack的entry和output</title>
+    <url>/2023/02/27/changerowscolor02/</url>
+    <content><![CDATA[
+        <h1 id="Vuejs创建隔行变色项目-指定webpack的entry和output"   >
+          <a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="heading-link"><i class="fas fa-link"></i></a><a href="#Vuejs创建隔行变色项目-指定webpack的entry和output" class="headerlink" title="Vuejs创建隔行变色项目(指定webpack的entry和output)"></a>Vuejs创建隔行变色项目(指定webpack的entry和output)</h1>
+      
+        <h2 id="Webpack"   >
+          <a href="#Webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#Webpack" class="headerlink" title="Webpack"></a>Webpack</h2>
+      <ul>
+<li>前端项目工程化的具体解决方案</li>
+</ul>
+
+        <h2 id="创建列表隔行变色项目"   >
+          <a href="#创建列表隔行变色项目" class="heading-link"><i class="fas fa-link"></i></a><a href="#创建列表隔行变色项目" class="headerlink" title="创建列表隔行变色项目"></a>创建列表隔行变色项目</h2>
+      
+        <h3 id="初始化"   >
+          <a href="#初始化" class="heading-link"><i class="fas fa-link"></i></a><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3>
+      
+        <h4 id="npm安装jQuery报错问题"   >
+          <a href="#npm安装jQuery报错问题" class="heading-link"><i class="fas fa-link"></i></a><a href="#npm安装jQuery报错问题" class="headerlink" title="npm安装jQuery报错问题"></a><span class="exturl"><a class="exturl__link"   href="https://blog.csdn.net/weixin_55894946/article/details/124756160?ops_request_misc=&request_id=&biz_id=102&utm_term=%E5%89%8D%E7%AB%AFnpm%E5%AE%89%E8%A3%85jquery%E6%95%99%E7%A8%8B%E6%8A%A5%E9%94%99&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-124756160.142%5Ev73%5Econtrol,201%5Ev4%5Eadd_ask,239%5Ev2%5Einsert_chatgpt&spm=1018.2226.3001.4187" >npm安装jQuery报错问题</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></h4>
+      
+        <h4 id="安装webpack"   >
+          <a href="#安装webpack" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装webpack" class="headerlink" title="安装webpack"></a>安装webpack</h4>
+      <blockquote>
+<p>(c)npm install webpack webpack-cli -D // -D表示开发依赖</p>
+</blockquote>
+
+        <h4 id="安装jquery"   >
+          <a href="#安装jquery" class="heading-link"><i class="fas fa-link"></i></a><a href="#安装jquery" class="headerlink" title="安装jquery"></a>安装jquery</h4>
+      <blockquote>
+<p>(c)npm install jquery //没有-D表示运行依赖</p>
+</blockquote>
+
+        <h3 id="源码"   >
+          <a href="#源码" class="heading-link"><i class="fas fa-link"></i></a><a href="#源码" class="headerlink" title="源码"></a>源码</h3>
+      
+        <h4 id="index-html"   >
+          <a href="#index-html" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-html" class="headerlink" title="index.html"></a>index.html</h4>
+      <figure class="highlight html"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="meta">&lt;!DOCTYPE <span class="keyword">html</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">html</span> <span class="attr">lang</span>=<span class="string">&quot;en&quot;</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">head</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">&quot;UTF-8&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">&quot;X-UA-Compatible&quot;</span> <span class="attr">content</span>=<span class="string">&quot;IE=edge&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">&quot;viewport&quot;</span> <span class="attr">content</span>=<span class="string">&quot;width=device-width, initial-scale=1.0&quot;</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">title</span>&gt;</span>Document<span class="tag">&lt;/<span class="name">title</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">script</span> <span class="attr">src</span> = <span class="string">&quot;../dist/bundle.js&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">head</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">body</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">ul</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 1 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 2 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 3 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 4 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 5 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 6 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 7 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 8 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">li</span>&gt;</span>这是第 9 个li<span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">body</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">html</span>&gt;</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="index-js"   >
+          <a href="#index-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#index-js" class="headerlink" title="index.js"></a>index.js</h4>
+      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> $ <span class="keyword">from</span> <span class="string">&#x27;jquery&#x27;</span></span><br><span class="line">$(<span class="keyword">function</span>(<span class="params"></span>)&#123;</span><br><span class="line">  $(<span class="string">&#x27;li:odd&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;red&#x27;</span>)</span><br><span class="line">  $(<span class="string">&#x27;li:even&#x27;</span>).<span class="title function_">css</span>(<span class="string">&#x27;background-color&#x27;</span>, <span class="string">&#x27;cyan&#x27;</span>)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="package-json"   >
+          <a href="#package-json" class="heading-link"><i class="fas fa-link"></i></a><a href="#package-json" class="headerlink" title="package.json"></a>package.json</h4>
+      <figure class="highlight json"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;name&quot;</span><span class="punctuation">:</span> <span class="string">&quot;change-rows-color&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;version&quot;</span><span class="punctuation">:</span> <span class="string">&quot;1.0.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;main&quot;</span><span class="punctuation">:</span> <span class="string">&quot;index.js&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;scripts&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;dev&quot;</span><span class="punctuation">:</span> <span class="string">&quot;webpack&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="punctuation">[</span><span class="punctuation">]</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;author&quot;</span><span class="punctuation">:</span> <span class="string">&quot;&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;license&quot;</span><span class="punctuation">:</span> <span class="string">&quot;ISC&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;devDependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;webpack&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.75.0&quot;</span><span class="punctuation">,</span></span><br><span class="line">    <span class="attr">&quot;webpack-cli&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^5.0.1&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;dependencies&quot;</span><span class="punctuation">:</span> <span class="punctuation">&#123;</span></span><br><span class="line">    <span class="attr">&quot;jquery&quot;</span><span class="punctuation">:</span> <span class="string">&quot;^3.6.3&quot;</span></span><br><span class="line">  <span class="punctuation">&#125;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></div></figure>
+
+
+        <h4 id="webpack-config-js"   >
+          <a href="#webpack-config-js" class="heading-link"><i class="fas fa-link"></i></a><a href="#webpack-config-js" class="headerlink" title="webpack.config.js"></a>webpack.config.js</h4>
+      <figure class="highlight js"><div class="table-container"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> path=<span class="built_in">require</span>(<span class="string">&#x27;path&#x27;</span>)</span><br><span class="line"></span><br><span class="line"><span class="variable language_">module</span>.<span class="property">exports</span> = &#123;</span><br><span class="line">  <span class="attr">mode</span>: <span class="string">&#x27;development&#x27;</span>,</span><br><span class="line">  <span class="comment">// entry指定要处理哪个文件</span></span><br><span class="line">  <span class="attr">entry</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;./src/index1.js&#x27;</span>),</span><br><span class="line">  <span class="comment">// output指定生成的文件存放地址</span></span><br><span class="line">  <span class="attr">output</span>: &#123;</span><br><span class="line">    <span class="comment">// 存放到目录</span></span><br><span class="line">    <span class="attr">path</span>: path.<span class="title function_">join</span>(__dirname,<span class="string">&#x27;dist&#x27;</span>),</span><br><span class="line">    <span class="comment">// 生成的文件名</span></span><br><span class="line">    <span class="attr">filename</span>: <span class="string">&#x27;bundle.js&#x27;</span></span><br><span class="line">  &#125;</span><br><span class="line">  &#125;;  </span><br></pre></td></tr></table></div></figure>]]></content>
+      <categories>
+        <category>Vue</category>
       </categories>
       <tags>
         <tag>Vue</tag>
@@ -2883,6 +2878,50 @@
         <tag>git</tag>
         <tag>gitee</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>site</title>
+    <url>/2023/03/28/site/</url>
+    <content><![CDATA[
+        <h1 id="site"   >
+          <a href="#site" class="heading-link"><i class="fas fa-link"></i></a><a href="#site" class="headerlink" title="site"></a>site</h1>
+      
+        <h2 id="blog-site-博客站点"   >
+          <a href="#blog-site-博客站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#blog-site-博客站点" class="headerlink" title="blog.site 博客站点"></a>blog.site 博客站点</h2>
+      
+        <h3 id="render"   >
+          <a href="#render" class="heading-link"><i class="fas fa-link"></i></a><a href="#render" class="headerlink" title="render"></a>render</h3>
+      <p><span class="exturl"><a class="exturl__link"   href="https://render.com/" >render</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+<p><span class="exturl"><a class="exturl__link"   href="https://remix.run/" >remix</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="tutorial-site-教程站点"   >
+          <a href="#tutorial-site-教程站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#tutorial-site-教程站点" class="headerlink" title="tutorial.site 教程站点"></a>tutorial.site 教程站点</h2>
+      
+        <h3 id="tutorial"   >
+          <a href="#tutorial" class="heading-link"><i class="fas fa-link"></i></a><a href="#tutorial" class="headerlink" title="tutorial"></a>tutorial</h3>
+      <p><span class="exturl"><a class="exturl__link"   href="https://tutorialedge.net/" >tutorialedge</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="rank-site-排行榜站点"   >
+          <a href="#rank-site-排行榜站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#rank-site-排行榜站点" class="headerlink" title="rank.site 排行榜站点"></a>rank.site 排行榜站点</h2>
+      
+        <h3 id="bestofjs"   >
+          <a href="#bestofjs" class="heading-link"><i class="fas fa-link"></i></a><a href="#bestofjs" class="headerlink" title="bestofjs"></a>bestofjs</h3>
+      <p><span class="exturl"><a class="exturl__link"   href="https://bestofjs.org/" >bestofjs</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="search-site-搜索站点"   >
+          <a href="#search-site-搜索站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#search-site-搜索站点" class="headerlink" title="search.site 搜索站点"></a>search.site 搜索站点</h2>
+      
+        <h3 id="zhelper"   >
+          <a href="#zhelper" class="heading-link"><i class="fas fa-link"></i></a><a href="#zhelper" class="headerlink" title="zhelper"></a>zhelper</h3>
+      <p><span class="exturl"><a class="exturl__link"   href="https://tool.yibook.org/" >zhelper</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+
+        <h2 id="navigation-site-导航站点"   >
+          <a href="#navigation-site-导航站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#navigation-site-导航站点" class="headerlink" title="navigation.site 导航站点"></a>navigation.site 导航站点</h2>
+      
+        <h3 id="ciro-club"   >
+          <a href="#ciro-club" class="heading-link"><i class="fas fa-link"></i></a><a href="#ciro-club" class="headerlink" title="ciro.club"></a>ciro.club</h3>
+      <p><span class="exturl"><a class="exturl__link"   href="https://ciro.club/navigations" >ciro.club</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
+]]></content>
   </entry>
   <entry>
     <title>hexo-stun博客配置存档</title>
@@ -3051,65 +3090,6 @@
       </tags>
   </entry>
   <entry>
-    <title>museum-展馆界面-交通路线</title>
-    <url>/2023/05/22/museum-%E5%B1%95%E9%A6%86%E7%95%8C%E9%9D%A2-%E4%BA%A4%E9%80%9A%E8%B7%AF%E7%BA%BF/</url>
-    <content><![CDATA[
-        <h1 id="museum-展馆界面-交通路线"   >
-          <a href="#museum-展馆界面-交通路线" class="heading-link"><i class="fas fa-link"></i></a><a href="#museum-展馆界面-交通路线" class="headerlink" title="museum-展馆界面-交通路线"></a>museum-展馆界面-交通路线</h1>
-      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;nav-bar&quot;&gt;</span><br><span class="line">    &lt;!-- 导航栏代码 --&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;li&gt;</span><br><span class="line">        &lt;img</span><br><span class="line">          data-v-039b8a00=&quot;&quot;</span><br><span class="line">          src=&quot;https://ajycc20.github.io/museum-frontend/static/img/menu-logo.9d415e7c.png&quot;</span><br><span class="line">          class=&quot;menu-logo&quot;</span><br><span class="line">        /&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li&gt;&lt;a href=&quot;http://localhost:5173/&quot;&gt;主页&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibition&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibition&quot;&gt;展馆&lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;exhibition-dropdown&quot;&gt;</span><br><span class="line">          &lt;!-- 下拉导航栏内容 --&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToExhibition&quot;&gt;全部展馆&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMapContainer&quot;&gt;交通路线&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMyCollection&quot;&gt;我的收藏&lt;/a&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibits&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibits&quot;&gt;展品&lt;/a&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li style=&quot;float: right&quot;&gt;&lt;a class=&quot;active&quot; href=&quot;#about&quot;&gt;个人中心&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;main-content&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;exhibition&quot; ref=&quot;exhibition&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;bjone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;故宫博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;bjtwo&quot;&gt;</span><br><span class="line">        &lt;h3&gt;首都博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;njone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;南京博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;shone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;上海博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;img src=&quot;../assets/exh1.jpg&quot; alt=&quot;&quot; class=&quot;exh1&quot; /&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;mapcontainer&quot; ref=&quot;mapContainer&quot;&gt;&lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;textcontainer&quot;&gt;</span><br><span class="line">        &lt;h3&gt;交通路线&lt;/h3&gt;</span><br><span class="line">        &lt;p&gt;地址：南京市玄武区中山东路321号&lt;/p&gt;</span><br><span class="line">        &lt;button @click=&quot;showBusInfo&quot;&gt;公交&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showMapInfo&quot;&gt;地铁&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showCarInfo&quot;&gt;自驾停车&lt;/button&gt;</span><br><span class="line">        &lt;div class=&quot;bus-info&quot; v-if=&quot;showBus&quot;&gt;</span><br><span class="line">          &lt;h4&gt;如何乘坐公交到达南京博物院？&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            乘坐公交 5路、34路、36路、55路、59路&lt;br /&gt;</span><br><span class="line">            到中山门站</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;map-info&quot; v-if=&quot;showMap&quot;&gt;</span><br><span class="line">          &lt;h4&gt;周边地铁&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;2号线明故宫站，由一号出口向东300米&lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;car-info&quot; v-if=&quot;showCar&quot;&gt;</span><br><span class="line">          &lt;h4&gt;自驾停车点&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            设有大巴车及小车停车场。&lt;br /&gt;</span><br><span class="line">            小车停车入口处在南京博物院西门。&lt;br /&gt;</span><br><span class="line">            停车时间：星期二至星期天9:00-18:00</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;collection&quot; ref=&quot;myCollection&quot;&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      showBus: false,</span><br><span class="line">      showMap: false,</span><br><span class="line">      showCar: false,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    /**</span><br><span class="line">     * 1、左侧部分：地图</span><br><span class="line">     */</span><br><span class="line"></span><br><span class="line">    // 跳转至全部展馆exhibition</span><br><span class="line">    scrollToExhibition() &#123;</span><br><span class="line">      const exhibition = this.$refs.exhibition;</span><br><span class="line">      if (exhibition) &#123;</span><br><span class="line">        exhibition.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至交通路线mapcontainer</span><br><span class="line">    scrollToMapContainer() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      if (mapContainer) &#123;</span><br><span class="line">        mapContainer.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至我的收藏myCollection</span><br><span class="line">    scrollToMyCollection() &#123;</span><br><span class="line">      const myCollection = this.$refs.myCollection;</span><br><span class="line">      if (myCollection) &#123;</span><br><span class="line">        myCollection.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 显示地图控件</span><br><span class="line">    initializeMap() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      const map = new AMap.Map(mapContainer, &#123;</span><br><span class="line">        center: [118.825064, 32.040802], // 设置地图中心点经纬度</span><br><span class="line">        zoom: 15, // 设置地图缩放级别</span><br><span class="line">      &#125;);</span><br><span class="line"></span><br><span class="line">      // 添加地图控件</span><br><span class="line">      AMap.plugin(</span><br><span class="line">        [&quot;AMap.ToolBar&quot;, &quot;AMap.Scale&quot;, &quot;AMap.MapType&quot;, &quot;AMap.Geolocation&quot;],</span><br><span class="line">        () =&gt; &#123;</span><br><span class="line">          map.addControl(new AMap.ToolBar());</span><br><span class="line">          map.addControl(new AMap.Scale());</span><br><span class="line">          map.addControl(new AMap.MapType());</span><br><span class="line">          map.addControl(new AMap.Geolocation());</span><br><span class="line">        &#125;</span><br><span class="line">      );</span><br><span class="line"></span><br><span class="line">      // 在地图上添加一个标记点</span><br><span class="line">      const marker = new AMap.Marker(&#123;</span><br><span class="line">        position: [118.825064, 32.040802], // 设置标记点的经纬度</span><br><span class="line">        map: map,</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;,</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 2、右侧部分：文字</span><br><span class="line">     */</span><br><span class="line">    showBusInfo() &#123;</span><br><span class="line">      this.showBus = true;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showMapInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = true;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showCarInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = true;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    const mapScript = document.createElement(&quot;script&quot;);</span><br><span class="line">    mapScript.src =</span><br><span class="line">      &quot;https://webapi.amap.com/maps?v=1.4.15&amp;key=0eb3710f749e5a9df901264fcdc8599a&quot;;</span><br><span class="line">    mapScript.async = true;</span><br><span class="line">    mapScript.onload = this.initializeMap;</span><br><span class="line">    document.head.appendChild(mapScript);</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">/* 导航栏的样式 */</span><br><span class="line">.nav-bar &#123;</span><br><span class="line">  position: fixed;</span><br><span class="line">  top: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  width: 100%;</span><br><span class="line">  z-index: 999;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ul &#123;</span><br><span class="line">  list-style-type: none;</span><br><span class="line">  margin: 0;</span><br><span class="line">  padding: 0;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  background-color: white;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li &#123;</span><br><span class="line">  float: left;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li a &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  text-align: center;</span><br><span class="line">  padding: 14px 16px;</span><br><span class="line">  text-decoration: none;</span><br><span class="line">&#125;</span><br><span class="line">li a:hover &#123;</span><br><span class="line">  color: red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown &#123;</span><br><span class="line">  display: none;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition:hover .exhibition-dropdown &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  position: absolute;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 设置展馆下拉框的字体样式 */</span><br><span class="line">.exhibition-dropdown a &#123;</span><br><span class="line">  /* 默认黑色字体 */</span><br><span class="line">  color: black;</span><br><span class="line">  font-size: 20px;</span><br><span class="line">  /* 添加过渡效果 */</span><br><span class="line">  transition: color 0.3s;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:hover &#123;</span><br><span class="line">  color: white;</span><br><span class="line">  transform: translateY(-2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:focus &#123;</span><br><span class="line">  outline: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:active &#123;</span><br><span class="line">  transform: translateY(2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 全部展馆的样式设计 */</span><br><span class="line">.exhibition &#123;</span><br><span class="line">  background-color: rgb(244, 241, 241);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exh1 &#123;</span><br><span class="line">  width: 300px;</span><br><span class="line">  height: 300px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 交通路线地图框与文字描述框的样式设计 */</span><br><span class="line">.container &#123;</span><br><span class="line">  display: flex;</span><br><span class="line">  flex-wrap: wrap;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.mapcontainer,</span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  width: 50%;</span><br><span class="line">  height: 400px;</span><br><span class="line">  box-sizing: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">  color: #ffffff;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
-]]></content>
-      <categories>
-        <category>vue3</category>
-      </categories>
-      <tags>
-        <tag>vue3</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>site</title>
-    <url>/2023/03/28/site/</url>
-    <content><![CDATA[
-        <h1 id="site"   >
-          <a href="#site" class="heading-link"><i class="fas fa-link"></i></a><a href="#site" class="headerlink" title="site"></a>site</h1>
-      
-        <h2 id="blog-site-博客站点"   >
-          <a href="#blog-site-博客站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#blog-site-博客站点" class="headerlink" title="blog.site 博客站点"></a>blog.site 博客站点</h2>
-      
-        <h3 id="render"   >
-          <a href="#render" class="heading-link"><i class="fas fa-link"></i></a><a href="#render" class="headerlink" title="render"></a>render</h3>
-      <p><span class="exturl"><a class="exturl__link"   href="https://render.com/" >render</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-<p><span class="exturl"><a class="exturl__link"   href="https://remix.run/" >remix</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="tutorial-site-教程站点"   >
-          <a href="#tutorial-site-教程站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#tutorial-site-教程站点" class="headerlink" title="tutorial.site 教程站点"></a>tutorial.site 教程站点</h2>
-      
-        <h3 id="tutorial"   >
-          <a href="#tutorial" class="heading-link"><i class="fas fa-link"></i></a><a href="#tutorial" class="headerlink" title="tutorial"></a>tutorial</h3>
-      <p><span class="exturl"><a class="exturl__link"   href="https://tutorialedge.net/" >tutorialedge</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="rank-site-排行榜站点"   >
-          <a href="#rank-site-排行榜站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#rank-site-排行榜站点" class="headerlink" title="rank.site 排行榜站点"></a>rank.site 排行榜站点</h2>
-      
-        <h3 id="bestofjs"   >
-          <a href="#bestofjs" class="heading-link"><i class="fas fa-link"></i></a><a href="#bestofjs" class="headerlink" title="bestofjs"></a>bestofjs</h3>
-      <p><span class="exturl"><a class="exturl__link"   href="https://bestofjs.org/" >bestofjs</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="search-site-搜索站点"   >
-          <a href="#search-site-搜索站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#search-site-搜索站点" class="headerlink" title="search.site 搜索站点"></a>search.site 搜索站点</h2>
-      
-        <h3 id="zhelper"   >
-          <a href="#zhelper" class="heading-link"><i class="fas fa-link"></i></a><a href="#zhelper" class="headerlink" title="zhelper"></a>zhelper</h3>
-      <p><span class="exturl"><a class="exturl__link"   href="https://tool.yibook.org/" >zhelper</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-
-        <h2 id="navigation-site-导航站点"   >
-          <a href="#navigation-site-导航站点" class="heading-link"><i class="fas fa-link"></i></a><a href="#navigation-site-导航站点" class="headerlink" title="navigation.site 导航站点"></a>navigation.site 导航站点</h2>
-      
-        <h3 id="ciro-club"   >
-          <a href="#ciro-club" class="heading-link"><i class="fas fa-link"></i></a><a href="#ciro-club" class="headerlink" title="ciro.club"></a>ciro.club</h3>
-      <p><span class="exturl"><a class="exturl__link"   href="https://ciro.club/navigations" >ciro.club</a><span class="exturl__icon"><i class="fas fa-external-link-alt"></i></span></span></p>
-]]></content>
-  </entry>
-  <entry>
     <title>Vue-事件处理</title>
     <url>/2023/04/02/vue-EventHandling/</url>
     <content><![CDATA[
@@ -3125,6 +3105,21 @@
       </categories>
       <tags>
         <tag>Vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>museum-展馆界面-交通路线</title>
+    <url>/2023/05/22/museum-%E5%B1%95%E9%A6%86%E7%95%8C%E9%9D%A2-%E4%BA%A4%E9%80%9A%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[
+        <h1 id="museum-展馆界面-交通路线"   >
+          <a href="#museum-展馆界面-交通路线" class="heading-link"><i class="fas fa-link"></i></a><a href="#museum-展馆界面-交通路线" class="headerlink" title="museum-展馆界面-交通路线"></a>museum-展馆界面-交通路线</h1>
+      <figure class="highlight plaintext"><div class="table-container"><table><tr><td class="code"><pre><span class="line">&lt;template&gt;</span><br><span class="line">  &lt;div class=&quot;nav-bar&quot;&gt;</span><br><span class="line">    &lt;!-- 导航栏代码 --&gt;</span><br><span class="line">    &lt;ul&gt;</span><br><span class="line">      &lt;li&gt;</span><br><span class="line">        &lt;img</span><br><span class="line">          data-v-039b8a00=&quot;&quot;</span><br><span class="line">          src=&quot;https://ajycc20.github.io/museum-frontend/static/img/menu-logo.9d415e7c.png&quot;</span><br><span class="line">          class=&quot;menu-logo&quot;</span><br><span class="line">        /&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li&gt;&lt;a href=&quot;http://localhost:5173/&quot;&gt;主页&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibition&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibition&quot;&gt;展馆&lt;/a&gt;</span><br><span class="line">        &lt;div class=&quot;exhibition-dropdown&quot;&gt;</span><br><span class="line">          &lt;!-- 下拉导航栏内容 --&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToExhibition&quot;&gt;全部展馆&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMapContainer&quot;&gt;交通路线&lt;/a&gt;</span><br><span class="line">          &lt;a class=&quot;footer&quot; @click=&quot;scrollToMyCollection&quot;&gt;我的收藏&lt;/a&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li class=&quot;exhibits&quot;&gt;</span><br><span class="line">        &lt;a href=&quot;http://localhost:5173/exhibits&quot;&gt;展品&lt;/a&gt;</span><br><span class="line">      &lt;/li&gt;</span><br><span class="line">      &lt;li style=&quot;float: right&quot;&gt;&lt;a class=&quot;active&quot; href=&quot;#about&quot;&gt;个人中心&lt;/a&gt;&lt;/li&gt;</span><br><span class="line">    &lt;/ul&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">  &lt;div class=&quot;main-content&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;exhibition&quot; ref=&quot;exhibition&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;bjone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;故宫博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;bjtwo&quot;&gt;</span><br><span class="line">        &lt;h3&gt;首都博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;njone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;南京博物院&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;shone&quot;&gt;</span><br><span class="line">        &lt;h3&gt;上海博物馆&lt;/h3&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">      &lt;img src=&quot;../assets/exh1.jpg&quot; alt=&quot;&quot; class=&quot;exh1&quot; /&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;container&quot;&gt;</span><br><span class="line">      &lt;div class=&quot;mapcontainer&quot; ref=&quot;mapContainer&quot;&gt;&lt;/div&gt;</span><br><span class="line">      &lt;div class=&quot;textcontainer&quot;&gt;</span><br><span class="line">        &lt;h3&gt;交通路线&lt;/h3&gt;</span><br><span class="line">        &lt;p&gt;地址：南京市玄武区中山东路321号&lt;/p&gt;</span><br><span class="line">        &lt;button @click=&quot;showBusInfo&quot;&gt;公交&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showMapInfo&quot;&gt;地铁&lt;/button&gt;</span><br><span class="line">        &lt;button @click=&quot;showCarInfo&quot;&gt;自驾停车&lt;/button&gt;</span><br><span class="line">        &lt;div class=&quot;bus-info&quot; v-if=&quot;showBus&quot;&gt;</span><br><span class="line">          &lt;h4&gt;如何乘坐公交到达南京博物院？&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            乘坐公交 5路、34路、36路、55路、59路&lt;br /&gt;</span><br><span class="line">            到中山门站</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;map-info&quot; v-if=&quot;showMap&quot;&gt;</span><br><span class="line">          &lt;h4&gt;周边地铁&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;2号线明故宫站，由一号出口向东300米&lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">        &lt;div class=&quot;car-info&quot; v-if=&quot;showCar&quot;&gt;</span><br><span class="line">          &lt;h4&gt;自驾停车点&lt;/h4&gt;</span><br><span class="line">          &lt;p&gt;</span><br><span class="line">            设有大巴车及小车停车场。&lt;br /&gt;</span><br><span class="line">            小车停车入口处在南京博物院西门。&lt;br /&gt;</span><br><span class="line">            停车时间：星期二至星期天9:00-18:00</span><br><span class="line">          &lt;/p&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">      &lt;/div&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">    &lt;div class=&quot;collection&quot; ref=&quot;myCollection&quot;&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">      &lt;h3&gt;我的收藏&lt;/h3&gt;</span><br><span class="line">    &lt;/div&gt;</span><br><span class="line">  &lt;/div&gt;</span><br><span class="line">&lt;/template&gt;</span><br><span class="line"></span><br><span class="line">&lt;script&gt;</span><br><span class="line">export default &#123;</span><br><span class="line">  data() &#123;</span><br><span class="line">    return &#123;</span><br><span class="line">      showBus: false,</span><br><span class="line">      showMap: false,</span><br><span class="line">      showCar: false,</span><br><span class="line">    &#125;;</span><br><span class="line">  &#125;,</span><br><span class="line">  methods: &#123;</span><br><span class="line">    /**</span><br><span class="line">     * 1、左侧部分：地图</span><br><span class="line">     */</span><br><span class="line"></span><br><span class="line">    // 跳转至全部展馆exhibition</span><br><span class="line">    scrollToExhibition() &#123;</span><br><span class="line">      const exhibition = this.$refs.exhibition;</span><br><span class="line">      if (exhibition) &#123;</span><br><span class="line">        exhibition.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至交通路线mapcontainer</span><br><span class="line">    scrollToMapContainer() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      if (mapContainer) &#123;</span><br><span class="line">        mapContainer.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 跳转至我的收藏myCollection</span><br><span class="line">    scrollToMyCollection() &#123;</span><br><span class="line">      const myCollection = this.$refs.myCollection;</span><br><span class="line">      if (myCollection) &#123;</span><br><span class="line">        myCollection.scrollIntoView(&#123;</span><br><span class="line">          behavior: &quot;smooth&quot;,</span><br><span class="line">        &#125;);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    // 显示地图控件</span><br><span class="line">    initializeMap() &#123;</span><br><span class="line">      const mapContainer = this.$refs.mapContainer;</span><br><span class="line">      const map = new AMap.Map(mapContainer, &#123;</span><br><span class="line">        center: [118.825064, 32.040802], // 设置地图中心点经纬度</span><br><span class="line">        zoom: 15, // 设置地图缩放级别</span><br><span class="line">      &#125;);</span><br><span class="line"></span><br><span class="line">      // 添加地图控件</span><br><span class="line">      AMap.plugin(</span><br><span class="line">        [&quot;AMap.ToolBar&quot;, &quot;AMap.Scale&quot;, &quot;AMap.MapType&quot;, &quot;AMap.Geolocation&quot;],</span><br><span class="line">        () =&gt; &#123;</span><br><span class="line">          map.addControl(new AMap.ToolBar());</span><br><span class="line">          map.addControl(new AMap.Scale());</span><br><span class="line">          map.addControl(new AMap.MapType());</span><br><span class="line">          map.addControl(new AMap.Geolocation());</span><br><span class="line">        &#125;</span><br><span class="line">      );</span><br><span class="line"></span><br><span class="line">      // 在地图上添加一个标记点</span><br><span class="line">      const marker = new AMap.Marker(&#123;</span><br><span class="line">        position: [118.825064, 32.040802], // 设置标记点的经纬度</span><br><span class="line">        map: map,</span><br><span class="line">      &#125;);</span><br><span class="line">    &#125;,</span><br><span class="line"></span><br><span class="line">    /**</span><br><span class="line">     * 2、右侧部分：文字</span><br><span class="line">     */</span><br><span class="line">    showBusInfo() &#123;</span><br><span class="line">      this.showBus = true;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showMapInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = true;</span><br><span class="line">      this.showCar = false;</span><br><span class="line">    &#125;,</span><br><span class="line">    showCarInfo() &#123;</span><br><span class="line">      this.showBus = false;</span><br><span class="line">      this.showMap = false;</span><br><span class="line">      this.showCar = true;</span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    const mapScript = document.createElement(&quot;script&quot;);</span><br><span class="line">    mapScript.src =</span><br><span class="line">      &quot;https://webapi.amap.com/maps?v=1.4.15&amp;key=0eb3710f749e5a9df901264fcdc8599a&quot;;</span><br><span class="line">    mapScript.async = true;</span><br><span class="line">    mapScript.onload = this.initializeMap;</span><br><span class="line">    document.head.appendChild(mapScript);</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line"></span><br><span class="line">&lt;style scoped&gt;</span><br><span class="line">/* 导航栏的样式 */</span><br><span class="line">.nav-bar &#123;</span><br><span class="line">  position: fixed;</span><br><span class="line">  top: 0;</span><br><span class="line">  left: 0;</span><br><span class="line">  width: 100%;</span><br><span class="line">  z-index: 999;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">ul &#123;</span><br><span class="line">  list-style-type: none;</span><br><span class="line">  margin: 0;</span><br><span class="line">  padding: 0;</span><br><span class="line">  overflow: hidden;</span><br><span class="line">  background-color: white;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li &#123;</span><br><span class="line">  float: left;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">li a &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  text-align: center;</span><br><span class="line">  padding: 14px 16px;</span><br><span class="line">  text-decoration: none;</span><br><span class="line">&#125;</span><br><span class="line">li a:hover &#123;</span><br><span class="line">  color: red;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown &#123;</span><br><span class="line">  display: none;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition:hover .exhibition-dropdown &#123;</span><br><span class="line">  display: block;</span><br><span class="line">  position: absolute;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 设置展馆下拉框的字体样式 */</span><br><span class="line">.exhibition-dropdown a &#123;</span><br><span class="line">  /* 默认黑色字体 */</span><br><span class="line">  color: black;</span><br><span class="line">  font-size: 20px;</span><br><span class="line">  /* 添加过渡效果 */</span><br><span class="line">  transition: color 0.3s;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:hover &#123;</span><br><span class="line">  color: white;</span><br><span class="line">  transform: translateY(-2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:focus &#123;</span><br><span class="line">  outline: none;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exhibition-dropdown a:active &#123;</span><br><span class="line">  transform: translateY(2px);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 全部展馆的样式设计 */</span><br><span class="line">.exhibition &#123;</span><br><span class="line">  background-color: rgb(244, 241, 241);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.exh1 &#123;</span><br><span class="line">  width: 300px;</span><br><span class="line">  height: 300px;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">/* 交通路线地图框与文字描述框的样式设计 */</span><br><span class="line">.container &#123;</span><br><span class="line">  display: flex;</span><br><span class="line">  flex-wrap: wrap;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.mapcontainer,</span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  width: 50%;</span><br><span class="line">  height: 400px;</span><br><span class="line">  box-sizing: border-box;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">.textcontainer &#123;</span><br><span class="line">  background-color: #d4973b;</span><br><span class="line">  color: #ffffff;</span><br><span class="line">&#125;</span><br><span class="line">&lt;/style&gt;</span><br></pre></td></tr></table></div></figure>
+]]></content>
+      <categories>
+        <category>vue3</category>
+      </categories>
+      <tags>
+        <tag>vue3</tag>
       </tags>
   </entry>
   <entry>
