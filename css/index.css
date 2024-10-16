@@ -1,3 +1,22 @@
+.sidebar-memorandum {
+  margin-top: 20px; /* 增加顶部间距 */
+}
+.sidebar-memorandum h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.sidebar-memorandum-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+.sidebar-memorandum-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.sidebar-memorandum-icon {
+  margin-right: 5px;
+}
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
